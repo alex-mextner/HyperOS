@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target
+**/target/
+**/*.rs.bk
+
+# Simulation output
+/sim-out/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/

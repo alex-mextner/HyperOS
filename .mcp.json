@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "haft": {
+      "command": "haft",
+      "args": [
+        "serve"
+      ],
+      "cwd": ".",
+      "env": {
+        "HAFT_PROJECT_ROOT": "."
+      }
+    },
+    "sverklo": {
+      "command": "sverklo",
+      "args": [
+        "."
+      ],
+      "cwd": ".",
+      "env": {
+        "SVERKLO_PROFILE": "core"
+      }
+    }
+  }
+}

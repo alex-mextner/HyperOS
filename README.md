@@ -29,6 +29,10 @@ Portable device-service contracts do not imply generic runtime translation or pa
 
 Foundation publication is live. The first release establishes architecture boundaries, hardware tracks, public documentation, phase tasks, validation rules, and the portal. It does **not** claim that the microkernel or native Pixel 9 support is already implemented.
 
+## Licensing
+
+Original software and automation are provided under Apache-2.0. Original documentation and research records are provided under CC BY 4.0. Third-party and restricted materials are excluded unless separately identified. See [LICENSES.md](LICENSES.md).
+
 ## Start here
 
 - [Public portal](https://agent-os-portal-eight.vercel.app)

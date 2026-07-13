@@ -15,22 +15,29 @@ semantic version for the whole repository; the engineering bible tracks its own
   `engineering-bible/validation/VALIDATION.md`. Portable across macOS and Linux
   (bash + python3 stdlib + shasum/sha256sum).
 - `CHANGELOG.md` (this file).
+- `engineering-bible/docs/research/AOS-RES-013-os-comparison-matrix.md` (iOS vs Android vs
+  Agent OS) and `AOS-RES-014-system-survey.md` (prior-art OSes and CRDT substrates).
+- `engineering-bible/docs/hardware/HW-020-device-catalogue.md` (per-target device catalogue,
+  internal id `AOS-HW-020`) and its machine-readable `engineering-bible/registers/devices.csv`.
+- `portal/procurement.js` and `portal/contacts.js` — the remaining two portal sections.
 
 ### Changed
 
 - Refreshed the top-level `README.md` to name `engineering-bible/` as the single source of
   truth, describe the four-audience portal (Build OS / Developers / Investors / Users), make
   the Fuchsia-fork kernel framing explicit, and point "Start here" links at
-  `engineering-bible/` instead of the deprecated `knowledge/` mirror.
+  `engineering-bible/` instead of the removed `knowledge/` mirror.
+- Translated the three research atlases (`ios-vs-android-vs-agent-os.md`, `prior-art-atlas.md`,
+  `agent-os-wider-lens.md`), the `AgentOS.md` source digest, and the recovered-source excerpts
+  to English in place. The repository is now zero-Cyrillic repo-wide with no standing exception.
+- Made `scripts/check-cyrillic.sh` strict: the provenance allowlist and source-session
+  forward-guard are removed; any Cyrillic anywhere under `engineering-bible/` now fails.
 
-### Notes
+### Removed
 
-- `engineering-bible/validation/VALIDATION.md` under-enumerates the Cyrillic-bearing files:
-  it lists five research/provenance files but omits `engineering-bible/AgentOS.md` (the raw
-  Russian wishlist source digest) and `engineering-bible/diagrams/005-source-session-assignment.md`
-  (the recovered source-session trace). Both are archival provenance, not normative specs, and
-  are allowlisted in `scripts/check-cyrillic.sh`. VALIDATION.md's prose should be reconciled
-  with the script's allowlist in a follow-up.
+- The deprecated `knowledge/` legacy mirror (including `knowledge/DEPRECATED.md`) has been
+  deleted; `engineering-bible/docs/**` is the sole source of truth. CI, `AGENTS.md`,
+  `README.md`, and the portal doc tree are repointed accordingly.
 
 ## 2026-07-13 — Foundation consolidation and handoff continuation
 

@@ -150,5 +150,5 @@ First native clients target open-protocol services (fastest, safest, most aligne
 ## Related Documents
 
 - [Compute subscription and offload](PROD-013-compute-subscription-and-offload.md)
-- [Dependency and clean-room policy](../legal/LEGAL-003-dependency-policy.md)
+- [Dependency and clean-room policy](../legal/AOS-LEGAL-003.md)
 - [Prototype travel and borders](../legal/LEGAL-012-prototype-travel-and-borders.md)

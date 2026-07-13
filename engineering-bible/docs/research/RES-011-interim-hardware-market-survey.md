@@ -206,7 +206,7 @@ Belgrade is the recommended purchasing base: official import channels, EU retail
 - [Interim demo device](../hardware/HW-017-interim-demo-device.md)
 - [Demo brick V1 configuration baseline](../hardware/HW-018-demo-brick-v1-configuration.md)
 - [ADR-0007: Archive the Pixel 9 native route](../decisions/ADR-0007-archive-pixel-9-route.md)
-- [Hardware portfolio](../hardware/HW-001-target-portfolio.md#portfolio)
+- [Hardware portfolio](../hardware/AOS-HW-001.md#portfolio)
 - [Open, documented, and reversible hardware catalog](AOS-HW-011.md#candidates)
 - [Camera architecture](AOS-HW-006.md)
 - [Native cellular stack](AOS-HW-007.md)

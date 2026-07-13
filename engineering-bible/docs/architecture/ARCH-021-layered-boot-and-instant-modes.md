@@ -138,5 +138,5 @@ Degradation must be explicit rather than accidental. A failing higher layer degr
 
 - [Interim demo device](../hardware/HW-017-interim-demo-device.md)
 - [Demo brick V1 configuration](../hardware/HW-018-demo-brick-v1-configuration.md)
-- [Portable system architecture](ARCH-001-portable-system-architecture.md)
-- [Microkernel specification](ARCH-002-microkernel.md)
+- [Portable system architecture](AOS-ARCH-001.md)
+- [Microkernel specification](AOS-ARCH-002.md)

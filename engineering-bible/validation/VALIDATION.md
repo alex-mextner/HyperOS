@@ -4,7 +4,7 @@
 - Canonical docs: 161
 - Unique AOS IDs: 157
 - Duplicate IDs: 0  OK
-- Broken internal .md links: 10  REVIEW
+- Broken internal .md links: 0  OK
 - Cyrillic in normative English docs: 0  OK
 - Project name HyperOS in docs: 0
 - Source PDFs: provenance+SHA recorded; binaries not stored (integrate-not-store)

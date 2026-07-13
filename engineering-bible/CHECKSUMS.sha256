@@ -37,9 +37,9 @@ c455427851b15209a0ef977502f46639d8bd7347338a33305541e60dcaac9aae  engineering-bi
 9920e173c94bbcf75a552a94e3f1ef09a0be2619b0d53e5e325289422b3c29fb  engineering-bible/docs/architecture/AOS-ARCH-018.md
 a6a6242cd71b58a50d0b2e06992bb3b5cc76669fdd7cf9d340dc75268bf07ded  engineering-bible/docs/architecture/AOS-ARCH-019.md
 72ae20ce4085bc11b91c6b61006c6219f381405035c35e9fc03648ceba117c2e  engineering-bible/docs/architecture/AOS-ARCH-020.md
-77dc902b1663c981364d2183712f01fc56abc9b2a5d20c7dc186be34e7dab23c  engineering-bible/docs/architecture/ARCH-021-layered-boot-and-instant-modes.md
-c265713e62d126203ab30b2bc667ae88bb05224c8c1f1740b8d97d2660a263d7  engineering-bible/docs/architecture/ARCH-022-layer-manifest-and-capabilities.md
-778cb9ea79b0f501a5d1a5d3ed0877c4b96021bb646e42054e18d796aaf1724f  engineering-bible/docs/decisions/ADR-0007-archive-pixel-9-route.md
+9114c25a03c76f45da64ce222f760ccf21e5f54455fe8f7763f5d98f3f7679c4  engineering-bible/docs/architecture/ARCH-021-layered-boot-and-instant-modes.md
+bd960d9babf31b9374d804985913fadf7997ca727d82391da5aab48c263a8866  engineering-bible/docs/architecture/ARCH-022-layer-manifest-and-capabilities.md
+6e68ef383f4dcb58827c6784c2303c19a1c56c5d758e03c4d278450016519699  engineering-bible/docs/decisions/ADR-0007-archive-pixel-9-route.md
 7e30f9753048f13b27bef2b5e691e9c71a5e7aba22d097228bfcb864041c59af  engineering-bible/docs/decisions/AOS-ADR-0001.md
 94c46aee66a84a5eefd60b38f317a9d19404733c512e152ac24ae63f0bc9ef34  engineering-bible/docs/decisions/AOS-ADR-0002.md
 120173577ef5e9082d97eca3ec06298f19ed33dd5053a6e8201d15d4e2303501  engineering-bible/docs/decisions/AOS-ADR-0003.md
@@ -69,10 +69,10 @@ ee569e80b09c18f9c391a37559d3023f8fe47d7d3b88081e4dadd62616e69379  engineering-bi
 1b92d5647651e7652b04fd093cf2c59e5d00caedb2f1028da3a55f363ab4dd5a  engineering-bible/docs/hardware/AOS-HW-014.md
 20fe94010bfdd29333b5ca53b92a787dc06efb7fc8910e7ca06948935b3f4738  engineering-bible/docs/hardware/AOS-HW-015.md
 44af9676abfe1c6478f829e0577f0fbc54359e9a746eb44ab5a06ef3c923d861  engineering-bible/docs/hardware/AOS-HW-016.md
-2bcfd0c4a413bd9f8a22337ad3f51ac9029d9ff02c275baf43b33d1084e6709f  engineering-bible/docs/hardware/HW-017-interim-demo-device.md
+fc0aeaf209fcafd916b0d535819a9b6a51bb8ee99836ce4721f17a8b6bb263ab  engineering-bible/docs/hardware/HW-017-interim-demo-device.md
 165188699e1d3b0d59f33aafb52ac67f4787b486de2be4e3d8fae75e66aab367  engineering-bible/docs/hardware/HW-018-demo-brick-v1-configuration.md
 6b59d37d1a68888aa98706e37f8f5c9d6fc6c04ec51f845c53583767f397e577  engineering-bible/docs/hardware/HW-018A-demo-brick-bom.md
-1441af2ab6824b067b79d2466686ed15e84d90e84ad1ba2ff8d85eb625435f6d  engineering-bible/docs/hardware/HW-019-power-architecture-standby.md
+71594a3144e6998a87322db48bbd20f50339f5b3e02027dc3498b18204c30946  engineering-bible/docs/hardware/HW-019-power-architecture-standby.md
 f708c92c37495abba964d16da2ce58e5fe94805e477f60b6145f98885be35c2c  engineering-bible/docs/legal/AOS-LEGAL-001.md
 8936eb0c4b308826b861a15ef34799ea7d8750affbd14fb70dfa7736020264fb  engineering-bible/docs/legal/AOS-LEGAL-002.md
 7bb8b587feb4fdbd6a1503fab3a8181404b9130efd443807a433a55119ca8df0  engineering-bible/docs/legal/AOS-LEGAL-003.md
@@ -122,7 +122,7 @@ d56365b9849e5208e1edea96686862f4e9162a04ff11d958d008bcd81a32d96b  engineering-bi
 922a582d908e17a24470b5b36204db70faf3bbb6632a6b53582f08e10a2bbb35  engineering-bible/docs/product/AOS-PROD-011.md
 7c846d4f65b1c66a3a1b7d50396938b25765034e7571f1cf2dc358cdec69f705  engineering-bible/docs/product/AOS-PROD-012.md
 b0b88f9d3697c25b270dbe7c9cbc3b645bb5da5cecbbc222d743fb3c32b19120  engineering-bible/docs/product/PROD-013-compute-subscription-and-offload.md
-6d962c872e054b2b4fc33acc3181555c8d0b1d382f3171280fe4b019369847d3  engineering-bible/docs/product/PROD-014-native-app-clients.md
+266a887e1ac5f848f8d1afaa9fa2cf5fe30706b5ee2a91222d30c8cb5c31916d  engineering-bible/docs/product/PROD-014-native-app-clients.md
 c53f546b54c85257086c8bb6191d2694f5d934943adb1926960d99ef7004c827  engineering-bible/docs/product/PROD-015-voice-agent.md
 dec82d043b08a885a6f26a709f346273edec584792e4b334c018e06acbc64600  engineering-bible/docs/research/AOS-RES-001.md
 d4232919fd91caeca395175717dd2a6aafcf0be61325136e1d540094687f6388  engineering-bible/docs/research/AOS-RES-002.md
@@ -134,7 +134,7 @@ a4e65f24f2e30c1905f7dad1b7e58df5b5d53639c79b68209d997a940e256d66  engineering-bi
 dd23202fc6b46fbd45691ce8d26d3b29435b65b653a00cdece3ff86ac4ea1640  engineering-bible/docs/research/AOS-RES-008.md
 aead2cce927a814c1bd715e082ff5d24197bb415f60ecc447f8fa534095d7b45  engineering-bible/docs/research/AOS-RES-009.md
 9922180cb41404d7ae80071d95b980e7960219acd557881a36a3c7d3c9eab813  engineering-bible/docs/research/AOS-RES-010.md
-b20d552f76e5ad32d0bef958ab625e97f92f2f02e144ab19a60d5f74502a4a2a  engineering-bible/docs/research/RES-011-interim-hardware-market-survey.md
+f4b11920430f5c27658b46364512fc894837aaeeae77dcbf2b51b3bf3d917482  engineering-bible/docs/research/RES-011-interim-hardware-market-survey.md
 788c54981b0a5f4ccfd3ad0889cc3026c8303718dc1105898a8b73ad24a9e76b  engineering-bible/docs/research/agent-os-wider-lens.md
 671858fd20ad5c71d93495210467895f9bff572899686fd2c8f74f2af210b199  engineering-bible/docs/research/agentos-spec-digest-product-architecture.md
 3e2441519d653a506eb573507778bae99c03fadb45dce97dda11024b1c629434  engineering-bible/docs/research/ios-vs-android-vs-agent-os.md

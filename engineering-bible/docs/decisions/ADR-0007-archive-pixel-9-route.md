@@ -78,7 +78,7 @@ Implementation proceeds through a reference model or mock, deterministic QEMU ev
 ## Consequences
 
 - Engineering capacity previously earmarked for Pixel feasibility spikes is released to the demo brick (AOS-DEMO tasks), documented boards, and the camera laboratory.
-- The hardware-routes table in [AOS-BRIEF](AOS-BRIEF.md#hardware-routes) and the portfolio in [AOS-HW-001](../hardware/HW-001-target-portfolio.md#target-classes) must annotate the Pixel 9 row as archived at their next revision.
+- The hardware-routes table in [AOS-BRIEF](AOS-BRIEF.md#hardware-routes) and the portfolio in [AOS-HW-001](../hardware/AOS-HW-001.md#target-classes) must annotate the Pixel 9 row as archived at their next revision.
 - Documents referencing Pixel 9 experiments as scheduled work (notably AOS-HW-002, AOS-HW-005, and the AOS-P9 sections of the task register) inherit archived status for those references without textual rewrites; this ADR is the authoritative status source.
 - Public and partner communication describes Pixel 9 as "researched and archived", never as "abandoned" or "in progress".
 
@@ -137,7 +137,7 @@ Recovery defines what state is retained, reconstructed, re-enrolled, compensated
 
 - [Product vision](AOS-VSN-001.md#product-thesis)
 - [Portable system architecture](AOS-ARCH-001.md#system-boundary)
-- [Hardware portfolio](../hardware/HW-001-target-portfolio.md#portfolio)
+- [Hardware portfolio](../hardware/AOS-HW-001.md#portfolio)
 - [ADR-0004: Minimal Android/Linux Use on Pixel 9](AOS-ADR-0004.md#decision)
 - [Interim demo device](../hardware/HW-017-interim-demo-device.md)
 - [Decision gates](AOS-PLAN-006.md#decision-gates)

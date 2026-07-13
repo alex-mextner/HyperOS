@@ -116,7 +116,7 @@ Rules: `radios` MUST be consistent with the capability list (a manifest claiming
 ## Related Documents
 
 - [Layered boot and instant modes](ARCH-021-layered-boot-and-instant-modes.md)
-- [Microkernel specification](ARCH-002-microkernel.md)
+- [Microkernel specification](AOS-ARCH-002.md)
 - [IDL and type system](AOS-ARCH-005.md)
 - [Power architecture and standby](../hardware/HW-019-power-architecture-standby.md)
 - [Voice agent (inspectability)](../product/PROD-015-voice-agent.md)

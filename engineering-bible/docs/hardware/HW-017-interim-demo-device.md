@@ -80,7 +80,7 @@ The brick is a sandwich: compute module on a simple interconnect (initially off-
 | Debug | Exposed UART, USB, and reset accessible without disassembly | JTAG header under a service lid | A demo unit that cannot be recovered in the field is not admissible |
 | Enclosure | 3D-printed, 15–22 mm thick, with antenna keep-out zones and airflow | CNC or SLS reprint for durability | Thickness is an accepted compromise recorded in the compromise ledger (AOS-HW-013) |
 
-Two identical units are built. A demo target with only one irreplaceable unit cannot sit on the critical path, per [AOS-HW-001](HW-001-target-portfolio.md#minimum-portfolio).
+Two identical units are built. A demo target with only one irreplaceable unit cannot sit on the critical path, per [AOS-HW-001](AOS-HW-001.md#minimum-portfolio).
 
 <a id="baseline-bom"></a>
 
@@ -248,7 +248,7 @@ Dependencies to reuse rather than duplicate: AOS-OPEN-091 (i.MX 8M Plus camera d
 - [Product vision](AOS-VSN-001.md#product-thesis)
 - [Portable system architecture](AOS-ARCH-001.md#system-boundary)
 - [Portable device-service contracts](AOS-ARCH-020.md#contract-set)
-- [Hardware portfolio](HW-001-target-portfolio.md#portfolio)
+- [Hardware portfolio](AOS-HW-001.md#portfolio)
 - [Camera architecture](AOS-HW-006.md)
 - [Native cellular stack](AOS-HW-007.md)
 - [Custom device and ODM readiness](AOS-HW-008.md)

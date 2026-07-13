@@ -227,5 +227,5 @@ Degradation must be explicit rather than accidental. If the island cannot confir
 - [Interim demo device](HW-017-interim-demo-device.md)
 - [Demo brick V1 configuration](HW-018-demo-brick-v1-configuration.md)
 - [Layered boot and instant modes](../architecture/ARCH-021-layered-boot-and-instant-modes.md)
-- [Custom device and ODM readiness](HW-008-custom-device-odm-readiness.md)
+- [Custom device and ODM readiness](AOS-HW-008.md)
 - [Interim hardware market survey](../research/RES-011-interim-hardware-market-survey.md)

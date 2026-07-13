@@ -7,6 +7,8 @@ updated: 2026-07-13
 
 # Consolidation Work Tracker
 
+> The single consolidated handoff is **HANDOFF-MASTER.md** — start there. This tracker is the granular log.
+
 Honest status of the full sol handoff (§1–13) plus the content plan. Not "almost done" — much remains.
 
 ## DONE

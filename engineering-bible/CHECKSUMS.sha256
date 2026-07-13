@@ -87,6 +87,7 @@ f708c92c37495abba964d16da2ce58e5fe94805e477f60b6145f98885be35c2c  engineering-bi
 b658ffb900b4337d67d20845eb6b525d388cb2f42ab49e0ab2447e75b2823506  engineering-bible/docs/legal/AOS-LEGAL-011.md
 f5ad31609c032a4436585d6a69a73e3d3653ad39f6f291075fe0407442f363ee  engineering-bible/docs/legal/LEGAL-012-prototype-travel-and-borders.md
 1f8b678764a63e89c0df79b42ed6758bee1cc76e22f999bbf9d54edfb6182966  engineering-bible/docs/legal/LEGAL-013-threat-model-and-security.md
+fa242e540746c2ce3b1824f7773152a702309262d57c7ec3c5bf5f703912de64  engineering-bible/docs/legal/LEGAL-014-license-strategy.md
 24eefa480e9269784811b581a94823dca871ea8156f7f16205292aa8edf42e5c  engineering-bible/docs/meta/AOS-META-001.md
 1d9ac2ae89fdabf7eb70eccee1f858d11e0a42cde8517143b3962e96313e5272  engineering-bible/docs/meta/AOS-META-002.md
 86ef47dbfa1f403dd234870d3d8b13c892450ad9445608d62506603263dfb9b1  engineering-bible/docs/meta/AOS-META-003.md
@@ -167,6 +168,7 @@ afd96460c436c7cd2a776ddd1333d9fdcf29a80b48652d6ea312568eb5834004  engineering-bi
 486a3bf8a8a5ca0dbd1e06da9cc1489052bfe53dea6c7a43047c74e8b340bb3e  engineering-bible/docs/volumes/AOS-VOL-10.md
 a084afc6736470e095b4427df1a722d48d7ccc191a39c6f6843bded99fe4b41a  engineering-bible/handoffs/HANDOFF-project-v2-board.md
 8bded3ac0709d6af768548a294fa96555f7ae7c8a13909d349928cb7cf52a3e1  engineering-bible/handoffs/HANDOFF-vercel-portal-deploy.md
+86320ffd474dd1e3ddd0943061cd72ebc27e3eb72e4d519b34a2e8cfb3270ebd  engineering-bible/handoffs/WORK-TRACKER.md
 ff67bb8708ef462de16966c8f42dd3b5eb909934954595cb648555210c6866d9  engineering-bible/registers/README.md
 55677597475323db1dad70d7379faca7576989104014e2a685cc7807be4bf3ba  engineering-bible/sources/normalized/AOS-SRC-N001.md
 2c660d7db33583216ff3257446ca16f61833801d60ee5b5f38541e7331a67c49  engineering-bible/sources/normalized/AOS-SRC-N002.md

@@ -17,7 +17,7 @@ Foundation engineering, public documentation, task infrastructure, and early ker
 
 ## Architectural boundaries
 
-- The project forks Fuchsia/Zircon as its kernel base and adds native system contracts on top.
+- The project forks the entire Fuchsia tree (Zircon + userspace + build) and adds board drivers and the Rust-first product layer on top.
 - Portable layers must not expose Linux, Android, Binder, POSIX, or vendor ABI types.
 - Android/Linux use is restricted to the isolated Pixel 9 evidence and bring-up track.
 - Device-service adapters must not add avoidable hot-path copies or hidden format conversion.

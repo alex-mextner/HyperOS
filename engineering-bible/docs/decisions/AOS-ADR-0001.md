@@ -32,7 +32,7 @@ summary: "ADR-0001: Fork Fuchsia/Zircon as the microkernel base: scope, decision
 
 This record freezes a high-cost architectural decision, its rationale, consequences, reversal conditions, and required evidence.
 
-This document owns the semantics implied by **ADR-0001: Fork Fuchsia/Zircon as the Microkernel Base**. The kernel is Zircon (from a Fuchsia fork), not a from-scratch implementation; the scope statements below describe the kernel boundary the fork maintains. It does not assert that every described subsystem already exists. It defines the target model, constraints, evidence needed to trust an implementation, and the boundary with adjacent documents.
+This document owns the semantics implied by **ADR-0001: Fork Fuchsia/Zircon as the Microkernel Base**. We fork the whole Fuchsia tree; the kernel is Zircon (not a from-scratch implementation), and userspace frameworks (DFv2, FIDL, Magma, Scenic/Flatland, Starnix) come from the same fork; the scope statements below describe the kernel boundary the fork maintains. It does not assert that every described subsystem already exists. It defines the target model, constraints, evidence needed to trust an implementation, and the boundary with adjacent documents.
 <a id="normative-position"></a>
 
 ## Normative Position

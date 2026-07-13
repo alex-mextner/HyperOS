@@ -1,0 +1,10 @@
+source_id,title,status,file
+AOS-SRC-N001,Normalized Digest: Agent OS Product Vision,Normalized source digest,AOS-SRC-N001.md
+AOS-SRC-N002,Normalized Digest: Wider Lens Research,Normalized source digest,AOS-SRC-N002.md
+AOS-SRC-N003,"Normalized Digest: iOS, Android, and Agent OS Comparison",Normalized source digest,AOS-SRC-N003.md
+AOS-SRC-N004,Normalized Digest: Product Prior Art Atlas,Normalized source digest,AOS-SRC-N004.md
+AOS-SRC-N005,Normalized Digest: Naming Decision,Normalized source digest,AOS-SRC-N005.md
+AOS-SRC-N006,Normalized Digest: Custom Fuchsia-Based Mobile OS Specification,Normalized source digest,AOS-SRC-N006.md
+AOS-SRC-N007,Normalized Digest: Fuchsia Developer Guide,Normalized source digest,AOS-SRC-N007.md
+AOS-SRC-N008,Normalized Digest: Existing Implementation Specs 000–050,Normalized source digest,AOS-SRC-N008.md
+AOS-SRC-N009,Normalized Digest: Nine-Phase Source Session Plan,Normalized source digest,AOS-SRC-N009.md

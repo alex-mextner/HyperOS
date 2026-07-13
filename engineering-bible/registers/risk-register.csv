@@ -1,0 +1,324 @@
+source_doc_id,risk_or_open_question,file
+AOS-ARCH-003,Unbounded kernel allocation and priority inheritance create denial-of-service paths.,AOS-ARCH-003.md
+AOS-ARCH-003,DMA and shared-memory mappings can bypass process isolation.,AOS-ARCH-003.md
+AOS-ARCH-003,Power-aware scheduling can conflict with latency guarantees.,AOS-ARCH-003.md
+AOS-ARCH-004,Ambient namespaces reintroduce confused-deputy vulnerabilities.,AOS-ARCH-004.md
+AOS-ARCH-004,Global revocation can be unbounded without indirection or lifetime discipline.,AOS-ARCH-004.md
+AOS-ARCH-004,Synchronous IPC can create priority inversion or cyclic dependency.,AOS-ARCH-004.md
+AOS-ARCH-005,Accidental ABI leakage couples portable layers to one backend.,AOS-ARCH-005.md
+AOS-ARCH-005,Schema compatibility does not guarantee semantic compatibility.,AOS-ARCH-005.md
+AOS-ARCH-005,Long deprecation windows can preserve insecure behavior.,AOS-ARCH-005.md
+AOS-ARCH-007,Undefined ownership and failure semantics create hidden coupling.,AOS-ARCH-007.md
+AOS-ARCH-007,Unverified source claims can become architecture accidentally.,AOS-ARCH-007.md
+AOS-ARCH-008,GPU firmware and command streams may remain undocumented.,AOS-ARCH-008.md
+AOS-ARCH-008,Zero-copy paths can create lifetime and confidentiality errors.,AOS-ARCH-008.md
+AOS-ARCH-008,Frame scheduling can damage power and latency.,AOS-ARCH-008.md
+AOS-ARCH-009,Raw input logging captures secrets.,AOS-ARCH-009.md
+AOS-ARCH-009,Global history can become a surveillance database.,AOS-ARCH-009.md
+AOS-ARCH-009,Conflict-free merging cannot preserve transactional invariants automatically.,AOS-ARCH-009.md
+AOS-ARCH-010,Prompt injection can redirect authority.,AOS-ARCH-010.md
+AOS-ARCH-010,Provider descriptions can misstate external effects.,AOS-ARCH-010.md
+AOS-ARCH-010,Receipts without enforcement become cosmetic audit logs.,AOS-ARCH-010.md
+AOS-ARCH-012,Agents increase the blast radius of confused authority.,AOS-ARCH-012.md
+AOS-ARCH-012,Supply-chain compromise can bypass runtime isolation.,AOS-ARCH-012.md
+AOS-ARCH-012,Debug and trace facilities can leak data or weaken secure boot.,AOS-ARCH-012.md
+AOS-ARCH-013,A partially updated system can be unrecoverable.,AOS-ARCH-013.md
+AOS-ARCH-013,Vendor firmware rollback rules may conflict with project recovery.,AOS-ARCH-013.md
+AOS-ARCH-013,Development unlock paths can weaken production guarantees.,AOS-ARCH-013.md
+AOS-ARCH-014,Undocumented PMIC and firmware sequencing can damage reliability.,AOS-ARCH-014.md
+AOS-ARCH-014,Background agents can create persistent wakeups.,AOS-ARCH-014.md
+AOS-ARCH-014,Thermal throttling can invalidate performance claims.,AOS-ARCH-014.md
+AOS-ARCH-015,Passing mocks can conceal backend divergence.,AOS-ARCH-015.md
+AOS-ARCH-015,Benchmarks without thermal/power/configuration metadata are not comparable.,AOS-ARCH-015.md
+AOS-ARCH-015,Verification scope can be overstated.,AOS-ARCH-015.md
+AOS-ARCH-016,Vendor firmware and undocumented power sequences can block a native port.,AOS-ARCH-016.md
+AOS-ARCH-016,DMA isolation may be absent or incomplete on low-cost hardware.,AOS-ARCH-016.md
+AOS-ARCH-016,Driver restart can corrupt device or persistent state unless recovery is idempotent.,AOS-ARCH-016.md
+AOS-ARCH-017,A partially updated system can be unrecoverable.,AOS-ARCH-017.md
+AOS-ARCH-017,Vendor firmware rollback rules may conflict with project recovery.,AOS-ARCH-017.md
+AOS-ARCH-017,Development unlock paths can weaken production guarantees.,AOS-ARCH-017.md
+AOS-ARCH-018,A temporary bridge can become permanent through schedule pressure.,AOS-ARCH-018.md
+AOS-ARCH-018,Factory images and firmware may restrict redistribution or reverse engineering.,AOS-ARCH-018.md
+AOS-ARCH-018,"Pixel SKUs, unlockability, firmware, and vendor interfaces vary.",AOS-ARCH-018.md
+AOS-ARCH-019,False precision in long-range dates hides unknown hardware work.,AOS-ARCH-019.md
+AOS-ARCH-019,Large epics can mask stalled evidence.,AOS-ARCH-019.md
+AOS-ARCH-019,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-ARCH-019.md
+AOS-ARCH-020,Vendor firmware and undocumented power sequences can block a native port.,AOS-ARCH-020.md
+AOS-ARCH-020,DMA isolation may be absent or incomplete on low-cost hardware.,AOS-ARCH-020.md
+AOS-ARCH-020,Driver restart can corrupt device or persistent state unless recovery is idempotent.,AOS-ARCH-020.md
+AOS-ARCH-021,Display init dominates cold boot on DSI panels; the < 3 s budget may force panel-specific fast-init work.,ARCH-021-layered-boot-and-instant-modes.md
+AOS-ARCH-021,"Snapshot resume interacts badly with journal integrity if invalidation rules are sloppy; snapshots are an experiment, not a baseline.",ARCH-021-layered-boot-and-instant-modes.md
+AOS-ARCH-021,Phone-lite mode inherits every cellular gate from AOS-HW-007; it must not become a shortcut around them.,ARCH-021-layered-boot-and-instant-modes.md
+AOS-ADR-0007,"Archived knowledge decays: Pixel SKUs, firmware, and unlock policies will drift while the route sleeps, raising reactivation cost.",ADR-0007-archive-pixel-9-route.md
+AOS-ADR-0007,"The demo brick may under-represent the flagship quality ceiling, weakening future ODM negotiations that Pixel evidence would have anchored.",ADR-0007-archive-pixel-9-route.md
+AOS-ADR-0007,Schedule pressure may tempt informal Pixel work outside the register; R01 and the containment escalation exist to prevent this.,ADR-0007-archive-pixel-9-route.md
+AOS-ADR-0001,Kernel scope creep expands the trusted computing base and verification cost.,AOS-ADR-0001.md
+AOS-ADR-0001,Unsafe Rust and assembly can invalidate language-level safety assumptions.,AOS-ADR-0001.md
+AOS-ADR-0001,"Untested revocation, priority propagation, or DMA authority can break isolation.",AOS-ADR-0001.md
+AOS-ADR-0002,"Minimum order quantities, NRE, certification, support discontinuity and opaque subcontractors can overwhelm the programme.",AOS-ADR-0002.md
+AOS-ADR-0002,Vendor changes can break reproducibility and update rights.,AOS-ADR-0002.md
+AOS-ADR-0002,Contract clauses can prevent community publication.,AOS-ADR-0002.md
+AOS-ADR-0003,Undefined ownership and failure semantics create hidden coupling.,AOS-ADR-0003.md
+AOS-ADR-0003,Unverified source claims can become architecture accidentally.,AOS-ADR-0003.md
+AOS-ADR-0004,A temporary bridge can become permanent through schedule pressure.,AOS-ADR-0004.md
+AOS-ADR-0004,Factory images and firmware may restrict redistribution or reverse engineering.,AOS-ADR-0004.md
+AOS-ADR-0004,"Pixel SKUs, unlockability, firmware, and vendor interfaces vary.",AOS-ADR-0004.md
+AOS-ADR-0005,Undefined ownership and failure semantics create hidden coupling.,AOS-ADR-0005.md
+AOS-ADR-0005,Unverified source claims can become architecture accidentally.,AOS-ADR-0005.md
+AOS-ADR-0006,Interoperability exceptions are conditional and jurisdiction-specific.,AOS-ADR-0006.md
+AOS-ADR-0006,A technical ability to extract or observe does not establish a right to publish or redistribute.,AOS-ADR-0006.md
+AOS-ADR-0006,Public branding before clearance can create rework and liability.,AOS-ADR-0006.md
+AOS-GOV-001,Undefined ownership and failure semantics create hidden coupling.,AOS-GOV-001.md
+AOS-GOV-001,Unverified source claims can become architecture accidentally.,AOS-GOV-001.md
+AOS-GOV-002,Community expectations can exceed project capacity.,AOS-GOV-002.md
+AOS-GOV-002,Unreviewed contributions can contaminate provenance.,AOS-GOV-002.md
+AOS-GOV-002,Funding can distort architecture or public claims.,AOS-GOV-002.md
+AOS-GOV-003,Community expectations can exceed project capacity.,AOS-GOV-003.md
+AOS-GOV-003,Unreviewed contributions can contaminate provenance.,AOS-GOV-003.md
+AOS-GOV-003,Funding can distort architecture or public claims.,AOS-GOV-003.md
+AOS-GOV-004,Agents increase the blast radius of confused authority.,AOS-GOV-004.md
+AOS-GOV-004,Supply-chain compromise can bypass runtime isolation.,AOS-GOV-004.md
+AOS-GOV-004,Debug and trace facilities can leak data or weaken secure boot.,AOS-GOV-004.md
+AOS-GOV-005,Community expectations can exceed project capacity.,AOS-GOV-005.md
+AOS-GOV-005,Unreviewed contributions can contaminate provenance.,AOS-GOV-005.md
+AOS-GOV-005,Funding can distort architecture or public claims.,AOS-GOV-005.md
+AOS-GOV-006,Community expectations can exceed project capacity.,AOS-GOV-006.md
+AOS-GOV-006,Unreviewed contributions can contaminate provenance.,AOS-GOV-006.md
+AOS-GOV-006,Funding can distort architecture or public claims.,AOS-GOV-006.md
+AOS-HW-002,A temporary bridge can become permanent through schedule pressure.,AOS-HW-002.md
+AOS-HW-002,Factory images and firmware may restrict redistribution or reverse engineering.,AOS-HW-002.md
+AOS-HW-002,"Pixel SKUs, unlockability, firmware, and vendor interfaces vary.",AOS-HW-002.md
+AOS-HW-003,"“Open source” may cover only kernel sources, not datasheets, firmware, ISP or secure boot.",AOS-HW-003.md
+AOS-HW-003,Consumer boards can disappear or revise silently.,AOS-HW-003.md
+AOS-HW-003,A strong SoC without recovery/debug access is a weak research target.,AOS-HW-003.md
+AOS-HW-004,"“Open source” may cover only kernel sources, not datasheets, firmware, ISP or secure boot.",AOS-HW-004.md
+AOS-HW-004,Consumer boards can disappear or revise silently.,AOS-HW-004.md
+AOS-HW-004,A strong SoC without recovery/debug access is a weak research target.,AOS-HW-004.md
+AOS-HW-005,Undefined ownership and failure semantics create hidden coupling.,AOS-HW-005.md
+AOS-HW-005,Unverified source claims can become architecture accidentally.,AOS-HW-005.md
+AOS-HW-007,"IMS and emergency calling are vendor-, operator-, region-, and certification-dependent.",AOS-HW-007.md
+AOS-HW-007,Baseband firmware remains a separate high-risk computing domain.,AOS-HW-007.md
+AOS-HW-007,RF and legal certification costs dominate late hardware changes.,AOS-HW-007.md
+AOS-HW-010,"“Open source” may cover only kernel sources, not datasheets, firmware, ISP or secure boot.",AOS-HW-010.md
+AOS-HW-010,Consumer boards can disappear or revise silently.,AOS-HW-010.md
+AOS-HW-010,A strong SoC without recovery/debug access is a weak research target.,AOS-HW-010.md
+AOS-HW-011,"“Open source” may cover only kernel sources, not datasheets, firmware, ISP or secure boot.",AOS-HW-011.md
+AOS-HW-011,Consumer boards can disappear or revise silently.,AOS-HW-011.md
+AOS-HW-011,A strong SoC without recovery/debug access is a weak research target.,AOS-HW-011.md
+AOS-HW-012,A published algorithm is not a production camera stack.,AOS-HW-012.md
+AOS-HW-012,Sensor/ISP documentation and calibration access may be contract-restricted.,AOS-HW-012.md
+AOS-HW-012,Image quality can regress while functional tests still pass.,AOS-HW-012.md
+AOS-HW-013,Undefined ownership and failure semantics create hidden coupling.,AOS-HW-013.md
+AOS-HW-013,Unverified source claims can become architecture accidentally.,AOS-HW-013.md
+AOS-HW-014,A temporary bridge can become permanent through schedule pressure.,AOS-HW-014.md
+AOS-HW-014,Factory images and firmware may restrict redistribution or reverse engineering.,AOS-HW-014.md
+AOS-HW-014,"Pixel SKUs, unlockability, firmware, and vendor interfaces vary.",AOS-HW-014.md
+AOS-HW-015,Undocumented PMIC and firmware sequencing can damage reliability.,AOS-HW-015.md
+AOS-HW-015,Background agents can create persistent wakeups.,AOS-HW-015.md
+AOS-HW-015,Thermal throttling can invalidate performance claims.,AOS-HW-015.md
+AOS-HW-016,"Minimum order quantities, NRE, certification, support discontinuity and opaque subcontractors can overwhelm the programme.",AOS-HW-016.md
+AOS-HW-016,Vendor changes can break reproducibility and update rights.,AOS-HW-016.md
+AOS-HW-016,Contract clauses can prevent community publication.,AOS-HW-016.md
+AOS-HW-017,Voice on a given operator may fail for provisioning reasons outside the programme's control; the demo narrative must survive a data+SMS-only day.,HW-017-interim-demo-device.md
+AOS-HW-017,Module vendors can silently revise firmware or discontinue SKUs; the frozen BOM and spare units mitigate but do not remove this.,HW-017-interim-demo-device.md
+AOS-HW-017,"A demo device attracts ""when can I buy it"" pressure that can distort claims; the claim-limit table is normative.",HW-017-interim-demo-device.md
+AOS-HW-017,Antenna placement in a 3D-printed enclosure can degrade RF performance below the module grant's assumptions; keep-out zones and vendor antenna guidance are mandatory.,HW-017-interim-demo-device.md
+AOS-HW-017,Thermal behavior of an SoM in a sealed printed enclosure under camera + LTE load is unmeasured until AOS-DEMO-002/005.,HW-017-interim-demo-device.md
+AOS-HW-018,The Raspberry Pi ISP path is open and tuned but register-level documentation is thinner than i.MX 8M Plus; the documented-ISP alternate stays alive for that reason.,HW-018-demo-brick-v1-configuration.md
+AOS-HW-018,"Capacitive sensing through printed covers is sensitive to material, infill, and moisture; V1.5 may force a cover-material change.",HW-018-demo-brick-v1-configuration.md
+AOS-HW-018,"Consumer eUICC cards occupy a gray zone with some operators; the physical-SIM fallback is mandatory, and operator behavior is recorded per region.",HW-018-demo-brick-v1-configuration.md
+AOS-HW-018,"Three-finger swipes on side rails may be anatomically awkward one-handed; V2 admission depends on usability evidence, not on the aesthetic of the idea.",HW-018-demo-brick-v1-configuration.md
+AOS-HW-018,"A single USB-C port is a single point of failure for charge, data, and debug; the internal debug header must remain reachable after assembly.",HW-018-demo-brick-v1-configuration.md
+AOS-HW-019,"CM5 suspend-to-RAM (S2) support quality under a native OS is unproven; if weak, S3 (full power-down) carries the standby story alone and wake latency rises.",HW-019-power-architecture-standby.md
+AOS-HW-019,The island adds firmware that must itself be trustworthy and updatable; it is a second security surface.,HW-019-power-architecture-standby.md
+AOS-HW-019,Comms-standby duty cycle trades connectivity for battery; the honest framing must survive a demo where a call is missed.,HW-019-power-architecture-standby.md
+AOS-HW-019,E-ink glance strip adds mechanical and driver work; it is optional to the core standby claim.,HW-019-power-architecture-standby.md
+AOS-LEGAL-001,Interoperability exceptions are conditional and jurisdiction-specific.,AOS-LEGAL-001.md
+AOS-LEGAL-001,A technical ability to extract or observe does not establish a right to publish or redistribute.,AOS-LEGAL-001.md
+AOS-LEGAL-001,Public branding before clearance can create rework and liability.,AOS-LEGAL-001.md
+AOS-LEGAL-002,Undefined ownership and failure semantics create hidden coupling.,AOS-LEGAL-002.md
+AOS-LEGAL-002,Unverified source claims can become architecture accidentally.,AOS-LEGAL-002.md
+AOS-LEGAL-003,Undefined ownership and failure semantics create hidden coupling.,AOS-LEGAL-003.md
+AOS-LEGAL-003,Unverified source claims can become architecture accidentally.,AOS-LEGAL-003.md
+AOS-LEGAL-004,False precision in long-range dates hides unknown hardware work.,AOS-LEGAL-004.md
+AOS-LEGAL-004,Large epics can mask stalled evidence.,AOS-LEGAL-004.md
+AOS-LEGAL-004,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-LEGAL-004.md
+AOS-LEGAL-006,Interoperability exceptions are conditional and jurisdiction-specific.,AOS-LEGAL-006.md
+AOS-LEGAL-006,A technical ability to extract or observe does not establish a right to publish or redistribute.,AOS-LEGAL-006.md
+AOS-LEGAL-006,Public branding before clearance can create rework and liability.,AOS-LEGAL-006.md
+AOS-LEGAL-007,"Minimum order quantities, NRE, certification, support discontinuity and opaque subcontractors can overwhelm the programme.",AOS-LEGAL-007.md
+AOS-LEGAL-007,Vendor changes can break reproducibility and update rights.,AOS-LEGAL-007.md
+AOS-LEGAL-007,Contract clauses can prevent community publication.,AOS-LEGAL-007.md
+AOS-LEGAL-008,Interoperability exceptions are conditional and jurisdiction-specific.,AOS-LEGAL-008.md
+AOS-LEGAL-008,A technical ability to extract or observe does not establish a right to publish or redistribute.,AOS-LEGAL-008.md
+AOS-LEGAL-008,Public branding before clearance can create rework and liability.,AOS-LEGAL-008.md
+AOS-LEGAL-009,Community expectations can exceed project capacity.,AOS-LEGAL-009.md
+AOS-LEGAL-009,Unreviewed contributions can contaminate provenance.,AOS-LEGAL-009.md
+AOS-LEGAL-009,Funding can distort architecture or public claims.,AOS-LEGAL-009.md
+AOS-LEGAL-010,Unbounded kernel allocation and priority inheritance create denial-of-service paths.,AOS-LEGAL-010.md
+AOS-LEGAL-010,DMA and shared-memory mappings can bypass process isolation.,AOS-LEGAL-010.md
+AOS-LEGAL-010,Power-aware scheduling can conflict with latency guarantees.,AOS-LEGAL-010.md
+AOS-LEGAL-011,Agents increase the blast radius of confused authority.,AOS-LEGAL-011.md
+AOS-LEGAL-011,Supply-chain compromise can bypass runtime isolation.,AOS-LEGAL-011.md
+AOS-LEGAL-011,Debug and trace facilities can leak data or weaken secure boot.,AOS-LEGAL-011.md
+AOS-META-001,Duplicated Wiki copies can drift.,AOS-META-001.md
+AOS-META-001,Renamed headings can break deep links.,AOS-META-001.md
+AOS-META-001,Machine-generated volume can obscure review status.,AOS-META-001.md
+AOS-META-002,Duplicated Wiki copies can drift.,AOS-META-002.md
+AOS-META-002,Renamed headings can break deep links.,AOS-META-002.md
+AOS-META-002,Machine-generated volume can obscure review status.,AOS-META-002.md
+AOS-META-003,Undefined ownership and failure semantics create hidden coupling.,AOS-META-003.md
+AOS-META-003,Unverified source claims can become architecture accidentally.,AOS-META-003.md
+AOS-META-004,Duplicated Wiki copies can drift.,AOS-META-004.md
+AOS-META-004,Renamed headings can break deep links.,AOS-META-004.md
+AOS-META-004,Machine-generated volume can obscure review status.,AOS-META-004.md
+AOS-PLAN-001,False precision in long-range dates hides unknown hardware work.,AOS-PLAN-001.md
+AOS-PLAN-001,Large epics can mask stalled evidence.,AOS-PLAN-001.md
+AOS-PLAN-001,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-PLAN-001.md
+AOS-PLAN-003,False precision in long-range dates hides unknown hardware work.,AOS-PLAN-003.md
+AOS-PLAN-003,Large epics can mask stalled evidence.,AOS-PLAN-003.md
+AOS-PLAN-003,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-PLAN-003.md
+AOS-PLAN-004,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-004.md
+AOS-PLAN-004,Unverified source claims can become architecture accidentally.,AOS-PLAN-004.md
+AOS-PLAN-005,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-005.md
+AOS-PLAN-005,Unverified source claims can become architecture accidentally.,AOS-PLAN-005.md
+AOS-PLAN-006,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-006.md
+AOS-PLAN-006,Unverified source claims can become architecture accidentally.,AOS-PLAN-006.md
+AOS-PLAN-010,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-010.md
+AOS-PLAN-010,Unverified source claims can become architecture accidentally.,AOS-PLAN-010.md
+AOS-PLAN-011,False precision in long-range dates hides unknown hardware work.,AOS-PLAN-011.md
+AOS-PLAN-011,Large epics can mask stalled evidence.,AOS-PLAN-011.md
+AOS-PLAN-011,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-PLAN-011.md
+AOS-PLAN-012,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-012.md
+AOS-PLAN-012,Unverified source claims can become architecture accidentally.,AOS-PLAN-012.md
+AOS-PLAN-013,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-013.md
+AOS-PLAN-013,Unverified source claims can become architecture accidentally.,AOS-PLAN-013.md
+AOS-PLAN-014,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-014.md
+AOS-PLAN-014,Unverified source claims can become architecture accidentally.,AOS-PLAN-014.md
+AOS-PLAN-015,Undefined ownership and failure semantics create hidden coupling.,AOS-PLAN-015.md
+AOS-PLAN-015,Unverified source claims can become architecture accidentally.,AOS-PLAN-015.md
+AOS-PLAN-016,Prompt injection can redirect authority.,AOS-PLAN-016.md
+AOS-PLAN-016,Provider descriptions can misstate external effects.,AOS-PLAN-016.md
+AOS-PLAN-016,Receipts without enforcement become cosmetic audit logs.,AOS-PLAN-016.md
+AOS-PROD-001,A universal entity model can become vague or over-normalized.,AOS-PROD-001.md
+AOS-PROD-001,Third-party providers may expose incomplete or misleading actions.,AOS-PROD-001.md
+AOS-PROD-001,"Malleability can conflict with consistency, accessibility and support.",AOS-PROD-001.md
+AOS-PROD-002,Raw input logging captures secrets.,AOS-PROD-002.md
+AOS-PROD-002,Global history can become a surveillance database.,AOS-PROD-002.md
+AOS-PROD-002,Conflict-free merging cannot preserve transactional invariants automatically.,AOS-PROD-002.md
+AOS-PROD-003,A universal entity model can become vague or over-normalized.,AOS-PROD-003.md
+AOS-PROD-003,Third-party providers may expose incomplete or misleading actions.,AOS-PROD-003.md
+AOS-PROD-003,"Malleability can conflict with consistency, accessibility and support.",AOS-PROD-003.md
+AOS-PROD-004,A partially updated system can be unrecoverable.,AOS-PROD-004.md
+AOS-PROD-004,Vendor firmware rollback rules may conflict with project recovery.,AOS-PROD-004.md
+AOS-PROD-004,Development unlock paths can weaken production guarantees.,AOS-PROD-004.md
+AOS-PROD-005,Undefined ownership and failure semantics create hidden coupling.,AOS-PROD-005.md
+AOS-PROD-005,Unverified source claims can become architecture accidentally.,AOS-PROD-005.md
+AOS-PROD-006,False precision in long-range dates hides unknown hardware work.,AOS-PROD-006.md
+AOS-PROD-006,Large epics can mask stalled evidence.,AOS-PROD-006.md
+AOS-PROD-006,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-PROD-006.md
+AOS-PROD-007,A universal entity model can become vague or over-normalized.,AOS-PROD-007.md
+AOS-PROD-007,Third-party providers may expose incomplete or misleading actions.,AOS-PROD-007.md
+AOS-PROD-007,"Malleability can conflict with consistency, accessibility and support.",AOS-PROD-007.md
+AOS-PROD-008,A universal entity model can become vague or over-normalized.,AOS-PROD-008.md
+AOS-PROD-008,Third-party providers may expose incomplete or misleading actions.,AOS-PROD-008.md
+AOS-PROD-008,"Malleability can conflict with consistency, accessibility and support.",AOS-PROD-008.md
+AOS-PROD-009,Prompt injection can redirect authority.,AOS-PROD-009.md
+AOS-PROD-009,Provider descriptions can misstate external effects.,AOS-PROD-009.md
+AOS-PROD-009,Receipts without enforcement become cosmetic audit logs.,AOS-PROD-009.md
+AOS-PROD-010,Duplicated Wiki copies can drift.,AOS-PROD-010.md
+AOS-PROD-010,Renamed headings can break deep links.,AOS-PROD-010.md
+AOS-PROD-010,Machine-generated volume can obscure review status.,AOS-PROD-010.md
+AOS-PROD-011,A universal entity model can become vague or over-normalized.,AOS-PROD-011.md
+AOS-PROD-011,Third-party providers may expose incomplete or misleading actions.,AOS-PROD-011.md
+AOS-PROD-011,"Malleability can conflict with consistency, accessibility and support.",AOS-PROD-011.md
+AOS-PROD-012,A universal entity model can become vague or over-normalized.,AOS-PROD-012.md
+AOS-PROD-012,Third-party providers may expose incomplete or misleading actions.,AOS-PROD-012.md
+AOS-PROD-012,"Malleability can conflict with consistency, accessibility and support.",AOS-PROD-012.md
+AOS-PROD-013,"Positioning risk: offload can read as contradicting privacy-first; the consent classes, receipts, and self-host tier are the answer and must ship together, not later.",PROD-013-compute-subscription-and-offload.md
+AOS-PROD-013,Unit economics of server compute per subscriber are unmodeled; a cost model task gates any pricing announcement.,PROD-013-compute-subscription-and-offload.md
+AOS-PROD-013,Latency-sensitive interactive tasks may never offload well; the scheduler needs honest task-class annotations.,PROD-013-compute-subscription-and-offload.md
+AOS-PROD-013,Regulatory: cross-border processing of personal corpora intersects data-protection regimes; counsel review before personal-data classes go live.,PROD-013-compute-subscription-and-offload.md
+AOS-PROD-014,Services may change web APIs; bridged-native clients need maintenance and honest breakage states.,PROD-014-native-app-clients.md
+AOS-PROD-014,Aggregator dependency for banking adds a third party and cost; self-licensing is the long-term hedge.,PROD-014-native-app-clients.md
+AOS-PROD-014,"The line against pinning defeat will frustrate users who ""just want app X natively""; the compatibility layer is the honest answer and must be good.",PROD-014-native-app-clients.md
+AOS-PROD-014,"Some jurisdictions restrict even interoperability RE; the legal record must be maintained, not assumed.",PROD-014-native-app-clients.md
+AOS-PROD-015,On-device model capability vs battery/thermal budget on CM5 is unmeasured; the tiering leans on server for the heaviest reasoning until measured.,PROD-015-voice-agent.md
+AOS-PROD-015,Voice confirmation UX for irreversible actions must not become either unsafe (too easy) or annoying (too heavy); tuned with evidence.,PROD-015-voice-agent.md
+AOS-PROD-015,Multi-speaker and cross-talk handling in a real room is hard; DoA helps but is not a solved problem.,PROD-015-voice-agent.md
+AOS-PROD-015,"Server escalation intersects privacy positioning; the consent, receipts, and never-offload classes are the answer and ship together.",PROD-015-voice-agent.md
+AOS-RES-005,Undefined ownership and failure semantics create hidden coupling.,AOS-RES-005.md
+AOS-RES-005,Unverified source claims can become architecture accidentally.,AOS-RES-005.md
+AOS-RES-006,Prompt injection can redirect authority.,AOS-RES-006.md
+AOS-RES-006,Provider descriptions can misstate external effects.,AOS-RES-006.md
+AOS-RES-006,Receipts without enforcement become cosmetic audit logs.,AOS-RES-006.md
+AOS-RES-007,Kernel scope creep expands the trusted computing base and verification cost.,AOS-RES-007.md
+AOS-RES-007,Unsafe Rust and assembly can invalidate language-level safety assumptions.,AOS-RES-007.md
+AOS-RES-007,"Untested revocation, priority propagation, or DMA authority can break isolation.",AOS-RES-007.md
+AOS-RES-008,A partially updated system can be unrecoverable.,AOS-RES-008.md
+AOS-RES-008,Vendor firmware rollback rules may conflict with project recovery.,AOS-RES-008.md
+AOS-RES-008,Development unlock paths can weaken production guarantees.,AOS-RES-008.md
+AOS-RES-009,False precision in long-range dates hides unknown hardware work.,AOS-RES-009.md
+AOS-RES-009,Large epics can mask stalled evidence.,AOS-RES-009.md
+AOS-RES-009,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-RES-009.md
+AOS-RES-010,Undefined ownership and failure semantics create hidden coupling.,AOS-RES-010.md
+AOS-RES-010,Unverified source claims can become architecture accidentally.,AOS-RES-010.md
+AOS-RES-011,SIM7600G-H voice quality and operator compatibility (RU and RS operators) are unmeasured until AOS-DEMO-004; the Quectel EG25-G remains the fallback voice module.,RES-011-interim-hardware-market-survey.md
+AOS-RES-011,The PiSP/closed-boot-ROM compromise must not leak into portable claims; it is a demo-vehicle compromise only.,RES-011-interim-hardware-market-survey.md
+AOS-RES-011,Sanctions-related logistics for Moscow purchases can change abruptly; the Belgrade channel is the resilience plan.,RES-011-interim-hardware-market-survey.md
+AOS-TPL-ADR,Undefined ownership and failure semantics create hidden coupling.,AOS-TPL-ADR.md
+AOS-TPL-ADR,Unverified source claims can become architecture accidentally.,AOS-TPL-ADR.md
+AOS-TPL-CONTACT,Community expectations can exceed project capacity.,AOS-TPL-CONTACT.md
+AOS-TPL-CONTACT,Unreviewed contributions can contaminate provenance.,AOS-TPL-CONTACT.md
+AOS-TPL-CONTACT,Funding can distort architecture or public claims.,AOS-TPL-CONTACT.md
+AOS-TPL-EVIDENCE,Undefined ownership and failure semantics create hidden coupling.,AOS-TPL-EVIDENCE.md
+AOS-TPL-EVIDENCE,Unverified source claims can become architecture accidentally.,AOS-TPL-EVIDENCE.md
+AOS-TPL-EXPERIMENT,Undefined ownership and failure semantics create hidden coupling.,AOS-TPL-EXPERIMENT.md
+AOS-TPL-EXPERIMENT,Unverified source claims can become architecture accidentally.,AOS-TPL-EXPERIMENT.md
+AOS-TPL-SPEC,Undefined ownership and failure semantics create hidden coupling.,AOS-TPL-SPEC.md
+AOS-TPL-SPEC,Unverified source claims can become architecture accidentally.,AOS-TPL-SPEC.md
+AOS-VAL-001,Vendor firmware and undocumented power sequences can block a native port.,AOS-VAL-001.md
+AOS-VAL-001,DMA isolation may be absent or incomplete on low-cost hardware.,AOS-VAL-001.md
+AOS-VAL-001,Driver restart can corrupt device or persistent state unless recovery is idempotent.,AOS-VAL-001.md
+AOS-VAL-002,Undefined ownership and failure semantics create hidden coupling.,AOS-VAL-002.md
+AOS-VAL-002,Unverified source claims can become architecture accidentally.,AOS-VAL-002.md
+AOS-VAL-003,Passing mocks can conceal backend divergence.,AOS-VAL-003.md
+AOS-VAL-003,Benchmarks without thermal/power/configuration metadata are not comparable.,AOS-VAL-003.md
+AOS-VAL-003,Verification scope can be overstated.,AOS-VAL-003.md
+AOS-VAL-004,Passing mocks can conceal backend divergence.,AOS-VAL-004.md
+AOS-VAL-004,Benchmarks without thermal/power/configuration metadata are not comparable.,AOS-VAL-004.md
+AOS-VAL-004,Verification scope can be overstated.,AOS-VAL-004.md
+AOS-VAL-005,Prompt injection can redirect authority.,AOS-VAL-005.md
+AOS-VAL-005,Provider descriptions can misstate external effects.,AOS-VAL-005.md
+AOS-VAL-005,Receipts without enforcement become cosmetic audit logs.,AOS-VAL-005.md
+AOS-VSN-001,Undefined ownership and failure semantics create hidden coupling.,AOS-VSN-001.md
+AOS-VSN-001,Unverified source claims can become architecture accidentally.,AOS-VSN-001.md
+AOS-VSN-002,Undefined ownership and failure semantics create hidden coupling.,AOS-VSN-002.md
+AOS-VSN-002,Unverified source claims can become architecture accidentally.,AOS-VSN-002.md
+AOS-VSN-003,Undefined ownership and failure semantics create hidden coupling.,AOS-VSN-003.md
+AOS-VSN-003,Unverified source claims can become architecture accidentally.,AOS-VSN-003.md
+AOS-VOL-01,Undefined ownership and failure semantics create hidden coupling.,AOS-VOL-01.md
+AOS-VOL-01,Unverified source claims can become architecture accidentally.,AOS-VOL-01.md
+AOS-VOL-02,Undefined ownership and failure semantics create hidden coupling.,AOS-VOL-02.md
+AOS-VOL-02,Unverified source claims can become architecture accidentally.,AOS-VOL-02.md
+AOS-VOL-03,Undefined ownership and failure semantics create hidden coupling.,AOS-VOL-03.md
+AOS-VOL-03,Unverified source claims can become architecture accidentally.,AOS-VOL-03.md
+AOS-VOL-04,Undefined ownership and failure semantics create hidden coupling.,AOS-VOL-04.md
+AOS-VOL-04,Unverified source claims can become architecture accidentally.,AOS-VOL-04.md
+AOS-VOL-05,Interoperability exceptions are conditional and jurisdiction-specific.,AOS-VOL-05.md
+AOS-VOL-05,A technical ability to extract or observe does not establish a right to publish or redistribute.,AOS-VOL-05.md
+AOS-VOL-05,Public branding before clearance can create rework and liability.,AOS-VOL-05.md
+AOS-VOL-06,False precision in long-range dates hides unknown hardware work.,AOS-VOL-06.md
+AOS-VOL-06,Large epics can mask stalled evidence.,AOS-VOL-06.md
+AOS-VOL-06,Parallel tracks can duplicate interfaces without conformance ownership.,AOS-VOL-06.md
+AOS-VOL-07,Undefined ownership and failure semantics create hidden coupling.,AOS-VOL-07.md
+AOS-VOL-07,Unverified source claims can become architecture accidentally.,AOS-VOL-07.md
+AOS-VOL-08,Community expectations can exceed project capacity.,AOS-VOL-08.md
+AOS-VOL-08,Unreviewed contributions can contaminate provenance.,AOS-VOL-08.md
+AOS-VOL-08,Funding can distort architecture or public claims.,AOS-VOL-08.md
+AOS-VOL-09,Duplicated Wiki copies can drift.,AOS-VOL-09.md
+AOS-VOL-09,Renamed headings can break deep links.,AOS-VOL-09.md
+AOS-VOL-09,Machine-generated volume can obscure review status.,AOS-VOL-09.md
+AOS-VOL-10,Passing mocks can conceal backend divergence.,AOS-VOL-10.md
+AOS-VOL-10,Benchmarks without thermal/power/configuration metadata are not comparable.,AOS-VOL-10.md
+AOS-VOL-10,Verification scope can be overstated.,AOS-VOL-10.md

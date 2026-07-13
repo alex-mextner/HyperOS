@@ -21,7 +21,7 @@ The native architecture does not depend on Android, Linux, POSIX, Binder, or And
 
 ## Public engineering environment
 
-- `knowledge/` — canonical Markdown Wiki, specifications, research, claims, experiments, and glossary;
+- `engineering-bible/` — canonical Markdown Wiki, specifications, research, claims, experiments, and glossary;
 - `data/` — validated public projections used by the portal;
 - GitHub Issues — executable work and public discussion;
 - GitHub Projects — portfolio fields, schedule, roadmap, and board views;
@@ -48,13 +48,13 @@ The current repository policy uses Apache-2.0 for original software and automati
 ## Start here
 
 - [Public portal](https://agentos-bible.vercel.app)
-- [Executive briefing](knowledge/BRIEFING.md)
-- [Documentation index](knowledge/docs/INDEX.md)
-- [Product vision](knowledge/normalized/product-vision.md)
-- [Portable architecture](knowledge/docs/architecture/ARCH-001-portable-system-architecture.md)
-- [Microkernel specification](knowledge/docs/architecture/ARCH-002-microkernel.md)
-- [Hardware target portfolio](knowledge/docs/hardware/HW-001-target-portfolio.md)
-- [Roadmap and Gantt authority](knowledge/docs/planning/PLAN-002-roadmap-and-gantt.md)
+- [Executive briefing](engineering-bible/docs/AOS-BRIEF.md)
+- [Documentation index](engineering-bible/docs/AOS-INDEX.md)
+- [Product vision](engineering-bible/docs/vision/AOS-VSN-001.md)
+- [Portable architecture](engineering-bible/docs/architecture/AOS-ARCH-001.md)
+- [Microkernel specification](engineering-bible/docs/architecture/AOS-ARCH-002.md)
+- [Hardware target portfolio](engineering-bible/docs/hardware/AOS-HW-001.md)
+- [Roadmap and Gantt authority](engineering-bible/docs/planning/AOS-PLAN-002.md)
 - [Mobile editing](docs/MOBILE-EDITING.md)
 
 ## Contribution model

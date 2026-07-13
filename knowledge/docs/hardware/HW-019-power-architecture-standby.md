@@ -82,6 +82,8 @@ S3 is the headline: the main SoC is fully powered down, the island keeps time an
 
 ## Standby Modes
 
+A third economy axis complements the states below: **elastic compute offload** — heavy work moves to subscribed server resources over stable links per [AOS-PROD-013](../product/PROD-013-compute-subscription-and-offload.md), so L5 layers stay unloaded and, with the Pro tier, agents keep working server-side while the device sleeps in S3.
+
 - **Glance standby.** Main SoC in S3; island drives an e-ink status strip (time, battery, one notification line) and BLE. This is the "smartwatch-grade standby on a phone-class device" story: days of glanceable standby, seconds to full power.
 - **Comms standby (experiment).** Island periodically powers the modem for a short paging/SMS/notification poll, then cuts it — trading true always-connected for large energy savings, exactly the "ESP32 + periodic Wi-Fi/modem on/off" pattern. Missed-call/late-message trade-offs are explicit and user-configurable; this must never masquerade as always-on cellular.
 - **Alarm/timer wake.** Island RTC wakes the SoC for scheduled tasks (sync, capture) then returns to S3.

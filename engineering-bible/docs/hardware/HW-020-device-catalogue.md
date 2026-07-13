@@ -214,7 +214,7 @@ Degradation must be explicit rather than accidental. A target whose documentatio
 ## Risks and Open Questions
 
 - Consumer SBCs and phones can be revised or discontinued silently; the PinePhone Pro discontinuation [5] is the worked example, and every single-unit target is barred from the critical path.
-- Vendor-stated NPU TOPS, GPU clocks, and sensor frame rates are marketing-adjacent until measured on our own bench; treat Matrix C cells as candidates for [AOS-HW-010 scoring](AOS-HW-010.md#scoring-method), not results.
+- Vendor-stated NPU TOPS, GPU clocks, and sensor frame rates are marketing-adjacent until measured on our own bench; treat Matrix C cells as candidates for [AOS-HW-010 scoring](AOS-HW-010.md#candidate-scorecard), not results.
 - Camera-sensor register access (IMX585/IMX283) may require an NDA that limits publication; confirm redistribution rights before committing either to a portable claim, per [AOS-HW-016](AOS-HW-016.md#contract).
 - Exact EVK/module prices marked `TBD/unverified` must be re-quoted (two sources per row) at each target's dossier or BOM-freeze step.
 - **Open-question rule:** an unanswered high-impact question becomes a claim/experiment record and cannot be hidden in meeting notes.
@@ -254,7 +254,7 @@ External hard-spec sources, accessed 2026-07-13:
 - [Hardware target portfolio](AOS-HW-001.md#portfolio)
 - [Open, documented, and reversible hardware catalog](AOS-HW-011.md#candidates)
 - [Camera architecture](AOS-HW-006.md)
-- [Hardware scorecard and scoring method](AOS-HW-010.md#scoring-method)
+- [Hardware scorecard and scoring method](AOS-HW-010.md#candidate-scorecard)
 - [Vendor documentation and support acquisition](AOS-HW-016.md#contract)
 - [Interim demo device](HW-017-interim-demo-device.md)
 - [Demo brick V1 configuration baseline](HW-018-demo-brick-v1-configuration.md)

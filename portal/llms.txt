@@ -10,4 +10,4 @@ Primary records:
 - /engineering-bible/docs/hardware/AOS-HW-001.md
 - /engineering-bible/docs/planning/AOS-PLAN-002.md
 
-Android and Linux are restricted to isolated Pixel 9 evidence and bring-up work. The native architecture is an original Rust-first microkernel and owned system stack.
+Android and Linux are restricted to isolated Pixel 9 evidence and bring-up work. The native implementation is Rust-first and built on a fork of the entire Fuchsia tree (Zircon, DFv2, FIDL, Magma, Scenic/Flatland, Starnix taken as-is), with the Rust-first entity/agent product layer on top — not an owned-from-scratch microkernel.

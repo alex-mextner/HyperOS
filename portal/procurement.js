@@ -1,7 +1,7 @@
 // Procurement view — buying/sourcing guidance for the hardware targets.
-// Content derived from engineering-bible/docs/hardware (AOS-HW-001/009/011/016 and
-// the HW-018A Demo Brick V1 bill of materials). No AOS-HW-020 device catalogue exists
-// yet, so figures are provisional planning envelopes (USD, 2026-07), not quotes.
+// Content derived from engineering-bible/docs/hardware (AOS-HW-001/009/011/016, the
+// AOS-HW-020 per-target device catalogue, and the HW-018A Demo Brick V1 bill of
+// materials). Figures are provisional planning envelopes (USD, 2026-07), not quotes.
 const PROC_WAVES=[
   ['W0 · Build & debug','Days 0–14','Build workstation or CI runner, serial adapters, USB hubs, basic logic analyzer, power meter, cables, storage','$8k–18k'],
   ['W1 · Core targets','Days 0–30','Two documented boards, two RK3588 boards, displays/touch, eMMC/NVMe, two PinePhone Pro-class, one Fairphone-class comparator (Pixel 9 route archived — see ADR-0007)','$6k–14k'],
@@ -35,7 +35,7 @@ function procWavesTable(){return `<div class="table-wrap"><table class="task-tab
 function procTargetsGrid(){return `<div class="landscape-grid">${PROC_TARGETS.map(t=>`<article><div class="eyebrow">${esc(t[0])}</div><h2>${esc(t[1])}</h2><p>${esc(t[2])}</p><span class="pill">${esc(t[3])}</span></article>`).join('')}</div>`}
 function procStoresGrid(){return `<div class="landscape-grid">${PROC_STORES.map(s=>`<article><div class="eyebrow">${esc(s[2])}</div><h2>${esc(s[0])}</h2><p>${esc(s[1])}</p></article>`).join('')}</div>`}
 function procurement(){nav('procurement');app.innerHTML=`${workspaceHead('Buying & sourcing','Procurement','Hardware is bought in waves tied to evidence gates. Ranges are planning envelopes in USD before tax, shipping, duties and regional availability. Derived from AOS-HW-009 and the Demo Brick V1 bill of materials.',`<a class="btn" href="${gh('/tree/main/engineering-bible/docs/hardware')}">Hardware docs ↗</a>`)}
-<p class="status">Provisional data. No AOS-HW-020 device catalogue exists yet; this page is derived from AOS-HW-001 (target portfolio), AOS-HW-009 (lab & budget), AOS-HW-011 (open catalog), AOS-HW-016 (vendor acquisition) and the HW-018A BOM. Verify exact SKUs and prices at purchase freeze.</p>
+<p class="status">Provisional data. Derived from AOS-HW-001 (target portfolio), AOS-HW-009 (lab & budget), AOS-HW-011 (open catalog), AOS-HW-016 (vendor acquisition), the AOS-HW-020 device catalogue and the HW-018A BOM. Verify exact SKUs and prices at purchase freeze.</p>
 <p class="status">The Pixel 9 native route is <strong>researched and archived</strong> (<a href="${gh('/blob/main/engineering-bible/docs/decisions/ADR-0007-archive-pixel-9-route.md')}">ADR-0007 ↗</a>): no active budget or schedule. Pixel 9 is retained only as a read-only stock-quality oracle for measurement baselines. The carriable showcase is the interim <a href="${gh('/blob/main/engineering-bible/docs/hardware/HW-017-interim-demo-device.md')}">demo brick ↗</a>, whose bill of materials drives the sourcing below.</p>
 <section class="section"><div class="section-head"><div class="eyebrow">Purchase principles</div><h2>Buy in waves, duplicate cheap critical targets, verify SKU before premium.</h2><p>Keep one known-good unit per target for comparison; confirm exact unlockable SKU before any premium-phone purchase; avoid specialized camera, RF or JTAG instruments until a concrete experiment requires them. AOS-HW-009 records lean and full estimates plus per-row purchase gates.</p></div>${procMetrics()}</section>
 <section class="section"><div class="section-head"><div class="eyebrow">Purchase waves</div><h2>Budget envelopes by wave</h2><p><a href="#wiki/AOS-HW-009">AOS-HW-009 · Lab, Procurement and Initial Budget →</a></p></div>${procWavesTable()}</section>

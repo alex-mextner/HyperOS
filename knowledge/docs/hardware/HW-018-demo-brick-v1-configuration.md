@@ -2,7 +2,7 @@
 id: "AOS-HW-018"
 title: "Demo Brick V1 Configuration Baseline"
 status: "Normative planning baseline"
-version: "1.6.0"
+version: "1.7.0"
 baseline_date: "2026-07-13"
 owners: "Agent OS Architecture Council"
 audience: "Engineering, product, security, legal, and program leadership"
@@ -167,7 +167,7 @@ Audio is a first-class agent interface, not an accessory. The V1 subsystem is th
 ## Sensor Set
 
 - **IMU:** LSM6DSV16X (accelerometer + gyroscope with embedded ML core) for orientation, tap, and gesture experiments.
-- **Magnetometer** for heading; **BMP390** barometer — barometric context is a phone staple: floor/elevator detection, faster and more accurate GNSS altitude, pressure-trend awareness, and step/stair inference for the agent's situational model.
+- **Magnetometer (compass)** for heading — dedicated 3-axis part (MMC5983MA or LIS2MDL class); V1 target is to beat typical phone compasses by software, not just match them: (1) IMU+magnetometer sensor fusion (the on-board LSM6DSV16X gyro gives drift-free, non-jittery heading); (2) continuous honest calibration with a visible confidence indicator instead of the intrusive figure-8 dance; (3) magnetic-anomaly detection that warns "heading unreliable near metal/magnet" rather than silently lying; (4) hard-iron/soft-iron compensation fitted to this exact enclosure (battery and speaker magnet positions are known at design time). Premium future option: PNI RM3100 geomagnetic sensor (drone/survey-grade, ~order-of-magnitude better than phone magnetometers) as a Tier-2 upgrade. **BMP390** barometer — barometric context is a phone staple: floor/elevator detection, faster and more accurate GNSS altitude, pressure-trend awareness, and step/stair inference for the agent's situational model.
 - **Ambient light + proximity** (VCNL4040-class): display brightness, at-ear suppression of SurfaceVolume and touch.
 - **NFC:** NXP PN7150 (mainline-friendly Linux support) for tap interactions and future identity experiments.
 - **IR blaster:** 940 nm LED (TX) + TSOP38238-class receiver (RX) — the "universal remote" agent capability; RX allows learning codes from existing remotes.

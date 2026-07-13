@@ -23,6 +23,7 @@ status: foundation
 - [ADR-0007: Archive the Pixel 9 native route](decisions/ADR-0007-archive-pixel-9-route.md)
 - [Interim hardware market survey and sourcing](research/RES-011-interim-hardware-market-survey.md)
 - [Prototype travel and border considerations](legal/LEGAL-012-prototype-travel-and-borders.md)
+- [Layered boot and instant modes](architecture/ARCH-021-layered-boot-and-instant-modes.md)
 
 ## Planned volumes
 

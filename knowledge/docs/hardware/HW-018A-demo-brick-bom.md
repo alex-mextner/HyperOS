@@ -2,7 +2,7 @@
 id: "AOS-HW-018-BOM"
 title: "Demo Brick V1 — Bill of Materials (Appendix A to AOS-HW-018)"
 status: "Working purchase list (pre-freeze)"
-version: "1.3.0"
+version: "1.4.0"
 baseline_date: "2026-07-13"
 owners: "Hardware Programme"
 audience: "Purchasing, engineering"
@@ -54,6 +54,7 @@ Catalog: https://www.waveshare.com/product/raspberry-pi/boards-kits/cm5.htm
 17. 2× micro-speakers (phone/tablet spare drivers) — $3–8 each *(class)*
 18. Cellular alt B: Quectel EG25-G mPCIe/M.2 + USB adapter — $25–45 *(class)*
 19. Antennas: 2× LTE FPC/rod + 1× GNSS + U.FL/IPEX4 pigtails — $8–15 *(class)*
+19a. Second Wi-Fi radio for hotspot/repeater (concurrent STA+AP): MT7612U or MT7921AU-class USB module — $12–25 *(class)* (strong open AP-mode support)
 20. IR blaster parts: 940 nm IR LEDs + NPN/MOSFET drivers + TSOP38238 receivers — $3–6 *(class)*
 21. Sensor breakouts: LSM6DSV16X/LSM6DSOX IMU $6–12; VCNL4040 $3–6; BMP390 $4–8; PN7150 NFC $10–18 *(class)* (Adafruit originals optional quality tier)
 22. SurfaceVolume v1.5: Azoteq IQS550/IQS7211 module — $15–30 *(class)*; custom flex electrode sheet — flex-PCB service (JLC/PCBWay), $30–60 NRE

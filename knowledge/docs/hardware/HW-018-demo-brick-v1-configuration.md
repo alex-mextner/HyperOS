@@ -2,7 +2,7 @@
 id: "AOS-HW-018"
 title: "Demo Brick V1 Configuration Baseline"
 status: "Normative planning baseline"
-version: "1.4.0"
+version: "1.5.0"
 baseline_date: "2026-07-13"
 owners: "Agent OS Architecture Council"
 audience: "Engineering, product, security, legal, and program leadership"
@@ -31,6 +31,7 @@ summary: "Frozen V1 configuration for the interim demo brick: CM5 compute with n
 - [Requirements](#requirements)
 - [Failure and Degradation](#failure-and-degradation)
 - [Evidence and Acceptance](#evidence-and-acceptance)
+- [System-Level Problem Review](#problem-review)
 - [Recorded Future Directions](#future-directions)
 - [Risks and Open Questions](#risks-and-open-questions)
 - [Related Documents](#related-documents)
@@ -63,7 +64,7 @@ The demo brick runs the native Agent OS, not Linux. The CM5 platform is admissib
 - Raspberry Pi has published the **PiSP image signal processor specification** and the **RP1 southbridge peripherals datasheet**, so the camera pipeline and most I/O peripherals can be driven by native Agent OS drivers written from public documentation.
 - The boot chain (BCM2712 boot ROM plus the EEPROM bootloader) loads an arbitrary kernel image; it is a closed but OS-agnostic component, recorded as a compromise in the AOS-HW-013 ledger together with the Wi-Fi/BT firmware blobs, which are required regardless of the operating system.
 - The full BCM2712 technical reference is not public; gaps are filled from the RP1/PiSP documents, published open-source drivers as *reference reading*, and bounded experiments — never by linking Linux code into portable layers.
-- Linux with libcamera is used only as a **bench oracle**: a known-good stack on identical hardware for image-quality and behavior comparison, exactly analogous to the Pixel stock-oracle rule of [ADR-0004](AOS-ADR-0004.md#decision). No Linux userland or kernel component ships on the demo brick.
+- Linux with libcamera is used only as a **bench oracle**: a known-good stack on identical hardware for image-quality and behavior comparison, exactly analogous to the Pixel stock-oracle rule of [ADR-0004](../decisions/ADR-0004.md#decision). No Linux userland or kernel component ships on the demo brick.
 
 <a id="v1-configuration"></a>
 
@@ -212,6 +213,28 @@ No off-the-shelf "generative phone case" tool exists; the enclosure is therefore
 
 Single USB-C port carrying PD charging, data, and debug. Charge controller (BQ25792-class) + fuel gauge (MAX17048-class) + a 1S pack per the battery options in the configuration table (pouch for thinness, dual-21700 for maximum capacity and cell replaceability). Chemistry decision recorded: stay on Li-ion; nothing retail beats it on Wh/L — LiFePO4 and sodium are denser-rejected, solid-state is unavailable; silicon-carbon pouches are the watch item. Acceptance targets inherit from AOS-HW-017: cold boot on battery, suspend/wake, and a ≥6 h mixed-use demo day.
 
+<a id="problem-review"></a>
+
+## System-Level Problem Review
+
+Founder-requested sweep of "what will bite us"; each item is a claim/experiment candidate, ordered by severity.
+
+**P1 — Idle power (the biggest one).** CM5 has no phone-grade suspend: a Pi-class board idles at watts, not milliwatts, so a 5 Ah pack gives hours of standby, not days. Mitigations: aggressive display/radio gating, undervolt/clock floors, a "pocket state" that suspends to RAM where driver support allows, and honest demo expectations (a demo day, not a standby week). This is a permanent gap versus phone SoCs and is recorded in the compromise ledger.
+
+**P2 — Wi-Fi hotspot / tethering (founder requirement: must fully work).** No special modem is needed: the modem only supplies the WAN data pipe (USB/QMI or PCIe); a hotspot is the Wi-Fi radio in AP mode plus NAT/routing in the network service. Two real constraints instead: (a) the CM5 onboard Wi-Fi (CYW43455-class) supports AP mode, but *simultaneous* STA+AP on one radio is channel-locked and fragile — for the "receive Wi-Fi and re-share it" repeater case, and for robust LTE-hotspot-while-connected, V1 adds a second Wi-Fi radio (MT7612U/MT7921AU-class USB module with strong open AP support); (b) operators police tethering via plan terms and traffic inspection — hotspot behavior is verified per operator with the cellular evidence, and any throttling is an operator finding, not a device defect.
+
+**P3 — Single USB-C for charge + data.** Charging while a demo uses USB peripherals requires a proper PD path with a data mux; the ReSpeaker in I2S mode (not USB) keeps the external port free. Design rule: external USB-C is PD sink + debug; all internal peripherals live on carrier USB/I2S/PCIe.
+
+**P4 — RF coexistence.** Two LTE antennas, GNSS, Wi-Fi, BT, and a UWB option inside one printed brick with an aluminum midframe: desense and coupling are guaranteed without discipline. Antenna keep-outs, separation per module design guides, and a coexistence test (LTE transfer while Wi-Fi hotspot and BT audio run) gate the enclosure design.
+
+**P5 — Modem voice audio path.** Bridging modem PCM into the XVF3800 AEC graph is the fiddliest wiring in the build; fallback is the SIM7600 HAT's onboard codec path with reduced AEC quality, recorded as degraded-typed.
+
+**P6 — StarlightEye on CM5.** Board is specified for Pi 5/CM4 4-lane pinout; CM5 bring-up is experiment-gated before BOM freeze commits the main camera.
+
+**P7 — Native driver surface.** Display (DSI panel init), touch (I2C), PiSP camera, Wi-Fi firmware interface, and NVMe each need native Agent OS drivers; the RP1/PiSP documentation makes this tractable but the sum is the real schedule risk, ahead of any single part.
+
+**P8 — Sourcing fragility.** Tindie single-maker camera stock, sysmocom sample quantities, parallel-import CM5 in Moscow: every unique-source row carries a spare-unit rule.
+
 <a id="future-directions"></a>
 
 ## Recorded Future Directions (non-normative)
@@ -227,6 +250,7 @@ Founder intentions logged for V3+; they shape V1 choices but carry no V1 accepta
 
 - **R01.** Build V1 exactly from the configuration table; substitutions require a recorded decision with re-verification of affected evidence.
 - **R02.** Keep the exterior limited to one USB-C port and two buttons; every removed affordance has an engineered replacement documented in this baseline.
+- **R03a.** Treat LTE→Wi-Fi hotspot as a first-class capability: AP mode with NAT in the network service, second Wi-Fi radio for concurrent STA+AP/repeater use, per-operator tethering evidence.
 - **R03.** Implement SurfaceVolume in stages with the stated gates, preserving the on-screen fallback and at-ear/pocket suppression at every stage.
 - **R04.** Specify normal, partial, denied, timeout, cancellation, restart, upgrade, and permanent-failure behavior.
 - **R05.** Expose structured diagnostics without leaking secrets or vendor-specific implementation details.
@@ -274,7 +298,7 @@ Recovery defines what state is retained, reconstructed, re-enrolled, compensated
 - [Interim demo device](HW-017-interim-demo-device.md)
 - [Camera architecture](AOS-HW-006.md)
 - [Native cellular stack](AOS-HW-007.md)
-- [Hardware portfolio](HW-001-target-portfolio.md#portfolio)
+- [Hardware portfolio](AOS-HW-001.md#portfolio)
 - [Interim hardware market survey](../research/RES-011-interim-hardware-market-survey.md)
 - [Claim register](AOS-RES-003.md#claim-register)
 

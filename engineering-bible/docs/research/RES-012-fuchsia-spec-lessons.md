@@ -6,12 +6,12 @@ version: "1.0.0"
 baseline_date: "2026-07-13"
 owners: "Architecture / Research Council"
 audience: "Engineering, product, research"
-summary: "The earlier 60-page Fuchsia/Zircon-on-Pixel-9 specification is superseded as an implementation plan (AgentOS now owns its microkernel and targets the demo brick), but several of its frameworks are platform-independent and are carried forward here: the reuse taxonomy, the two-track strategy, the substrate/platform/shell decoupling, the entity/agent data model, and the honest camera/telephony ceilings."
+summary: "A 60-page specification that explored ONE candidate approach — forking Fuchsia/Zircon and bringing it up on Pixel 9 — which the programme evaluated and deliberately did not adopt (an owned Rust-first microkernel was always the plan). It is retained as evaluated-alternative prior art. Several of its frameworks are platform-independent and are carried forward: the reuse taxonomy, the two-track strategy, the substrate/platform/shell decoupling, the entity/agent data model, and the honest camera/telephony ceilings."
 ---
 
 # Lessons from the Fuchsia/Pixel-9 Custom-OS Specification (Prior Art)
 
-> **Superseded as a plan, mined for its frameworks.** The source document specified a Fuchsia/Zircon fork on Pixel 9. AgentOS has since chosen an owned Rust-first microkernel and an interim demo brick; Fuchsia, FEMU, Starnix, and Pixel-9 bring-up are prior art, not the roadmap. What survives the platform change is captured below and mapped to current AgentOS documents. Original illustrations are retained under `diagrams/prior-art-fuchsia-spec/` with provenance.
+> **An evaluated alternative, not a former plan.** This source explored the question "what if we forked Fuchsia/Zircon and brought it up on Pixel 9?" The programme considered that path and deliberately did not take it: an owned Rust-first microkernel was the intended approach from the start, and the demo brick is the interim hardware. So Fuchsia, FEMU, Starnix, and Pixel-9 bring-up were never the roadmap — they are a documented, reasoned rejection. What is genuinely platform-independent in the document is still valuable and is carried forward below. Original illustrations are retained under `diagrams/prior-art-fuchsia-spec/` with provenance.
 
 ## Table of Contents
 
@@ -30,11 +30,11 @@ summary: "The earlier 60-page Fuchsia/Zircon-on-Pixel-9 specification is superse
 
 ## Status and Provenance
 
-Source: a founder-supplied 60-page engineering specification, "Спецификация кастомной мобильной ОС на базе форка Fuchsia/Zircon · Pixel 9" (Russian). SHA-256 and redistribution status recorded in `sources/provenance/PROVENANCE.md`. The binary is not redistributed (integrate-not-store); seven key illustrations are retained locally as prior art. This document is the English, actualized digest of its transferable content.
+Source: a founder-supplied 60-page engineering specification, "Спецификация кастомной мобильной ОС на базе форка Fuchsia/Zircon · Pixel 9" (Russian) — an exploration of the fork-Fuchsia alternative, not a record of an adopted decision. SHA-256 and redistribution status recorded in `sources/provenance/PROVENANCE.md`. The binary is not redistributed (integrate-not-store); seven key illustrations are retained locally as prior art. This document is the English digest of its transferable, platform-independent content.
 
 <a id="transfer"></a>
 
-## What Transfers vs What Is Superseded
+## What Transfers vs What Was Evaluated and Not Adopted
 
 | Concept | Status now | Where it lives in AgentOS |
 | --- | --- | --- |
@@ -45,11 +45,11 @@ Source: a founder-supplied 60-page engineering specification, "Специфик�
 | Camera two-layer tuning, HDR+, honest ceiling | **Transfers** | AOS-HW-018 tuning rule, RES-011 |
 | RE legal frame, clean-room | **Transfers** | AOS-LEGAL-003, PROD-014 |
 | Precedent lessons (Asahi/Replicant/dahliaOS/Genode) | **Transfers** | This doc |
-| Fuchsia/Zircon as the kernel | **Superseded** | Owned microkernel (AOS-ARCH-002) |
-| FEMU as acceptance target | **Superseded** | QEMU harness |
-| Starnix as compat basis | **Superseded** | Compatibility layer (PROD-014) |
-| Pixel 9 / Tensor G4 bring-up | **Superseded / archived** | ADR-0007, demo brick |
-| Exynos 5400 modem RE | **Superseded** | Pre-certified module (HW-018) |
+| Fuchsia/Zircon as the kernel | **Evaluated & not adopted** | Owned microkernel was always the plan (AOS-ARCH-002) |
+| FEMU as acceptance target | **Evaluated & not adopted** | QEMU harness |
+| Starnix as compat basis | **Evaluated & not adopted** | Compatibility layer (PROD-014) |
+| Pixel 9 / Tensor G4 bring-up | **Evaluated; later archived** | ADR-0007, demo brick |
+| Exynos 5400 modem RE | **Evaluated & not adopted** | Pre-certified module (HW-018) |
 
 <a id="taxonomy"></a>
 
@@ -107,7 +107,7 @@ Interoperability RE is broadly permitted: EU Software Directive Art. 6 (decompil
 
 - **Asahi Linux** — a small team reverse-engineering modern silicon takes years, and its key multiplier was targeting Linux, where the driver ecosystem exists. Targeting a bespoke stack on undocumented silicon is harder — which is why decoupling tracks is mandatory. (Reinforces the demo-brick choice: buy documented modules, don't reverse a flagship.)
 - **Replicant / libsamsung-ipc** — years on one modem class, still not covering modern models: the modem is the most time-consuming block; live on data/SMS and treat voice as a risky milestone. (The demo brick avoids this via a pre-certified module.)
-- **dahliaOS** — a real Fuchsia fork exists; the value is not the act of forking but what is built on it. (Generalizes: owning a kernel is not the achievement; the product and the bring-up are.)
+- **dahliaOS** — a real Fuchsia fork exists; the value is not the act of forking but what is built on it. (Generalizes: a fork was possible but not chosen; owning a kernel is not the achievement — the product and the bring-up are.)
 - **postmarketOS / Megapixels** — open computational photography is real and portable, but the ceiling is sensor tuning, not the algorithm; calibrate camera expectations to "decent."
 - **Genode / Sculpt** — a microkernel capability OS can be a daily driver on open phone hardware (PinePhone); on a closed flagship the driver wall remains the barrier. (Supports building on documented hardware first.)
 

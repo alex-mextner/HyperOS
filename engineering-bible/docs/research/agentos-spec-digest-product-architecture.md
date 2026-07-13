@@ -1,5 +1,5 @@
 
-> **Superseded prior-art (2026-07-13).** This digest analyzes an earlier Fuchsia/FEMU/Starnix-oriented spec. Those are NOT the current implementation choices: AgentOS is a Rust-first owned microkernel; Fuchsia/FEMU/Starnix appear only as studied prior art. Retained for provenance of the design reasoning.
+> **Superseded prior-art (2026-07-13).** This digest analyzes an evaluated Fuchsia/FEMU/Starnix alternative. Those are NOT the current implementation choices: AgentOS is a Rust-first owned microkernel; Fuchsia/FEMU/Starnix appear only as studied prior art. Retained for provenance of the design reasoning.
 
 # AgentOS Spec Digest Product Architecture
 

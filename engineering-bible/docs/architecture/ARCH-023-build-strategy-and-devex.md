@@ -122,16 +122,41 @@ This is Tier 1, and it is the entire product-layer effort (entity/agent, shell, 
 ### What does NOT work natively on macOS (the sentence in the source)
 The **full GN/ninja platform build** (`fx set` / `fx build` of the whole tree) is supported only on x86-64 Debian-based Linux. The historical macOS SDK-core CIPD path is `mac-amd64` (Intel); Apple Silicon runs host tools via Rosetta or native where published, but the **platform tree itself is not a supported macOS build** on any CPU. So "compile the forked Zircon + full image" is a Linux-only job.
 
-### The resolution
-Because we split Tier 1 (SDK, native on the Mac) from Tier 2 (full tree, Linux), the M4 Pro is a **fully capable primary workstation**: all product and SDK-level driver work is native and fast there. The only thing it can't do is produce the platform image — and that is a CI/remote-builder job by design, run once per pinned revision, not per iteration.
+### The resolution — a two-machine home setup (no rental)
 
-Concretely for the M4 Pro:
+You do not need to rent anything and you should not try to make the Mac build the whole OS. The
+clean split uses two machines you already have:
 
-1. **Primary (native, recommended):** SDK + Bazel + emulator on macOS arm64. Fast, no VM.
-2. **Platform image (when needed):** a remote x86-64 Linux builder (cloud/Hetzner) or CI produces the fork's image and publishes artifacts the Mac consumes. This is the "dedicated build machine" the source assumed — needed only for platform deltas.
-3. **Local Linux VM (optional, for platform hacking on the go):** x86-64 Debian VM under UTM/Parallels can run `fx build`; slower and heavier (rosetta/emulated x86-64 on arm64), first build in hours. Use only if you must build the tree offline; otherwise the remote builder is better.
+**Mac M4 Pro — primary workstation (daily, ~90% of the work).** Write the entire product layer
+(entities, agents, shell, services) and SDK-level drivers; build them **natively and fast** with the
+Bazel SDK; run the emulator. This is the everyday loop and it never needs Linux.
 
-Estimated M4 Pro numbers to validate by experiment (record as evidence, replace these): native SDK component build — seconds to low minutes; emulator boot from prebuilts — 1–3 min; **full tree** is not run on the Mac (Linux builder: first build ~1–3 h on 16+ cores, incremental minutes).
+**Ubuntu laptop (i7 + RTX 3060) — the platform builder (occasional).** This is the "dedicated build
+machine" the spec mentions — but it's a laptop you own, not a cloud rental. It builds the full forked
+Fuchsia tree (first build a few hours; afterwards incremental minutes with ccache) and publishes the
+image/artifacts the Mac consumes. The RTX 3060 is a bonus: FEMU has hardware Vulkan acceleration on
+Linux with Nvidia, so the emulator runs better there too.
+
+Workflow: edit and iterate on the Mac; when a platform change is needed (kernel/driver deltas), the
+Ubuntu box rebuilds the tree and publishes; the Mac pulls the fresh artifacts. Set it up once and the
+Ubuntu box just rebuilds on demand.
+
+### Why not make the Mac build the whole tree?
+
+Verified and deliberately not attempted: the full tree is supported only on x86-64 Debian Linux; the
+public build toolchain/SDK exists only for Linux (for macOS you would have to assemble your own
+platform toolchain by hand). Fuchsia maintainers have stated the Fuchsia build "never really worked on
+macOS" (closed wont-fix). Forking and repairing Google's build system for macOS is a multi-week,
+fragile effort that breaks on every upstream update — a poor use of time when a Linux laptop you own
+does the job. So: Mac for everything daily, Ubuntu laptop for the platform image.
+
+### Sizing the Ubuntu laptop (i7 + RTX 3060)
+
+A quad/hex-core i7 with 16 GB RAM builds the tree; more cores and RAM help. Watch two things:
+disk (need ~200 GB free for a full checkout + build output — an external NVMe SSD is the easy fix if
+the internal drive is small) and RAM (16 GB works; 32 GB is smoother for linking). Enable ccache so
+only the first build is slow. The 3060 accelerates the emulator (Vulkan) but is not needed for the
+build itself. Record real first-build and incremental times as evidence to replace the estimates here.
 
 <a id="tonight"></a>
 

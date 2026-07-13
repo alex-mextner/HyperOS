@@ -57,7 +57,7 @@ Debian), a CI/remote-builder job. This agent's container (1 core / 3 GB / ~10 GB
 - **Tonight, minutes, no build:** `bash scripts/fuchsia-sdk-quickstart.sh` then
   `tools/ffx product download <bundle>` + `tools/ffx emu start`. Boots a prebuilt image; works on
   Apple Silicon (prefer arm64 bundle; note qemu-arm64 is "very limited").
-- **Overnight, full tree:** on an x86-64 Debian VM/box, `bash scripts/fuchsia-full-build.sh`.
+- **Full tree:** on the **home Ubuntu laptop (i7 + RTX 3060)** — the owned platform builder, no rental — `bash scripts/fuchsia-full-build.sh`. macOS cannot build the full tree (verified); don't try to port it.
 - **Record as evidence** (replaces estimates in ARCH-023): `fx set` time, first `fx build` wall time,
   no-op rebuild time, one-file-touch rebuild time, disk used, emulator boot OK. Post to WORK-TRACKER
   and ARCH-023.

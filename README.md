@@ -29,7 +29,6 @@ Canonical documentation lives in **`engineering-bible/`**. Everything else is a 
 
 - `engineering-bible/` — the authoritative, cross-linked, `AOS-*`-identified corpus: architecture, hardware, product, research, legal, planning, glossary, registers, sources, and validation. Start at [`engineering-bible/README.md`](engineering-bible/README.md).
 - `portal/` — the public Vercel site rendered from the engineering bible: a four-audience front door plus Wiki, task explorer, Gantt, registers, and API views.
-- `knowledge/` — **deprecated** legacy compatibility mirror. Do not edit as a source of truth (see [`knowledge/DEPRECATED.md`](knowledge/DEPRECATED.md)); a future change removes or fully regenerates it.
 - `crates/`, `sim/` — Rust crates and simulation harnesses (early bootstrap).
 - `data/` — validated public projections used by the portal.
 - `.github/workflows/` — validation, task bootstrap, and derived-data automation.
@@ -74,6 +73,7 @@ The current repository policy uses Apache-2.0 for original software and automati
 - [Public portal](https://agentos-bible.vercel.app)
 - [Engineering bible](engineering-bible/README.md)
 - [Executive briefing](engineering-bible/BRIEFING.md)
+- [Documentation index](engineering-bible/docs/AOS-INDEX.md)
 - [Release manifest](engineering-bible/MANIFEST.md)
 - [Product vision](engineering-bible/docs/vision/AOS-VSN-001.md)
 - [Portable system architecture](engineering-bible/docs/architecture/AOS-ARCH-001.md)

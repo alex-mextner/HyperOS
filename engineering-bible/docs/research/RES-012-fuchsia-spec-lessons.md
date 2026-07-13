@@ -24,6 +24,8 @@ summary: "Digest of the 60-page specification for the chosen approach: forking F
 - [Camera and Telephony Ceilings](#ceilings)
 - [Reverse-Engineering Legal Frame](#legal)
 - [Precedent Lessons](#precedents)
+- [MVP Configuration Ladder](#mvp-ladder)
+- [Module Inventory by Status](#module-inventory)
 - [Related Documents](#related)
 
 <a id="status"></a>
@@ -110,6 +112,43 @@ Interoperability RE is broadly permitted: EU Software Directive Art. 6 (decompil
 - **dahliaOS** — a real Fuchsia fork exists; the value is not the act of forking but what is built on it. (Confirms the approach: forking Fuchsia is feasible and done before; the value is the product and the bring-up on top, not the fork itself.)
 - **postmarketOS / Megapixels** — open computational photography is real and portable, but the ceiling is sensor tuning, not the algorithm; calibrate camera expectations to "decent."
 - **Genode / Sculpt** — a microkernel capability OS can be a daily driver on open phone hardware (PinePhone); on a closed flagship the driver wall remains the barrier. (Supports building on documented hardware first.)
+
+
+<a id="mvp-ladder"></a>
+
+## MVP Configuration Ladder (carried forward)
+
+The spec defined cut-down configurations so value ships earlier; this ladder transfers, re-mapped to the demo brick and the fork:
+
+| Config | Includes | Deferred |
+| --- | --- | --- |
+| MVP-A (product in emulation) | full product layer L6 + Starnix interop, in the Fuchsia emulator | all hardware |
+| MVP-B0 (hardware alive) | kernel + display + input + Wi-Fi on the demo brick | GPU accel, modem, camera |
+| MVP-B1 (with data) | + cellular data/SMS via the pre-certified module | voice, camera |
+| MVP-B2 (with camera) | + basic photo (HDR+, before tuning polish) | flagship quality |
+| Full | everything incl. voice and per-sensor tuning | — |
+
+Pragmatic order: get MVP-A demonstrable first (product in emulation, zero hardware blockers), then MVP-B0 (a Wi-Fi "tablet" without telephony), and only then modem/camera. This is exactly the two-track lane structure of AOS-PLAN-018.
+
+<a id="module-inventory"></a>
+
+## Module Inventory by Status (reference)
+
+The spec's full module map, re-expressed for the fork + demo brick. Kernel/userspace frameworks are FORK/AS-IS from Fuchsia; hardware is mostly AS-IS pre-certified modules (not REVERSE, unlike the Pixel-9 plan):
+
+| Layer | Module | Status |
+| --- | --- | --- |
+| L0 | Fuchsia tree | FORK |
+| L0 | Zircon, DFv2, FIDL, Magma, Scenic/Flatland, Starnix | AS-IS |
+| L1 | Board bring-up (demo brick: RP1/PiSP documented) | PORT |
+| L1 | Power island (nRF/ESP32) | FROM-SCRATCH firmware |
+| L2 | GPU/Magma driver | PORT |
+| L3 | Cellular (pre-certified module) | AS-IS |
+| L4 | Camera capture + libcamera | WRAP |
+| L4 | HDR+/Halide | AS-IS |
+| L4 | Sensor tuning | FROM-SCRATCH |
+| L5 | Starnix compat | AS-IS |
+| L6 | Shell, entity/agent, history, sync, integrations | FROM-SCRATCH |
 
 <a id="related"></a>
 

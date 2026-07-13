@@ -1,3 +1,5 @@
+> **Language: Russian · non-normative research.** iOS/Android critique and Agent OS motivation. Retained in the original language for fidelity; not a normative English specification. An English summary is tracked as a follow-up task.
+
 # iOS vs Android vs Agent OS
 
 > Ревизия: 10.07.2026. Это реестр претензий и фактов, из которого растёт мотивация Agent OS. Претензии к обеим системам → раздел «Почему обе исчерпаны» → он же продуктовый тезис Agent OS (см. заметку «Своя мобильная ОС»).

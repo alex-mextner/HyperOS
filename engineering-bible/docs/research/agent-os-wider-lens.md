@@ -1,3 +1,5 @@
+> **Language: Russian · non-normative research.** Wider-lens survey of adjacent efforts. Retained in the original language for fidelity; not a normative English specification. An English summary is tracked as a follow-up task.
+
 # Расширение угла зрения: кто уже копает наши тоннели
 
 > Ревизия: 10.07.2026. Карта местности вокруг идей из «Своя мобильная ОС» и UX RESEARCHES. Метод: беру наши списки, обобщаю до тезиса, показываю кто уже делает похожее, что у них брать и что это меняет для Agent OS. Всё проверено поиском, ссылки прилагаются.

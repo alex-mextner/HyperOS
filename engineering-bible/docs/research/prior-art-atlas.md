@@ -1,3 +1,5 @@
+> **Language: Russian · non-normative research.** Prior-art atlas: who tried similar ideas before. Retained in the original language for fidelity; not a normative English specification. An English summary is tracked as a follow-up task.
+
 # Prior Art Atlas: кто, когда и как уже пытался
 
 > Ревизия: 10.07.2026. Каждая идея из «Своя мобильная ОС» и UX RESEARCHES сопоставлена с историческими попытками (что сработало, что убило) и современным агентским фронтом. Формат: концепция → прецеденты → урок для Agent OS.

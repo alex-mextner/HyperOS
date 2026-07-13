@@ -95,10 +95,13 @@ prev/next, backlinks, "related specs/tasks/claims" panel, provenance panel; cros
 search over bodies (not just index); Mermaid/PNG/SVG render polish; verify every "Edit on GitHub"
 URL resolves under `engineering-bible/`.
 
-### 2.4 English summaries of the 3 Russian atlases
-`docs/research/ios-vs-android-vs-agent-os.md`, `prior-art-atlas.md`, `agent-os-wider-lens.md` are
-valuable but fully Russian (now labelled non-normative). Write English summaries (or full
-translations) so the normative English corpus is self-contained. Keep the Russian originals.
+### 2.4 English translation of the 3 Russian atlases (DONE)
+`docs/research/ios-vs-android-vs-agent-os.md`, `prior-art-atlas.md`, `agent-os-wider-lens.md` have
+been translated to English in place (full translation, not a separate summary file) — all three
+files carry zero Cyrillic. They remain under `docs/research/` and are non-normative, same as
+before. Scope note: this covers only these three files. `engineering-bible/AgentOS.md` (linked
+from `ios-vs-android-vs-agent-os.md` as "Own Mobile OS") is still Russian and is a separate,
+not-yet-scheduled translation — the corpus is not fully English yet, only these three atlases are.
 
 ### 2.5 §13 Final cleanup
 Dedupe any legacy copies under `knowledge/` (already deprecated — decide delete vs keep as archive),

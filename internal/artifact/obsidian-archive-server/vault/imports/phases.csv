@@ -1,0 +1,10 @@
+﻿phase,start_date,target_date,task_count,purpose
+Phase 0,2026-07-13,2030-07-07,37,"Source intake, decisions, governance, and reproducible baseline"
+Phase 1,2026-07-27,2028-02-06,27,"Prior-art research, proof-checking, legal routing, and bounded experiments"
+Phase 2,2026-07-13,2027-07-11,32,"Portable architecture, IDL, device contracts, and threat model"
+Phase 3,2026-10-19,2027-04-18,2,"Normative kernel, system, product, and hardware specifications"
+Phase 4,2026-07-13,2027-04-18,4,"Rust toolchain, coding, unsafe, verification, and CI standards"
+Phase 5,2026-07-20,2028-01-23,10,"Workspace, QEMU, generators, mocks, and test scaffold"
+Phase 6,2026-07-13,2030-07-07,88,Microkernel and portable vertical slice
+Phase 7,2026-07-13,2030-07-07,106,"Physical boards, camera/cellular labs, and Pixel evidence tracks"
+Phase 8,2026-07-13,2030-01-20,21,"Review, release, community launch, and partner transition"

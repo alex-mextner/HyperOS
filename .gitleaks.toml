@@ -1,0 +1,16 @@
+title = "hyperos-repo"
+
+[extend]
+path = "/Users/ultra/.config/gitleaks/gitleaks.toml"
+
+[allowlist]
+description = "False positives in imported AgentOS planning text."
+regexes = [
+  '''Personal Data Authority and Agent Access''',
+  '''dependency review, secret scanning, provenance/SBOM generation''',
+]
+paths = [
+  '''.*obsidian-archive-server/vault/docs/_meta/link-map\.csv$''',
+  '''.*obsidian-archive-server/vault/docs/planning/PLAN-008-linear-github-operating-model\.md$''',
+  '''.*obsidian-archive-server/vault/wiki/AOS-PLAN-008\.md$''',
+]

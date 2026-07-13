@@ -1,0 +1,10 @@
+flowchart TB
+  UX[Entity-first experiences] --> PR[Portable product runtime]
+  PR --> SS[Portable system services]
+  SS --> DC[Versioned device-service contracts]
+  DC --> DB[Isolated native backends]
+  DB --> K[Owned Rust-first microkernel]
+  K --> AP[Architecture ports]
+  AP --> BP[Board packages]
+  BP --> H[QEMU / documented boards / open phone / Pixel 9 / future ODM]
+  P9[Android/Linux evidence cells on Pixel 9 only] -. bounded adapter .-> DB

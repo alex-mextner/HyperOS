@@ -1,0 +1,56 @@
+﻿path,bytes,sha256,origin,mutable
+sources/original/HyperOS-expanded-tree/docs/AgentOS.md,23319,b645dc944065c3d5474b1b27830ebe2eb8cffdd2ca4227af3de8a4e3b88d19ba,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/Naming /naming-decision.md,3743,40a0aae37d2ed11604554fcbdcf8e6dcefd04ff00e14b18bd5da17c53b29e99c,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/Naming /naming-playbook.md,15278,2f7d32fe8011c4e216f36e37f59d6b031e8b10f0cda6656092bd4840f2aa9cee,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/Naming /naming-round3-basis-bone-rome.md,11601,29c3b94529c6c4410fb3ac4c863e0f121729347292cc5b3c4309276c8a6eb664,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/Naming /naming-round4-final.md,11368,9fe479a2f771db25da809ff80db1c1c10e36848face7db638d4f365b3c190eaa,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/Naming /naming-round5-math-philosophy.md,8358,ee03725b8a2121a126bb5fa8429cfa52fd2f4ed1019cb5f9ea3181b231b2e788,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/agent-os-wider-lens.md,18938,788c54981b0a5f4ccfd3ad0889cc3026c8303718dc1105898a8b73ad24a9e76b,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/custom-os-fuchsia-like.pdf,611810,143b529f895f6a5b73457309e9f2fe37ed147fca47cf05091a5173d512bc8b16,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/ios-vs-android-vs-agent-os.md,42906,4dcb489a30d8588ea978ed719d854f47f063852d0fd072b0b9e310c3cbf48a85,user supplied,no
+sources/original/HyperOS-expanded-tree/docs/prior-art-atlas.md,19211,685c337091f5201fc6bb9d485718d64116b4188c907c3d5faf82e14e8aca5941,user supplied,no
+sources/original/HyperOS-expanded-tree/fuchsia-os-guide-ru.pdf,287520,fc61253bbf80111ef0b0decb1b48223cde070fc5961e6b655c4f38c82bc0cdfd,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/000-system-overview.md,4625,8862066634cc73ef87c03765ad9eba26c71d17cc152dcef8ddf8c476ff5e63f8,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/001-bootstrap-toolchain.md,5207,3422a28f070a06248a141b4f4aaf0a416a45dff5df4fd50c7dd96513de421c23,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/005-source-session-assignment.md,5565,1a03ccf223ca05f66082cb98fc7a12e0ac33a4e43c3358284eb898c9f8e60740,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/010-kernel-primitives.md,3543,be16e715aa63ffb00cb0af1a0603c8d1d99d13087a1246bd493f5cf79cb6f808,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/020-capability-ipc.md,3210,d39f7ad30bf07ba26517bb8d376bc697da039dd7ca381775ad9c3c29147df892,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/030-pixel9-simulator.md,4056,27c165d860a00114fef0b9a2bf01657df12844857664743dd70ea9ba56077818,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/040-ui-composition.md,3092,bf19d2c6296c758dea3c0dedc7c5f885e8b2ae21c9af2e8b2b31a462dadf9030,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/050-real-device-operation.md,7836,00d3f98799ea0eb365321cb56f5613a81eed2c1c14d499f94ec547f8b94a58d4,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/hyperos-spec-digest-product-architecture.md,13409,44610ad1c6498e5b3b7f582c6fa1b6a08f72e384c8589b004acb9289f46c8a29,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/INDEX.md,1953,7d936f63426d03756739d8d0a0172f6ef05d40de42a695a66f0128202bf4c5bb,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/assignments/user-brief.md,2102,f81ccbb8c90f4c2127c941f85420f9e6e4de621b7a55360ba46e2e624681f65f,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/documents/hyperos-spec-digest-product-architecture.md,14044,1248b9983d344f412bc412bb2bbf76ed8dd2cef14dea511f497e314a4e0614a4,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/documents/mobile-os-idea-source.md,3536,3ff3c55b023f55d4b191ba1af39137989e90d205d89e523beda9fcc5ce7465b3,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/notes/implementation-reality-notes.md,1626,3ae31a2b1dc8256fc071cba1e9a0be70057618714b1ffad13a704e902ad1a258,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/notes/session-candidate-audit.md,1480,d9ee573cacadd3b88d9afa6d6912dc164f0563309c9d23f5fa700478496638a5,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/originals/custom-os-fuchsia-spec.pdf,611810,143b529f895f6a5b73457309e9f2fe37ed147fca47cf05091a5173d512bc8b16,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/originals/fuchsia-os-rukovodstvo-ru.pdf,288042,43d9a9368c0d8aded4c8c42be98ed3823e7f32a00e6c5628696a49a4267e0271,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/originals/svoya-mobilnaya-os.txt,3222,8d19b787b271b5eb3cccfc00e35401fe2db30a00ee5d1b3b4ff94335c81b1d78,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/tasks/session-task-plan.md,3314,95fbbcfe092cc13cf3f5996962e63c1c7c84acbb90b0ce4251f48f6542e10c42,user supplied,no
+sources/original/HyperOS-expanded-tree/implementation/user-brief.md,2102,f81ccbb8c90f4c2127c941f85420f9e6e4de621b7a55360ba46e2e624681f65f,user supplied,no
+sources/original/HyperOS-expanded.zip,1715810,9f2d0df0e6fe9e0a5ebd612694e1307ee5da37df193d5904a5e4356b1aedd470,user supplied,no
+sources/original/HyperOS-original-tree/# iOS vs Android vs HyperOS mo….txt,17286,1b0fffa6d1d168b002d28dfbe0c09250967f662e906b29a4850f28a96a5caf91,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/000-system-overview.md,4625,8862066634cc73ef87c03765ad9eba26c71d17cc152dcef8ddf8c476ff5e63f8,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/001-bootstrap-toolchain.md,5207,3422a28f070a06248a141b4f4aaf0a416a45dff5df4fd50c7dd96513de421c23,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/005-source-session-assignment.md,5565,1a03ccf223ca05f66082cb98fc7a12e0ac33a4e43c3358284eb898c9f8e60740,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/010-kernel-primitives.md,3543,be16e715aa63ffb00cb0af1a0603c8d1d99d13087a1246bd493f5cf79cb6f808,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/020-capability-ipc.md,3210,d39f7ad30bf07ba26517bb8d376bc697da039dd7ca381775ad9c3c29147df892,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/030-pixel9-simulator.md,4056,27c165d860a00114fef0b9a2bf01657df12844857664743dd70ea9ba56077818,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/040-ui-composition.md,3092,bf19d2c6296c758dea3c0dedc7c5f885e8b2ae21c9af2e8b2b31a462dadf9030,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/050-real-device-operation.md,7836,00d3f98799ea0eb365321cb56f5613a81eed2c1c14d499f94ec547f8b94a58d4,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/INDEX.md,1953,7d936f63426d03756739d8d0a0172f6ef05d40de42a695a66f0128202bf4c5bb,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/assignments/user-brief.md,2102,f81ccbb8c90f4c2127c941f85420f9e6e4de621b7a55360ba46e2e624681f65f,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/documents/hyperos-spec-digest-product-architecture.md,14044,1248b9983d344f412bc412bb2bbf76ed8dd2cef14dea511f497e314a4e0614a4,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/documents/mobile-os-idea-source.md,3536,3ff3c55b023f55d4b191ba1af39137989e90d205d89e523beda9fcc5ce7465b3,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/notes/implementation-reality-notes.md,1626,3ae31a2b1dc8256fc071cba1e9a0be70057618714b1ffad13a704e902ad1a258,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/notes/session-candidate-audit.md,1480,d9ee573cacadd3b88d9afa6d6912dc164f0563309c9d23f5fa700478496638a5,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/originals/custom-os-fuchsia-spec.pdf,611810,143b529f895f6a5b73457309e9f2fe37ed147fca47cf05091a5173d512bc8b16,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/originals/fuchsia-os-rukovodstvo-ru.pdf,288042,43d9a9368c0d8aded4c8c42be98ed3823e7f32a00e6c5628696a49a4267e0271,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/originals/svoya-mobilnaya-os.txt,3222,8d19b787b271b5eb3cccfc00e35401fe2db30a00ee5d1b3b4ff94335c81b1d78,user supplied,no
+sources/original/HyperOS-original-tree/docs/specs/source-session-claude-937d083b-4513-4dc4-84f3-578242ea1a46/tasks/session-task-plan.md,3314,95fbbcfe092cc13cf3f5996962e63c1c7c84acbb90b0ce4251f48f6542e10c42,user supplied,no
+sources/original/HyperOS-original-tree/ios-vs-android-vs-hyperos.md,14575,d1dda383e9b29d332519f4390a989c619317d9512f9018ca4ff7455acd5961d0,user supplied,no
+sources/original/HyperOS-original-tree/prior-art-atlas.md,19097,4a4b570afe51ac824a1227fb88ab03f9bb8ca9d020afc910a810c57617695c66,user supplied,no
+sources/original/HyperOS-original-tree/svoya-mobilnaya-os.md,21697,056ce7c86cfc8036ce0e0cca2d9f371f77fc190689846016e5bd67f2c866de0a,user supplied,no
+sources/original/HyperOS-original.zip,874871,cdd15b02eb952d1c0d78aa8b80f663d09b4e63cab772bc816856fe532b4f1d87,user supplied,no

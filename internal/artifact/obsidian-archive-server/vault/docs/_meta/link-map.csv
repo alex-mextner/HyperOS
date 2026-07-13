@@ -1,0 +1,143 @@
+﻿id,path,title,wiki_file
+AOS-ADR-0001,docs/decisions/ADR-0001-own-microkernel.md,ADR-0001: Build and Own the Microkernel,AOS-ADR-0001.md
+AOS-ADR-0002,docs/decisions/ADR-0002-portable-layer-contracts.md,ADR-0002: Portable Layer Contracts,AOS-ADR-0002.md
+AOS-ADR-0003,docs/decisions/ADR-0003-parallel-hardware-tracks.md,ADR-0003: Parallel Hardware Tracks,AOS-ADR-0003.md
+AOS-ADR-0004,docs/decisions/ADR-0004-pixel9-minimal-legacy.md,ADR-0004: Minimal Android/Linux Use on Pixel 9,AOS-ADR-0004.md
+AOS-ADR-0005,docs/decisions/ADR-0005-data-and-backup-classes.md,ADR-0005: Data and Backup Classes,AOS-ADR-0005.md
+AOS-ADR-0006,docs/decisions/ADR-0006-working-name-and-trademark.md,ADR-0006: Working Name and Trademark Clearance,AOS-ADR-0006.md
+AOS-ARCH-001,docs/architecture/ARCH-001-portable-system-architecture.md,Portable System Architecture,AOS-ARCH-001.md
+AOS-ARCH-002,docs/architecture/ARCH-002-microkernel.md,Microkernel Specification,AOS-ARCH-002.md
+AOS-ARCH-003,docs/architecture/ARCH-003-process-memory-scheduling.md,"Process, Memory, and Scheduling Model",AOS-ARCH-003.md
+AOS-ARCH-004,docs/architecture/ARCH-004-capabilities-and-ipc.md,Capabilities and IPC,AOS-ARCH-004.md
+AOS-ARCH-005,docs/architecture/ARCH-005-idl-api-and-versioning.md,"IDL, API, and Versioning",AOS-ARCH-005.md
+AOS-ARCH-006,docs/architecture/ARCH-006-drivers-hal-and-board-packages.md,"Drivers, HAL, and Board Packages",AOS-ARCH-006.md
+AOS-ARCH-007,docs/architecture/ARCH-007-system-services.md,System Services,AOS-ARCH-007.md
+AOS-ARCH-008,docs/architecture/ARCH-008-graphics-compositor-ui.md,"Graphics, Compositor, and UI Runtime",AOS-ARCH-008.md
+AOS-ARCH-009,docs/architecture/ARCH-009-storage-entity-history-sync.md,"Storage, Entity Graph, History, and Sync",AOS-ARCH-009.md
+AOS-ARCH-010,docs/architecture/ARCH-010-agent-runtime-and-action-safety.md,Agent Runtime and Action Safety,AOS-ARCH-010.md
+AOS-ARCH-011,docs/architecture/ARCH-011-compatibility-and-pixel-legacy-policy.md,Compatibility and Pixel 9 Legacy Policy,AOS-ARCH-011.md
+AOS-ARCH-012,docs/architecture/ARCH-012-security-threat-model.md,Security Architecture and Threat Model,AOS-ARCH-012.md
+AOS-ARCH-013,docs/architecture/ARCH-013-boot-update-recovery.md,"Boot, Update, and Recovery",AOS-ARCH-013.md
+AOS-ARCH-014,docs/architecture/ARCH-014-power-thermal-background.md,"Power, Thermal, and Background Execution",AOS-ARCH-014.md
+AOS-ARCH-015,docs/architecture/ARCH-015-build-test-observability.md,"Build, Test, Evidence, and Observability",AOS-ARCH-015.md
+AOS-ARCH-016,docs/architecture/ARCH-016-layered-portability.md,Layered Portability and Backend Conformance,AOS-ARCH-016.md
+AOS-ARCH-017,docs/architecture/ARCH-017-kernel-boot-bringup.md,Kernel Boot and Bring-up Sequence,AOS-ARCH-017.md
+AOS-ARCH-018,docs/architecture/ARCH-018-legacy-containment-replacement.md,Legacy Containment and Replacement,AOS-ARCH-018.md
+AOS-ARCH-019,docs/architecture/ARCH-019-assurance-roadmap.md,Formal Models and Assurance Roadmap,AOS-ARCH-019.md
+AOS-ARCH-020,docs/architecture/ARCH-020-device-service-contracts.md,Portable Device-Service Contracts,AOS-ARCH-020.md
+AOS-BRIEF,BRIEFING.md,Executive Briefing,AOS-BRIEF.md
+AOS-GLOSSARY,docs/glossary/GLOSSARY.md,Glossary and Alphabetical Index,AOS-GLOSSARY.md
+AOS-GOV-001,docs/governance/GOV-001-specification-lifecycle.md,Specification Lifecycle and Change Control,AOS-GOV-001.md
+AOS-GOV-002,docs/governance/GOV-002-contribution-community.md,Contribution and Community Model,AOS-GOV-002.md
+AOS-GOV-003,docs/governance/GOV-003-funding-bounties.md,"Funding, Grants, and Bounties",AOS-GOV-003.md
+AOS-GOV-004,docs/governance/GOV-004-security-disclosure.md,Security Disclosure and Response,AOS-GOV-004.md
+AOS-GOV-005,docs/governance/GOV-005-community-launch.md,Community Launch and Maintainer Formation,AOS-GOV-005.md
+AOS-GOV-006,docs/governance/GOV-006-contact-acquisition.md,Contact Acquisition and Partnership Playbook,AOS-GOV-006.md
+AOS-HW-001,docs/hardware/HW-001-target-portfolio.md,Hardware Target Portfolio,AOS-HW-001.md
+AOS-HW-002,docs/hardware/HW-002-pixel-9-track.md,Pixel 9 Quality-Hardware Track,AOS-HW-002.md
+AOS-HW-003,docs/hardware/HW-003-open-phone-track.md,Open Phone-Form-Factor Track,AOS-HW-003.md
+AOS-HW-004,docs/hardware/HW-004-documented-board-track.md,Documented Development-Board Track,AOS-HW-004.md
+AOS-HW-005,docs/hardware/HW-005-semi-open-quality-track.md,Semi-Open Quality Hardware Track,AOS-HW-005.md
+AOS-HW-006,docs/hardware/HW-006-camera-quality-program.md,Camera Quality Program,AOS-HW-006.md
+AOS-HW-007,docs/hardware/HW-007-cellular-telephony-program.md,Cellular and Telephony Program,AOS-HW-007.md
+AOS-HW-008,docs/hardware/HW-008-custom-device-odm-readiness.md,Custom Device and ODM Readiness,AOS-HW-008.md
+AOS-HW-009,docs/hardware/HW-009-lab-procurement-budget.md,"Lab, Procurement, and Initial Budget",AOS-HW-009.md
+AOS-HW-010,docs/hardware/HW-010-hardware-scorecard.md,Hardware Candidate Scorecard,AOS-HW-010.md
+AOS-HW-011,docs/hardware/HW-011-open-documented-catalog.md,"Open, Documented, and Reversible Hardware Catalog",AOS-HW-011.md
+AOS-HW-012,docs/hardware/HW-012-camera-options-quality.md,Camera Hardware Options and Quality Path,AOS-HW-012.md
+AOS-HW-013,docs/hardware/HW-013-compromise-elimination.md,Hardware Compromise Elimination Strategy,AOS-HW-013.md
+AOS-HW-014,docs/hardware/HW-014-pixel9-dossier.md,Pixel 9 Evidence and Reverse-Engineering Dossier,AOS-HW-014.md
+AOS-HW-015,docs/hardware/HW-015-lab-instrumentation.md,"Debug, Power, Camera, and Reliability Laboratory",AOS-HW-015.md
+AOS-HW-016,docs/hardware/HW-016-vendor-documentation-access.md,Vendor Documentation and Support Acquisition,AOS-HW-016.md
+AOS-INDEX,docs/INDEX.md,Documentation Index,AOS-INDEX.md
+AOS-LEGAL-001,docs/legal/LEGAL-001-legal-and-compliance.md,Legal and Compliance Framework,AOS-LEGAL-001.md
+AOS-LEGAL-002,docs/legal/LEGAL-002-clean-room-reverse-engineering.md,Clean-Room Reverse Engineering Protocol,AOS-LEGAL-002.md
+AOS-LEGAL-003,docs/legal/LEGAL-003-open-source-ip-and-provenance.md,"Open Source, IP, and Provenance Policy",AOS-LEGAL-003.md
+AOS-LEGAL-004,docs/legal/LEGAL-004-regulatory-certification.md,Regulatory and Certification Roadmap,AOS-LEGAL-004.md
+AOS-LEGAL-005,docs/legal/LEGAL-005-contact-partnership-map.md,Contact and Partnership Map,AOS-LEGAL-005.md
+AOS-LEGAL-006,docs/legal/LEGAL-006-trademark-brand-and-communications.md,"Trademark, Brand, and Public Communications",AOS-LEGAL-006.md
+AOS-LEGAL-007,docs/legal/LEGAL-007-vendor-contracts.md,"Vendor NDAs, Evaluation Agreements, and Device Contracts",AOS-LEGAL-007.md
+AOS-LEGAL-008,docs/legal/LEGAL-008-re-jurisdiction.md,Reverse-Engineering Jurisdiction Matrix,AOS-LEGAL-008.md
+AOS-LEGAL-009,docs/legal/LEGAL-009-community-ip.md,"Community Contributions, Licensing, and IP Governance",AOS-LEGAL-009.md
+AOS-LEGAL-010,docs/legal/LEGAL-010-data-ai-privacy.md,"Data Protection, Agent Processing, and Privacy Engineering",AOS-LEGAL-010.md
+AOS-LEGAL-011,docs/legal/LEGAL-011-certification-contacts.md,"Certification, Carrier, Security, and Compliance Contact Plan",AOS-LEGAL-011.md
+AOS-MANIFEST,MANIFEST.md,Release Manifest,AOS-MANIFEST.md
+AOS-META-001,docs/_meta/META-001-linking-and-publishing.md,Linking and Publishing Convention,AOS-META-001.md
+AOS-META-002,docs/_meta/META-002-document-schema.md,Document Schema and Metadata,AOS-META-002.md
+AOS-META-003,docs/_meta/META-003-source-and-claim-citations.md,Source and Claim Citation Convention,AOS-META-003.md
+AOS-META-004,docs/_meta/META-004-repository-layout.md,Repository Layout,AOS-META-004.md
+AOS-PLAN-001,docs/planning/PLAN-001-program-model.md,Program Model and Parallel Tracks,AOS-PLAN-001.md
+AOS-PLAN-002,docs/planning/PLAN-002-roadmap-and-gantt.md,Roadmap and Gantt Baseline,AOS-PLAN-002.md
+AOS-PLAN-003,docs/planning/PLAN-003-work-breakdown-structure.md,Work Breakdown Structure,AOS-PLAN-003.md
+AOS-PLAN-004,docs/planning/PLAN-004-budget-and-resourcing.md,Budget and Resourcing Model,AOS-PLAN-004.md
+AOS-PLAN-005,docs/planning/PLAN-005-risk-register.md,Risk Register,AOS-PLAN-005.md
+AOS-PLAN-006,docs/planning/PLAN-006-decision-gates.md,Decision Gates and Stop Criteria,AOS-PLAN-006.md
+AOS-PLAN-007,docs/planning/PLAN-007-first-90-days.md,First 90 Days,AOS-PLAN-007.md
+AOS-PLAN-008,docs/planning/PLAN-008-linear-github-operating-model.md,Linear and GitHub Operating Model,AOS-PLAN-008.md
+AOS-PLAN-009,docs/planning/PLAN-009-task-data-dictionary.md,Task CSV Data Dictionary and Agent Instructions,AOS-PLAN-009.md
+AOS-PLAN-010,docs/planning/PLAN-010-nine-phase-execution.md,Nine-Phase Execution Model,AOS-PLAN-010.md
+AOS-PLAN-011,docs/planning/PLAN-011-ten-volume-program.md,Ten-Volume Documentation Programme,AOS-PLAN-011.md
+AOS-PLAN-012,docs/planning/PLAN-012-cross-track-dependencies.md,Cross-Track Dependency and Convergence Map,AOS-PLAN-012.md
+AOS-PLAN-013,docs/planning/PLAN-013-first-purchases.md,"First Purchases, Spend Gates, and 90-Day Budget",AOS-PLAN-013.md
+AOS-PLAN-014,docs/planning/PLAN-014-import-runbook.md,Linear and GitHub Import and Reconciliation Runbook,AOS-PLAN-014.md
+AOS-PLAN-015,docs/planning/PLAN-015-review-cadence.md,"Review, Briefing, and Decision Cadence",AOS-PLAN-015.md
+AOS-PLAN-016,docs/planning/PLAN-016-agent-execution-brief.md,Agent Execution Brief for Documentation and Tracker Automation,AOS-PLAN-016.md
+AOS-PROD-001,docs/product/PROD-001-entity-first-shell.md,Entity-First Shell and Surfaces,AOS-PROD-001.md
+AOS-PROD-002,docs/product/PROD-002-global-history-semantic-journal.md,Global History and Semantic Journaling,AOS-PROD-002.md
+AOS-PROD-003,docs/product/PROD-003-actions-integrations-widgets.md,"Actions, Integrations, and Widgets",AOS-PROD-003.md
+AOS-PROD-004,docs/product/PROD-004-backup-migration-recovery.md,"Backup, Migration, and User Recovery",AOS-PROD-004.md
+AOS-PROD-005,docs/product/PROD-005-accessibility-localization-input.md,"Accessibility, Localization, and Input",AOS-PROD-005.md
+AOS-PROD-006,docs/product/PROD-006-stock-experiences-roadmap.md,Stock Experiences and Product Surface Roadmap,AOS-PROD-006.md
+AOS-PROD-007,docs/product/PROD-007-intentbox-flexlight.md,IntentBox and FlexLight,AOS-PROD-007.md
+AOS-PROD-008,docs/product/PROD-008-malleable-itemized-software.md,Malleable and Itemized Software Model,AOS-PROD-008.md
+AOS-PROD-009,docs/product/PROD-009-personal-data-authority.md,Personal Data Authority and Agent Access,AOS-PROD-009.md
+AOS-PROD-010,docs/product/PROD-010-transclusion-sidememo.md,"Transclusion, SideMemo, and Contextual Linking",AOS-PROD-010.md
+AOS-PROD-011,docs/product/PROD-011-action-provider-interop.md,Action and Provider Interoperability,AOS-PROD-011.md
+AOS-PROD-012,docs/product/PROD-012-product-tiers.md,Product Surface Tiers and Dependency Rules,AOS-PROD-012.md
+AOS-README,README.md,Agent OS Engineering Bible,AOS-README.md
+AOS-RES-001,docs/research/RES-001-prior-art-and-literature.md,Prior Art and Literature Atlas,AOS-RES-001.md
+AOS-RES-002,docs/research/source-register.md,Hardware Evidence and Source Register,AOS-RES-002.md
+AOS-RES-003,docs/research/claim-register.md,Claim Verification Register,AOS-RES-003.md
+AOS-RES-004,docs/research/experiment-register.md,Experiment and Evidence Catalog,AOS-RES-004.md
+AOS-RES-005,docs/research/RES-005-source-corpus-conflict-map.md,"Source Corpus, Authority, and Conflict Map",AOS-RES-005.md
+AOS-RES-006,docs/research/RES-006-agentic-localfirst-malleable.md,"Agentic Platforms, Local-First Systems, and Malleable Software",AOS-RES-006.md
+AOS-RES-007,docs/research/RES-007-microkernel-synthesis.md,Microkernel and Portability Prior-Art Synthesis,AOS-RES-007.md
+AOS-RES-008,docs/research/RES-008-subsystem-prior-art.md,"GPU, Camera, Cellular, Power, and Boot Prior Art",AOS-RES-008.md
+AOS-RES-009,docs/research/RES-009-reading-program.md,Literature and Prior-Art Reading Programme,AOS-RES-009.md
+AOS-RES-010,docs/research/RES-010-claims-to-experiments.md,Claim-to-Experiment Matrix,AOS-RES-010.md
+AOS-SRC-N001,sources/normalized/N001-agent-os-product-vision.md,Normalized Digest: Agent OS Product Vision,AOS-SRC-N001.md
+AOS-SRC-N002,sources/normalized/N002-wider-lens.md,Normalized Digest: Wider Lens Research,AOS-SRC-N002.md
+AOS-SRC-N003,sources/normalized/N003-mobile-os-comparison.md,"Normalized Digest: iOS, Android, and Agent OS Comparison",AOS-SRC-N003.md
+AOS-SRC-N004,sources/normalized/N004-prior-art-atlas.md,Normalized Digest: Product Prior Art Atlas,AOS-SRC-N004.md
+AOS-SRC-N005,sources/normalized/N005-naming-decision.md,Normalized Digest: Naming Decision,AOS-SRC-N005.md
+AOS-SRC-N006,sources/normalized/N006-custom-os-pdf-digest.md,Normalized Digest: Custom Fuchsia-Based Mobile OS Specification,AOS-SRC-N006.md
+AOS-SRC-N007,sources/normalized/N007-fuchsia-guide-digest.md,Normalized Digest: Fuchsia Developer Guide,AOS-SRC-N007.md
+AOS-SRC-N008,sources/normalized/N008-implementation-specs-digest.md,Normalized Digest: Existing Implementation Specs 000–050,AOS-SRC-N008.md
+AOS-SRC-N009,sources/normalized/N009-session-plan-digest.md,Normalized Digest: Nine-Phase Source Session Plan,AOS-SRC-N009.md
+AOS-SRC-NINDEX,sources/normalized/INDEX.md,Normalized Source Digest Index,AOS-SRC-NINDEX.md
+AOS-SRC-README,sources/README.md,Source Corpus and Provenance,AOS-SRC-README.md
+AOS-TASKS,docs/planning/TASKS.md,Canonical Task Catalog,AOS-TASKS.md
+AOS-TPL-ADR,docs/templates/ADR-TEMPLATE.md,Architecture Decision Record Template,AOS-TPL-ADR.md
+AOS-TPL-CONTACT,docs/templates/CONTACT-OUTREACH-TEMPLATE.md,Contact Outreach Template,AOS-TPL-CONTACT.md
+AOS-TPL-EVIDENCE,docs/templates/HARDWARE-EVIDENCE-TEMPLATE.md,Hardware Evidence Record Template,AOS-TPL-EVIDENCE.md
+AOS-TPL-EXPERIMENT,docs/templates/EXPERIMENT-TEMPLATE.md,Experiment Record Template,AOS-TPL-EXPERIMENT.md
+AOS-TPL-SPEC,docs/templates/SPEC-TEMPLATE.md,Specification Template,AOS-TPL-SPEC.md
+AOS-VAL-001,docs/validation/VAL-001-conformance.md,System and Backend Conformance Strategy,AOS-VAL-001.md
+AOS-VAL-002,docs/validation/VAL-002-evidence-schema.md,Evidence Bundle and Experiment Schema,AOS-VAL-002.md
+AOS-VAL-003,docs/validation/VAL-003-document-validation.md,"Documentation, Link, Source, and Task Validation",AOS-VAL-003.md
+AOS-VAL-004,docs/validation/VAL-004-hardware-test-matrix.md,Hardware Test and Quality Matrix,AOS-VAL-004.md
+AOS-VAL-005,docs/validation/VAL-005-security-assurance.md,"Security, Privacy, and Agent Assurance Plan",AOS-VAL-005.md
+AOS-VALIDATION,validation/VALIDATION.md,Release Validation Report,AOS-VALIDATION.md
+AOS-VOL-01,docs/volumes/VOL-01-foundation.md,Volume 01: Foundation,AOS-VOL-01.md
+AOS-VOL-02,docs/volumes/VOL-02-kernel-and-core-system.md,Volume 02: Kernel and Core System,AOS-VOL-02.md
+AOS-VOL-03,docs/volumes/VOL-03-hardware-and-device-program.md,Volume 03: Hardware and Device Program,AOS-VOL-03.md
+AOS-VOL-04,docs/volumes/VOL-04-research-and-prior-art.md,Volume 04: Research and Prior Art,AOS-VOL-04.md
+AOS-VOL-05,docs/volumes/VOL-05-legal-and-compliance.md,Volume 05: Legal and Compliance,AOS-VOL-05.md
+AOS-VOL-06,docs/volumes/VOL-06-programme-and-project-management.md,Volume 06: Programme and Project Management,AOS-VOL-06.md
+AOS-VOL-07,docs/volumes/VOL-07-procurement-and-laboratory.md,Volume 07: Procurement and Laboratory,AOS-VOL-07.md
+AOS-VOL-08,docs/volumes/VOL-08-contacts-partnerships-and-community.md,"Volume 08: Contacts, Partnerships, and Community",AOS-VOL-08.md
+AOS-VOL-09,docs/volumes/VOL-09-knowledge-base-and-product-vocabulary.md,Volume 09: Knowledge Base and Product Vocabulary,AOS-VOL-09.md
+AOS-VOL-10,docs/volumes/VOL-10-validation-assurance-and-publication.md,"Volume 10: Validation, Assurance, and Publication",AOS-VOL-10.md
+AOS-VSN-001,docs/vision/VSN-001-product-vision.md,Product Vision,AOS-VSN-001.md
+AOS-VSN-002,docs/vision/VSN-002-principles-and-non-goals.md,Principles and Non-Goals,AOS-VSN-002.md
+AOS-VSN-003,docs/vision/VSN-003-success-metrics.md,Success Metrics and Product Evidence,AOS-VSN-003.md

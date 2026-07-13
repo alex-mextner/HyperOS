@@ -1,0 +1,13 @@
+﻿project_key,project_name,tracks,description,status
+PRJ-01,Camera Quality Program,AOS-CAM,"Contains 29 canonical tasks across 3A, Alternative Capture, Calibration, Camera Architecture, Camera Contracts, Camera Lab, Camera Laboratory, Camera Partnerships.",Planned
+PRJ-02,Cellular and Telephony Program,AOS-CELL,"Contains 19 canonical tasks across Cellular Architecture, Cellular Lab, Cellular Service, Cellular Strategy, Certification, Connected Product, Data and SMS, GNSS.",Planned
+PRJ-03,Community and Ecosystem,AOS-COMM,"Contains 22 canonical tasks across Adviser Network, Bounties, Communications, Community Launch, Contact Acquisition, Contributors, Documentation, Expert Review.",Planned
+PRJ-04,Custom Device and ODM Readiness,AOS-ODM,"Contains 22 canonical tasks across Business Case, Camera Hardware, Carrier Board, Certification, Cost and Supply, EVT Planning, Feasibility, Future Device Contract.",Planned
+PRJ-05,Documented and Open Hardware,AOS-OPEN,"Contains 33 canonical tasks across AM62x, Camera Bench, Community Hardware, Emulation, Hardware Operations, Laboratory, Open Phone, Open Phone Research.",Planned
+PRJ-06,"Legal, IP, and Compliance",AOS-LEGAL,"Contains 21 canonical tasks across Artifact Rights, Brand, Clean Room, Contracts, Counsel, Device Research, IP Foundation, ODM Contracts.",Planned
+PRJ-07,Microkernel Core,AOS-CORE,"Contains 27 canonical tasks across AArch64, API Governance, Architecture, Assurance, Boot, Build, Capabilities, Diagnostics.",Planned
+PRJ-08,Pixel 9 Quality-Hardware Research,AOS-P9,"Contains 25 canonical tasks across Acquisition and Recovery, Boot Feasibility, Camera Feasibility, Cellular Feasibility, Containment, Essential Hardware, GPU and Power, Gate Review.",Planned
+PRJ-09,Portable Platform,AOS-PLAT,"Contains 41 canonical tasks across API Governance, Architecture, Audio, Board Packages, Boot Image, Camera Platform, Cellular Platform, Compatibility Boundaries.",Planned
+PRJ-10,Product Runtime,AOS-PROD,"Contains 32 canonical tasks across Accessibility, Actions, Agents, Backup, Context and Linking, Data Authority, Data Consistency, Entity Model.",Planned
+PRJ-11,Program Operations and Specifications,AOS-DOCS,"Contains 30 canonical tasks across Briefing, Documentation, Documentation Program, Documentation System, Editorial Assurance, Evidence Governance, Knowledge Base, Planning.",Planned
+PRJ-12,"Security, Update, and Assurance",AOS-SEC,"Contains 26 canonical tasks across Agent Assurance, Agent Security, Architecture Security, Assurance, Assurance Case, Attestation, Boot Security, Cryptography.",Planned

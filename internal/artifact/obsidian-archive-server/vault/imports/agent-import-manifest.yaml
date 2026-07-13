@@ -1,0 +1,16 @@
+schema_version: "1.0"
+canonical_task_file: "docs/planning/tasks.csv"
+identity_key: "task_id"
+reconciliation_required: true
+import_order:
+  - projects.csv
+  - milestones.csv
+  - linear-issues.csv or github-issues.csv
+  - dependencies.csv
+  - task-crosslinks.csv
+rules:
+  - Preserve task IDs as external identities.
+  - Create parents before children.
+  - Apply blocked-by and related edges after issue creation.
+  - Reconcile dates, labels, milestones, and cross-links after import.
+  - Report unresolved references and do not silently drop them.

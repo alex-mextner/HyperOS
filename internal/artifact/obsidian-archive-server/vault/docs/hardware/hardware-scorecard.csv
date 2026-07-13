@@ -1,0 +1,13 @@
+﻿candidate,role,openness,documentation,native_bringup,phone_integration,camera_quality,cellular,power,supply,partner_access,estimated_cost,primary_tradeoff,decision
+QEMU x86_64/AArch64,Kernel CI/reference model,5,5,5,1,1,1,1,5,5,5,No physical mobile hardware behavior,Mandatory
+BeaglePlay / AM62-class,First documented physical AArch64 target,5,5,4,1,2,2,3,4,4,5,Developer-board form factor and limited flagship multimedia,Primary documented-board candidate
+BeagleY-AI / AM67A-class,Vision/camera/accelerator target,5,4,3,1,3,2,3,4,4,5,Newer platform; documentation/backend effort must be verified,Camera/accelerator spike
+NXP i.MX 8M Plus EVK,Independent documented SoC/camera port,3,4,3,1,3,2,3,4,4,3,Registration/NDA/vendor BSP boundaries and non-phone package,Second-vendor feasibility
+PiSP camera bench,Documented imaging reference,4,5,1,1,4,1,3,5,4,5,"Camera reference bench, not native phone OS target",Mandatory camera bench
+PinePhone Pro,Open phone-form native port,5,4,3,4,2,3,2,3,3,4,"Older hardware, modest camera/power/performance and community maturity",Primary open-phone candidate
+Librem 5,Alternative separated-modem phone,4,4,2,4,2,3,2,2,3,2,"Cost, size, power and supply",Optional comparative target
+Pixel 9,Flagship quality oracle/native feasibility,1,1,1,5,5,5,5,4,1,3,Undocumented proprietary subsystems and legal/firmware dependencies,Bounded gated research only
+Current Fairphone model,Semi-open repairable quality route,3,3,2,5,4,5,4,4,3,3,Proprietary SoC/mobile stack and incomplete native documentation,Vendor-cooperation evaluation
+Sony Open Devices Xperia,Semi-open vendor-program route,3,3,2,5,4,5,4,3,3,2,Program/SKU/region and proprietary subsystem limits,Program feasibility evaluation
+Custom carrier board with documented SoM,Community developer device/custom-device bridge,4,4,3,3,3,4,3,3,4,2,"NRE, mechanical/RF/power integration and module lifecycle",Prepare after two native SoC ports
+Contract ODM/JDM smartphone,Future production-quality device,2,4,3,5,5,5,5,4,4,1,"Large NRE/MOQ, contract dependence and certification",Architectural readiness now; RFI after M9

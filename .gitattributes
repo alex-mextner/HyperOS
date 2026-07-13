@@ -1,3 +1,4 @@
 *.pdf binary
 docs/specs/source-session-*/assignments/* -whitespace
 docs/specs/source-session-*/originals/* -whitespace
+internal/artifact/obsidian-archive-server/vault/** -whitespace

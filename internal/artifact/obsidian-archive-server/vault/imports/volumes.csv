@@ -1,0 +1,11 @@
+﻿volume,task_count,tracks,purpose
+Volume 01,4,AOS-DOCS,Thematic documentation and execution coverage for Volume 01.
+Volume 02,66,AOS-CAM;AOS-CORE;AOS-PLAT;AOS-SEC,Thematic documentation and execution coverage for Volume 02.
+Volume 03,126,AOS-CAM;AOS-CELL;AOS-ODM;AOS-OPEN;AOS-P9;AOS-PLAT,Thematic documentation and execution coverage for Volume 03.
+Volume 04,10,AOS-COMM;AOS-DOCS;AOS-LEGAL;AOS-PROD;AOS-SEC,Thematic documentation and execution coverage for Volume 04.
+Volume 05,20,AOS-LEGAL;AOS-ODM,Thematic documentation and execution coverage for Volume 05.
+Volume 06,13,AOS-DOCS,Thematic documentation and execution coverage for Volume 06.
+Volume 07,2,AOS-CAM;AOS-DOCS,Thematic documentation and execution coverage for Volume 07.
+Volume 08,21,AOS-COMM,Thematic documentation and execution coverage for Volume 08.
+Volume 09,31,AOS-DOCS;AOS-PROD,Thematic documentation and execution coverage for Volume 09.
+Volume 10,34,AOS-DOCS;AOS-PLAT;AOS-SEC,Thematic documentation and execution coverage for Volume 10.

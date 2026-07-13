@@ -1,0 +1,328 @@
+﻿id,parent_id,title,type,project,track,phase,volume,milestone,start_date,end_date,duration_weeks,dependencies,priority,risk,status
+AOS-DOCS-000,,Program Operations and Specifications epic,Epic,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,Continuous,2026-07-13,2030-07-07,208,,P1,High,Backlog
+AOS-DOCS-001,AOS-DOCS-000,Create repository and document topology,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-13,2026-07-19,1,,P0,Low,Backlog
+AOS-DOCS-002,AOS-DOCS-000,Implement cross-reference and Wiki publishing convention,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-13,2026-07-26,2,,P0,Medium,Backlog
+AOS-DOCS-003,AOS-DOCS-000,Normalize source archive into normative specifications,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-13,2026-08-02,3,,P0,Medium,Backlog
+AOS-DOCS-004,AOS-DOCS-000,Establish source and literature register,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 04,M0,2026-07-13,2026-08-02,3,,P0,Low,Backlog
+AOS-DOCS-005,AOS-DOCS-000,Establish claim verification register,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 04,M0,2026-07-20,2026-08-02,2,,P0,Medium,Backlog
+AOS-DOCS-006,AOS-DOCS-000,Generate canonical task and import datasets,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-20,2026-08-02,2,AOS-DOCS-001,P0,Medium,Backlog
+AOS-DOCS-007,AOS-DOCS-000,Implement document and task validators,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-20,2026-08-02,2,,P0,Low,Backlog
+AOS-DOCS-008,AOS-DOCS-000,"Baseline roadmap, Gantt, milestones, and dependency model",Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-20,2026-08-02,2,,P1,Medium,Backlog
+AOS-DOCS-009,AOS-DOCS-000,"Baseline budget, procurement, risk, and gate registers",Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 07,M0,2026-07-20,2026-08-09,3,,P1,Medium,Backlog
+AOS-DOCS-010,AOS-DOCS-000,Publish executive briefing and onboarding path,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-27,2026-08-02,1,,P1,Low,Backlog
+AOS-DOCS-011,AOS-DOCS-000,Generate and review Wiki publication preview,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 10,M0,2026-07-27,2026-08-02,1,AOS-DOCS-002,P2,Low,Backlog
+AOS-DOCS-012,AOS-DOCS-000,Tag documentation baseline release,Decision,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 10,M0,2026-08-03,2026-08-09,1,AOS-DOCS-004;AOS-DOCS-005;AOS-DOCS-006;AOS-DOCS-007;AOS-DOCS-011,P0,Low,Backlog
+AOS-DOCS-013,AOS-DOCS-000,Operate monthly documentation and tracker reconciliation,Review,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,Continuous,2026-08-10,2030-07-07,204,AOS-DOCS-012,P2,Medium,Backlog
+AOS-DOCS-020,AOS-DOCS-000,Freeze and checksum the complete HyperOS/Agent OS source corpus,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 01,M0,2026-07-13,2026-07-26,2,,P0,High,Planned
+AOS-DOCS-021,AOS-DOCS-000,Normalize the product vision into English source digests,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 01,M0,2026-07-13,2026-08-02,3,,P0,Medium,Planned
+AOS-DOCS-022,AOS-DOCS-000,Publish the source authority and conflict map,Review,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 04,M0,2026-07-20,2026-08-09,3,,P0,High,Planned
+AOS-DOCS-023,AOS-DOCS-000,Define canonical cross-reference and anchor syntax,Decision,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 01,M0,2026-07-13,2026-07-26,2,,P0,Low,Planned
+AOS-DOCS-024,AOS-DOCS-000,Build the ten-volume coverage and ownership matrix,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-20,2026-08-09,3,,P0,Medium,Planned
+AOS-DOCS-025,AOS-DOCS-000,Build the Phase 0–8 execution and gate matrix,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-20,2026-08-09,3,,P0,Medium,Planned
+AOS-DOCS-026,AOS-DOCS-000,Create the specialist review responsibility matrix,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-07-27,2026-08-16,3,,P1,Medium,Planned
+AOS-DOCS-027,AOS-DOCS-000,Validate glossary definitions and exact usage references,Review,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 09,M0,2026-07-27,2026-08-23,4,,P1,Medium,Planned
+AOS-DOCS-028,AOS-DOCS-000,Generate and verify GitHub Wiki publication views,Task,Program Operations and Specifications,AOS-DOCS,Phase 8,Volume 10,M8,2027-10-04,2027-11-07,5,,P1,Medium,Planned
+AOS-DOCS-029,AOS-DOCS-000,Implement canonical task-to-spec-to-claim traceability,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 10,M0,2026-07-27,2026-08-23,4,,P0,High,Planned
+AOS-DOCS-030,AOS-DOCS-000,"Define public, internal, restricted, and counsel evidence bundles",Decision,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 10,M0,2026-07-20,2026-08-16,4,,P0,Critical,Planned
+AOS-DOCS-031,AOS-DOCS-000,Package the Foundation release with reproducible validation,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 10,M0,2026-08-03,2026-08-16,2,,P0,High,Planned
+AOS-DOCS-032,AOS-DOCS-000,Reconcile Linear and GitHub imports against canonical task IDs,Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 06,M0,2026-08-03,2026-08-23,3,,P1,Medium,Planned
+AOS-DOCS-033,AOS-DOCS-000,Create paragraph-level source citations for normalized digests,Task,Program Operations and Specifications,AOS-DOCS,Phase 1,Volume 04,M1,2026-08-03,2026-09-06,5,,P1,Medium,Planned
+AOS-DOCS-034,AOS-DOCS-000,Audit normative documents for transient narrative and unsupported absolutes,Review,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 10,M0,2026-08-03,2026-08-30,4,,P0,Medium,Planned
+AOS-DOCS-035,AOS-DOCS-000,"Publish the project briefing, first steps, budget, and purchase gates",Task,Program Operations and Specifications,AOS-DOCS,Phase 0,Volume 01,M0,2026-07-27,2026-08-16,3,,P0,Medium,Planned
+AOS-CORE-000,,Microkernel Core epic,Epic,Microkernel Core,AOS-CORE,Phase 6,Volume 02,Continuous,2026-07-13,2028-07-09,104,,P1,High,Backlog
+AOS-CORE-001,AOS-CORE-000,Freeze executable kernel semantics v0,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M1,2026-07-20,2026-08-16,4,,P0,Critical,Backlog
+AOS-CORE-002,AOS-CORE-000,Establish freestanding Rust toolchain and target definitions,Task,Microkernel Core,AOS-CORE,Phase 4,Volume 02,M1,2026-07-13,2026-08-02,3,,P0,High,Backlog
+AOS-CORE-010,AOS-CORE-000,Boot Agent OS in QEMU AArch64,Experiment,Microkernel Core,AOS-CORE,Phase 5,Volume 02,M1,2026-07-20,2026-08-23,5,,P0,High,Backlog
+AOS-CORE-011,AOS-CORE-000,Boot Agent OS in QEMU x86-64,Experiment,Microkernel Core,AOS-CORE,Phase 5,Volume 02,M1,2026-08-03,2026-09-13,6,AOS-CORE-002,P1,High,Backlog
+AOS-CORE-012,AOS-CORE-000,Define boot handoff and platform description contract,Task,Microkernel Core,AOS-CORE,Phase 2,Volume 02,M1,2026-07-27,2026-08-23,4,,P0,High,Backlog
+AOS-CORE-013,AOS-CORE-000,Implement physical memory manager,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M1,2026-08-03,2026-09-13,6,,P0,Critical,Backlog
+AOS-CORE-014,AOS-CORE-000,Implement virtual address spaces and mappings,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M1,2026-08-10,2026-10-04,8,,P0,Critical,Backlog
+AOS-CORE-015,AOS-CORE-000,Enter user mode and launch initial process,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M1,2026-08-24,2026-10-04,6,,P0,Critical,Backlog
+AOS-CORE-016,AOS-CORE-000,"Implement exceptions, interrupts, timers, and CPU-local state",Task,Microkernel Core,AOS-CORE,Phase 2,Volume 02,M1,2026-08-03,2026-09-20,7,,P0,Critical,Backlog
+AOS-CORE-017,AOS-CORE-000,Implement kernel object and lifetime framework,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-08-17,2026-09-27,6,AOS-CORE-001,P0,Critical,Backlog
+AOS-CORE-018,AOS-CORE-000,Implement process and thread lifecycle,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-08-31,2026-10-18,7,,P0,Critical,Backlog
+AOS-CORE-020,AOS-CORE-000,Prove user-process isolation and fault containment,Experiment,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M1,2026-09-14,2026-10-11,4,,P0,Critical,Backlog
+AOS-CORE-021,AOS-CORE-000,"Implement monotonic time, deadlines, and timer objects",Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-09-07,2026-10-11,5,,P1,High,Backlog
+AOS-CORE-022,AOS-CORE-000,Implement baseline scheduler,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-09-21,2026-11-22,9,,P0,Critical,Backlog
+AOS-CORE-023,AOS-CORE-000,Implement synchronization primitives and futex-like wait,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-10-05,2026-11-22,7,,P0,Critical,Backlog
+AOS-CORE-030,AOS-CORE-000,Implement capability spaces and handle operations,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-09-14,2026-11-01,7,,P0,Critical,Backlog
+AOS-CORE-031,AOS-CORE-000,Implement synchronous IPC channel and message transfer,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-10-05,2026-11-29,8,,P0,Critical,Backlog
+AOS-CORE-032,AOS-CORE-000,"Implement rights attenuation, delegation, and revocation model",Experiment,Microkernel Core,AOS-CORE,Phase 2,Volume 02,M2,2026-10-26,2026-12-20,8,,P0,Critical,Backlog
+AOS-CORE-033,AOS-CORE-000,Implement wait sets and asynchronous notification objects,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-11-02,2026-12-20,7,AOS-CORE-021,P1,High,Backlog
+AOS-CORE-034,AOS-CORE-000,"Implement jobs, quotas, and resource accounting",Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-11-02,2026-12-20,7,AOS-CORE-018;AOS-CORE-030,P0,Critical,Backlog
+AOS-CORE-035,AOS-CORE-000,Enable symmetric multiprocessing and cross-CPU coordination,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M3,2026-12-14,2027-03-21,14,AOS-CORE-022;AOS-CORE-023,P1,Critical,Backlog
+AOS-CORE-036,AOS-CORE-000,Validate IPC priority propagation and deadline behavior,Experiment,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-11-30,2027-01-17,7,AOS-CORE-022;AOS-CORE-031,P1,Critical,Backlog
+AOS-CORE-037,AOS-CORE-000,Implement IOMMU and DMA ownership primitives,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M3,2027-01-25,2027-04-18,12,AOS-CORE-014;AOS-CORE-030,P1,Critical,Backlog
+AOS-CORE-038,AOS-CORE-000,Implement structured crash records and kernel diagnostics,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2026-09-21,2026-11-01,6,AOS-CORE-016,P1,High,Backlog
+AOS-CORE-039,AOS-CORE-000,Fuzz and property-test kernel syscall surface,Task,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M3,2026-11-30,2027-04-18,20,AOS-CORE-020;AOS-CORE-038,P0,Critical,Backlog
+AOS-CORE-040,AOS-CORE-000,Freeze kernel API level 0 at capability vertical-slice gate,Decision,Microkernel Core,AOS-CORE,Phase 6,Volume 02,M2,2027-01-18,2027-01-31,2,AOS-CORE-032;AOS-CORE-033;AOS-CORE-034;AOS-CORE-036,P0,Critical,Backlog
+AOS-PLAT-000,,Portable Platform epic,Epic,Portable Platform,AOS-PLAT,Phase 6,Volume 02,Continuous,2026-07-27,2029-01-07,128,,P1,High,Backlog
+AOS-PLAT-001,AOS-PLAT-000,Catalog native platform contracts,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M1,2026-07-27,2026-08-30,5,,P0,High,Backlog
+AOS-PLAT-002,AOS-PLAT-000,Specify Agent OS IDL syntax and semantic model,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M2,2026-09-07,2026-10-18,6,AOS-PLAT-001,P0,Critical,Backlog
+AOS-PLAT-003,AOS-PLAT-000,Implement IDL compiler and Rust bindings v0,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M2,2026-10-05,2026-12-13,10,,P0,Critical,Backlog
+AOS-PLAT-004,AOS-PLAT-000,Define API-level and schema evolution tooling,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M2,2026-10-19,2026-12-06,7,AOS-PLAT-002;AOS-DOCS-007,P1,High,Backlog
+AOS-PLAT-010,AOS-PLAT-000,Implement user-space service manager,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M2,2026-11-02,2027-01-10,10,AOS-CORE-018,P0,Critical,Backlog
+AOS-PLAT-011,AOS-PLAT-000,Implement structured logging and diagnostics service,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M2,2026-11-16,2027-01-03,7,AOS-CORE-038,P0,High,Backlog
+AOS-PLAT-012,AOS-PLAT-000,Demonstrate a native API application slice without POSIX,Experiment,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M2,2026-12-14,2027-01-24,6,AOS-PLAT-003,P0,Critical,Backlog
+AOS-PLAT-013,AOS-PLAT-000,"Implement time, entropy, and identity foundation services",Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M3,2026-12-28,2027-02-28,9,AOS-CORE-021,P1,Critical,Backlog
+AOS-PLAT-014,AOS-PLAT-000,"Specify package, component, and integration manifest",Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M3,2026-12-14,2027-02-07,8,AOS-PLAT-004,P1,High,Backlog
+AOS-PLAT-015,AOS-PLAT-000,Implement initial system image and bootstrap service graph,Task,Portable Platform,AOS-PLAT,Phase 5,Volume 02,M3,2027-01-25,2027-04-04,10,AOS-PLAT-010,P0,Critical,Backlog
+AOS-PLAT-020,AOS-PLAT-000,Specify board package and hardware resource contract,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M3,2026-11-16,2027-01-17,9,AOS-PLAT-001;AOS-CORE-012,P0,Critical,Backlog
+AOS-PLAT-021,AOS-PLAT-000,Implement hardware resource broker,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M3,2026-12-28,2027-03-07,10,,P0,Critical,Backlog
+AOS-PLAT-022,AOS-PLAT-000,Implement bus discovery and device binding framework,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M3,2027-01-25,2027-04-04,10,AOS-PLAT-020,P1,High,Backlog
+AOS-PLAT-023,AOS-PLAT-000,Implement interrupt and DMA broker integration,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M3,2027-02-08,2027-04-11,9,AOS-CORE-033,P0,Critical,Backlog
+AOS-PLAT-024,AOS-PLAT-000,"Specify device lifecycle, reset, suspend, and hotplug state machine",Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M3,2027-02-08,2027-03-28,7,,P0,Critical,Backlog
+AOS-PLAT-030,AOS-PLAT-000,Demonstrate driver-domain crash and restart recovery,Experiment,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M3,2027-03-08,2027-04-18,6,AOS-PLAT-021;AOS-PLAT-010,P0,Critical,Backlog
+AOS-PLAT-031,AOS-PLAT-000,Implement block-storage service and backend contract,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M3,2027-03-08,2027-05-16,10,,P0,Critical,Backlog
+AOS-PLAT-032,AOS-PLAT-000,Implement durable object/filesystem service v0,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-04-05,2027-07-25,16,AOS-PLAT-013,P0,Critical,Backlog
+AOS-PLAT-033,AOS-PLAT-000,Implement native network service v0,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-04-05,2027-08-08,18,AOS-PLAT-010;AOS-PLAT-013,P1,Critical,Backlog
+AOS-PLAT-034,AOS-PLAT-000,Implement USB host/device service baseline,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-04-05,2027-07-11,14,AOS-PLAT-022;AOS-PLAT-024,P1,High,Backlog
+AOS-PLAT-035,AOS-PLAT-000,Implement input service and semantic event contract,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-04-19,2027-06-27,10,AOS-PLAT-013;AOS-PLAT-024,P1,High,Backlog
+AOS-PLAT-036,AOS-PLAT-000,Implement audio service and graph contract,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-05-03,2027-08-08,14,AOS-PLAT-023;AOS-PLAT-024;AOS-PLAT-013,P1,High,Backlog
+AOS-PLAT-037,AOS-PLAT-000,"Implement display, buffer, and compositor backend contract",Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M3,2027-03-22,2027-07-11,16,,P0,Critical,Backlog
+AOS-PLAT-038,AOS-PLAT-000,Specify GPU acceleration and command-submission contract,Spike,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M5,2027-05-17,2027-08-22,14,AOS-CORE-037,P2,Critical,Backlog
+AOS-PLAT-039,AOS-PLAT-000,Specify portable camera service contract,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M4,2027-02-22,2027-05-02,10,AOS-PLAT-002,P1,Critical,Backlog
+AOS-PLAT-040,AOS-PLAT-000,Specify portable cellular and telephony service contracts,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M5,2027-04-05,2027-06-27,12,AOS-PLAT-002;AOS-PLAT-024,P1,Critical,Backlog
+AOS-PLAT-041,AOS-PLAT-000,"Implement power, thermal, battery, charging, and suspend service contracts",Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M4,2027-03-22,2027-07-11,16,AOS-PLAT-013;AOS-CORE-022,P0,Critical,Backlog
+AOS-PLAT-050,AOS-PLAT-000,"Implement package installation, verification, and component registry",Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-05-17,2027-08-29,15,AOS-PLAT-014;AOS-SEC-060,P1,Critical,Backlog
+AOS-PLAT-051,AOS-PLAT-000,Implement transactional system update pipeline,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M8,2027-06-14,2027-10-17,18,AOS-PLAT-015;AOS-SEC-030,P0,Critical,Backlog
+AOS-PLAT-052,AOS-PLAT-000,Implement recovery environment and service tools,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M8,2027-06-14,2027-10-03,16,AOS-PLAT-015;AOS-PLAT-031,P0,Critical,Backlog
+AOS-PLAT-060,AOS-PLAT-000,Build unified observability and evidence export pipeline,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2027-03-08,2027-06-13,14,AOS-PLAT-011;AOS-PLAT-013,P1,High,Backlog
+AOS-PLAT-070,AOS-PLAT-000,Implement emulator hardware-service backends and fault injection,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M4,2026-12-14,2027-04-18,18,AOS-PLAT-003,P0,High,Backlog
+AOS-PLAT-080,AOS-PLAT-000,Build cross-target platform conformance suite,Experiment,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M5,2027-04-05,2027-10-31,30,AOS-OPEN-020,P0,Critical,Backlog
+AOS-PLAT-081,AOS-PLAT-000,Implement hardware trace capture and deterministic replay,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M5,2027-03-22,2027-07-11,16,AOS-LEGAL-005,P1,High,Backlog
+AOS-PLAT-090,AOS-PLAT-000,"Publish developer SDK, debugger, and service test kit",Task,Portable Platform,AOS-PLAT,Phase 6,Volume 02,M8,2027-05-17,2027-10-31,24,AOS-PLAT-003;AOS-PLAT-014;AOS-PLAT-070;AOS-CORE-038,P1,High,Backlog
+AOS-PLAT-100,AOS-PLAT-000,Specify portable device-service quality profiles,Task,Portable Platform,AOS-PLAT,Phase 2,Volume 02,M2,2026-09-07,2026-10-18,6,,P1,Medium,Planned
+AOS-PLAT-101,AOS-PLAT-000,Implement the legacy-contamination interface linter,Task,Portable Platform,AOS-PLAT,Phase 4,Volume 10,M2,2026-11-09,2027-01-03,8,,P1,Medium,Planned
+AOS-PLAT-102,AOS-PLAT-000,Build deterministic service trace replay harnesses,Task,Portable Platform,AOS-PLAT,Phase 5,Volume 10,M3,2027-01-11,2027-03-21,10,,P1,Medium,Planned
+AOS-PLAT-103,AOS-PLAT-000,Generate backend conformance tests from Agent OS IDL,Task,Portable Platform,AOS-PLAT,Phase 6,Volume 10,M4,2027-04-19,2027-07-11,12,,P1,Medium,Planned
+AOS-PLAT-104,AOS-PLAT-000,Prove two backend implementations expose identical product semantics,Experiment,Portable Platform,AOS-PLAT,Phase 7,Volume 03,M6,2027-09-06,2027-12-26,16,,P0,High,Planned
+AOS-PROD-000,,Product Runtime epic,Epic,Product Runtime,AOS-PROD,Phase 6,Volume 09,Continuous,2026-08-10,2029-07-08,152,,P1,High,Backlog
+AOS-PROD-001,AOS-PROD-000,Define entity and relationship schema v0,Task,Product Runtime,AOS-PROD,Phase 2,Volume 09,M2,2026-08-10,2026-10-04,8,AOS-DOCS-012,P0,Critical,Backlog
+AOS-PROD-002,AOS-PROD-000,Implement provenance and entity-resolution model,Task,Product Runtime,AOS-PROD,Phase 2,Volume 09,M3,2026-09-07,2026-11-01,8,,P0,High,Backlog
+AOS-PROD-003,AOS-PROD-000,Implement entity graph store and query service,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2026-11-16,2027-03-07,16,AOS-PROD-001,P0,Critical,Backlog
+AOS-PROD-010,AOS-PROD-000,Define portable action schema and effect taxonomy,Task,Product Runtime,AOS-PROD,Phase 2,Volume 09,M2,2026-09-07,2026-11-01,8,,P0,Critical,Backlog
+AOS-PROD-011,AOS-PROD-000,Implement integration and provider registry,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-02-08,2027-05-02,12,AOS-PROD-010;AOS-PLAT-014,P1,Critical,Backlog
+AOS-PROD-012,AOS-PROD-000,"Implement action executor, receipts, and compensation",Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2026-12-28,2027-04-04,14,AOS-PROD-010,P0,Critical,Backlog
+AOS-PROD-013,AOS-PROD-000,Implement provider selection and routing policy,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-03-22,2027-05-23,9,,P1,High,Backlog
+AOS-PROD-020,AOS-PROD-000,Implement append-only semantic event log,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2026-11-16,2027-02-21,14,AOS-PROD-001,P0,Critical,Backlog
+AOS-PROD-021,AOS-PROD-000,"Implement materialized views, snapshots, and deterministic replay",Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-01-11,2027-04-04,12,,P0,Critical,Backlog
+AOS-PROD-030,AOS-PROD-000,Assign consistency model to each data family,Experiment,Product Runtime,AOS-PROD,Phase 2,Volume 09,M4,2027-01-25,2027-04-04,10,AOS-PROD-001,P0,Critical,Backlog
+AOS-PROD-031,AOS-PROD-000,Implement encrypted peer/cloud sync v0,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-04-19,2027-08-22,18,AOS-PROD-030,P1,Critical,Backlog
+AOS-PROD-040,AOS-PROD-000,Prove semantic journal excludes secure/raw sensitive input,Experiment,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-02-22,2027-04-18,8,AOS-PROD-020,P0,Critical,Backlog
+AOS-PROD-041,AOS-PROD-000,"Implement history timeline, search, export, deletion, and explanations",Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-04-05,2027-06-27,12,AOS-PROD-020;AOS-PROD-021,P1,High,Backlog
+AOS-PROD-050,AOS-PROD-000,Implement entity-first shell skeleton,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-02-08,2027-06-13,18,,P0,Critical,Backlog
+AOS-PROD-051,AOS-PROD-000,Implement IntentBox draft and confirmation flow,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-04-19,2027-08-08,16,AOS-PROD-010,P1,Critical,Backlog
+AOS-PROD-052,AOS-PROD-000,Implement widget and view sandbox contracts,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-05-03,2027-08-08,14,AOS-PROD-011;AOS-CORE-034,P1,Critical,Backlog
+AOS-PROD-053,AOS-PROD-000,"Implement notification, structured clipboard, and share services",Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-05-03,2027-07-25,12,AOS-PROD-010;AOS-PROD-020,P1,High,Backlog
+AOS-PROD-060,AOS-PROD-000,Run full device migration and restore drill,Experiment,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-10-04,2027-12-12,10,AOS-PROD-031;AOS-PROD-061;AOS-PLAT-052;AOS-SEC-022,P0,Critical,Backlog
+AOS-PROD-061,AOS-PROD-000,Implement encrypted backup bundle and verified restore,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-05-17,2027-09-05,16,AOS-PROD-020;AOS-PROD-003;AOS-SEC-022,P0,Critical,Backlog
+AOS-PROD-070,AOS-PROD-000,Implement accessibility semantics and assistive-service baseline,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-03-22,2027-07-25,18,,P0,High,Backlog
+AOS-PROD-071,AOS-PROD-000,Implement localization and multimodal input framework,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-04-19,2027-08-22,18,,P1,High,Backlog
+AOS-PROD-080,AOS-PROD-000,Benchmark entity-first shell against task baselines,Experiment,Product Runtime,AOS-PROD,Phase 6,Volume 04,M8,2027-06-28,2027-09-05,10,AOS-PROD-050;AOS-PROD-041;AOS-LEGAL-008,P1,High,Backlog
+AOS-PROD-090,AOS-PROD-000,Evaluate IntentBox interpretation and confirmation safety,Experiment,Product Runtime,AOS-PROD,Phase 6,Volume 04,M8,2027-08-23,2027-10-31,10,AOS-PROD-051;AOS-LEGAL-008,P0,Critical,Backlog
+AOS-PROD-100,AOS-PROD-000,Implement and evaluate agent shadow mode,Experiment,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-07-26,2027-11-28,18,AOS-PROD-010;AOS-PROD-020;AOS-LEGAL-008,P1,Critical,Backlog
+AOS-PROD-101,AOS-PROD-000,"Implement agent budgets, approval, receipts, and bounded autonomy",Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M9,2027-11-29,2028-04-16,20,AOS-PROD-100;AOS-PROD-012;AOS-CORE-034;AOS-PLAT-041;AOS-SEC-070,P1,Critical,Backlog
+AOS-PROD-110,AOS-PROD-000,Deliver Tier 0/1 stock experience alpha,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-07-12,2028-02-06,30,AOS-PROD-050,P1,High,Backlog
+AOS-PROD-120,AOS-PROD-000,Prototype IntentBox and FlexLight with inspectable action plans,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-05-17,2027-08-08,12,,P1,Medium,Planned
+AOS-PROD-121,AOS-PROD-000,Specify action-provider manifests and adapter contracts,Task,Product Runtime,AOS-PROD,Phase 2,Volume 09,M2,2026-09-21,2026-11-15,8,,P1,Medium,Planned
+AOS-PROD-122,AOS-PROD-000,Implement semantic transclusion and SideMemo prototype,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-06-28,2027-09-19,12,,P1,Medium,Planned
+AOS-PROD-123,AOS-PROD-000,Implement personal data authority and purpose-bound views,Task,Product Runtime,AOS-PROD,Phase 6,Volume 09,M4,2027-06-14,2027-09-19,14,,P0,High,Planned
+AOS-PROD-124,AOS-PROD-000,Evaluate malleable itemized software against conventional apps,Experiment,Product Runtime,AOS-PROD,Phase 6,Volume 09,M8,2027-08-09,2027-10-31,12,,P1,Medium,Planned
+AOS-OPEN-000,,Documented and Open Hardware epic,Epic,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,Continuous,2026-07-20,2029-07-22,157,,P1,High,Backlog
+AOS-OPEN-001,AOS-OPEN-000,Implement hardware evidence and asset-control system,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M0,2026-07-13,2026-08-02,3,,P0,High,Backlog
+AOS-OPEN-002,AOS-OPEN-000,Build safe automated bring-up laboratory baseline,Purchase,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M1,2026-07-20,2026-08-30,6,,P0,High,Backlog
+AOS-OPEN-003,AOS-OPEN-000,Procure first hardware tranche with revision controls,Purchase,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M1,2026-07-20,2026-09-13,8,,P0,High,Backlog
+AOS-OPEN-010,AOS-OPEN-000,Create QEMU hardware profiles and CI target matrix,Task,Documented and Open Hardware,AOS-OPEN,Phase 5,Volume 03,M2,2026-09-21,2026-11-29,10,AOS-CORE-010;AOS-CORE-011,P0,High,Backlog
+AOS-OPEN-020,AOS-OPEN-000,Bring up Agent OS on BeaglePlay/AM625,Experiment,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M3,2026-10-19,2027-03-07,20,AOS-OPEN-002;AOS-OPEN-003;AOS-CORE-012,P0,Critical,Backlog
+AOS-OPEN-021,AOS-OPEN-000,"Enable BeaglePlay storage, USB, and network services",Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M3,2027-01-25,2027-05-02,14,,P0,Critical,Backlog
+AOS-OPEN-022,AOS-OPEN-000,Deliver first frame and input on documented board,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M3,2027-02-08,2027-05-16,14,,P0,Critical,Backlog
+AOS-OPEN-023,AOS-OPEN-000,Characterize documented-board power and thermal behavior,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M4,2027-02-22,2027-05-16,12,AOS-OPEN-002,P1,High,Backlog
+AOS-OPEN-030,AOS-OPEN-000,Port Agent OS to a second documented SoC family,Experiment,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M5,2027-03-08,2027-09-05,26,AOS-OPEN-020,P0,Critical,Backlog
+AOS-OPEN-031,AOS-OPEN-000,Evaluate and bring up BeagleY-AI/AM67A vision target,Spike,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M5,2027-02-08,2027-07-11,22,AOS-OPEN-003;AOS-PLAT-020;AOS-CAM-001,P1,High,Backlog
+AOS-OPEN-032,AOS-OPEN-000,Evaluate and bring up NXP i.MX 8M Plus target,Spike,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M5,2027-04-05,2027-09-19,24,AOS-OPEN-003;AOS-OPEN-020;AOS-CAM-001,P2,High,Backlog
+AOS-OPEN-040,AOS-OPEN-000,Build Raspberry Pi PiSP camera reference bench,Purchase,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M3,2026-10-05,2026-12-13,10,AOS-OPEN-003,P1,Medium,Backlog
+AOS-OPEN-050,AOS-OPEN-000,Reach native early boot on PinePhone Pro,Experiment,Documented and Open Hardware,AOS-OPEN,Phase 5,Volume 03,M6,2027-01-25,2027-07-11,24,AOS-OPEN-002;AOS-OPEN-003;AOS-CORE-012;AOS-PLAT-020;AOS-LEGAL-006,P1,Critical,Backlog
+AOS-OPEN-051,AOS-OPEN-000,Implement PinePhone Pro board and peripheral services,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M6,2027-05-17,2027-12-26,32,AOS-PLAT-021;AOS-PLAT-024,P1,Critical,Backlog
+AOS-OPEN-052,AOS-OPEN-000,"Validate open-phone display, touch, and audio experience",Experiment,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M6,2027-08-09,2027-10-31,12,AOS-PLAT-036;AOS-PLAT-037;AOS-PROD-050,P0,Critical,Backlog
+AOS-OPEN-053,AOS-OPEN-000,Enable open-phone Wi-Fi and Bluetooth baseline,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M6,2027-07-26,2027-12-12,20,AOS-PLAT-041,P1,Critical,Backlog
+AOS-OPEN-054,AOS-OPEN-000,Enable open-phone sensors and GNSS baseline,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M8,2027-08-09,2027-11-14,14,AOS-PLAT-013,P2,High,Backlog
+AOS-OPEN-055,AOS-OPEN-000,"Measure and improve open-phone idle, suspend, wake, charging, and thermal behavior",Experiment,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M6,2027-08-09,2027-12-26,20,AOS-PLAT-041;AOS-OPEN-002,P0,Critical,Backlog
+AOS-OPEN-056,AOS-OPEN-000,Validate open-phone update and recovery,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M8,2027-10-04,2027-12-26,12,AOS-OPEN-050;AOS-PLAT-052;AOS-SEC-041,P0,Critical,Backlog
+AOS-OPEN-057,AOS-OPEN-000,Integrate open-phone modem hardware with native cellular service,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M6,2027-08-09,2027-12-12,18,AOS-PLAT-040,P1,Critical,Backlog
+AOS-OPEN-060,AOS-OPEN-000,Design reproducible community hardware kit,Task,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M10,2028-07-10,2028-12-24,24,AOS-OPEN-030;AOS-PLAT-090;AOS-COMM-050,P1,High,Backlog
+AOS-OPEN-070,AOS-OPEN-000,Complete current Fairphone feasibility dossier,Experiment,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M5,2026-10-05,2027-01-24,16,AOS-LEGAL-006;AOS-OPEN-001;AOS-OPEN-003,P2,High,Backlog
+AOS-OPEN-071,AOS-OPEN-000,Complete Sony Open Devices feasibility dossier,Experiment,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M5,2026-10-05,2027-01-24,16,AOS-LEGAL-006;AOS-OPEN-001,P2,High,Backlog
+AOS-OPEN-072,AOS-OPEN-000,Evaluate Librem 5 as modular-radio/manufacturing prior art,Spike,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M5,2026-11-02,2027-01-10,10,AOS-OPEN-001;AOS-LEGAL-006,P3,Medium,Backlog
+AOS-OPEN-080,AOS-OPEN-000,Select maintained hardware portfolio after M6/M7,Decision,Documented and Open Hardware,AOS-OPEN,Phase 7,Volume 03,M9,2028-01-24,2028-02-13,3,AOS-OPEN-030;AOS-OPEN-055;AOS-OPEN-070;AOS-OPEN-071,P0,Critical,Backlog
+AOS-OPEN-090,AOS-OPEN-000,Produce the BeagleY-AI and AM67A target dossier,Task,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-08-10,2026-09-20,6,,P1,Medium,Planned
+AOS-OPEN-091,AOS-OPEN-000,Produce the NXP i.MX 8M Plus target and camera dossier,Task,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-08-10,2026-09-27,7,,P1,Medium,Planned
+AOS-OPEN-092,AOS-OPEN-000,Produce the RK3588 performance-target dossier,Task,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-08-17,2026-10-04,7,,P1,Medium,Planned
+AOS-OPEN-093,AOS-OPEN-000,Produce the VIM3/A311D reference dossier,Task,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-08-17,2026-09-27,6,,P1,Medium,Planned
+AOS-OPEN-094,AOS-OPEN-000,Refresh the PinePhone Pro native phone-form dossier,Review,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-08-17,2026-09-27,6,,P1,Medium,Planned
+AOS-OPEN-095,AOS-OPEN-000,Compare Fairphone and Sony as semi-open quality bridges,Review,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-08-24,2026-10-11,7,,P1,Medium,Planned
+AOS-OPEN-096,AOS-OPEN-000,Select two unrelated documented SoC families for native ports,Decision,Documented and Open Hardware,AOS-OPEN,Phase 1,Volume 03,M1,2026-09-21,2026-10-11,3,,P0,High,Planned
+AOS-CAM-000,,Camera Quality Program epic,Epic,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,Continuous,2026-09-07,2029-07-08,148,,P1,High,Backlog
+AOS-CAM-001,AOS-CAM-000,Define camera quality metrics and acceptance scenes,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M3,2026-09-07,2026-11-01,8,AOS-DOCS-004,P0,High,Backlog
+AOS-CAM-002,AOS-CAM-000,Commission camera calibration and measurement lab,Purchase,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M3,2026-09-21,2026-11-29,10,AOS-OPEN-002;AOS-OPEN-003,P1,High,Backlog
+AOS-CAM-010,AOS-CAM-000,Freeze portable camera service API level 0,Decision,Camera Quality Program,AOS-CAM,Phase 2,Volume 03,M4,2027-03-22,2027-04-18,4,AOS-CAM-001,P0,Critical,Backlog
+AOS-CAM-011,AOS-CAM-000,"Define sensor, lens, calibration, and metadata model",Task,Camera Quality Program,AOS-CAM,Phase 2,Volume 03,M5,2027-04-05,2027-05-30,8,AOS-CAM-002,P0,Critical,Backlog
+AOS-CAM-012,AOS-CAM-000,Implement camera pipeline backend framework,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-04-05,2027-06-27,12,AOS-PLAT-024,P0,Critical,Backlog
+AOS-CAM-020,AOS-CAM-000,Capture stable RAW frames on a documented camera platform,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-05-03,2027-08-22,16,,P0,Critical,Backlog
+AOS-CAM-021,AOS-CAM-000,Implement DNG/portable RAW export and provenance,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-06-14,2027-08-01,7,AOS-CAM-011,P1,High,Backlog
+AOS-CAM-022,AOS-CAM-000,Validate camera timestamp and sensor synchronization,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-06-14,2027-08-15,9,AOS-PLAT-013,P1,Critical,Backlog
+AOS-CAM-030,AOS-CAM-000,Implement reference 3A controller framework,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-06-14,2027-10-17,18,AOS-CAM-001,P0,Critical,Backlog
+AOS-CAM-031,AOS-CAM-000,Implement autofocus and lens/OIS control path,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-07-12,2027-10-24,15,AOS-CAM-011,P1,Critical,Backlog
+AOS-CAM-032,AOS-CAM-000,Tune auto-exposure and auto-white-balance baseline,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-07-26,2027-11-14,16,AOS-CAM-002,P1,Critical,Backlog
+AOS-CAM-040,AOS-CAM-000,Build per-module calibration and image pipeline baseline,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-07-12,2027-11-14,18,AOS-CAM-002,P0,Critical,Backlog
+AOS-CAM-041,AOS-CAM-000,Implement repeatable image-quality comparison harness,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-08-09,2027-11-14,14,AOS-CAM-001;AOS-CAM-002;AOS-P9-020,P1,High,Backlog
+AOS-CAM-042,AOS-CAM-000,Implement video and stabilization reference path,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M8,2027-09-06,2028-01-23,20,AOS-CAM-022;AOS-PLAT-036,P1,Critical,Backlog
+AOS-CAM-050,AOS-CAM-000,Implement published-prior-art burst fusion pipeline,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M8,2027-09-06,2028-02-20,24,AOS-CAM-022;AOS-LEGAL-004,P1,Critical,Backlog
+AOS-CAM-051,AOS-CAM-000,"Optimize low-light noise, detail, color, and motion behavior",Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M8,2027-11-29,2028-04-02,18,AOS-CAM-032,P2,High,Backlog
+AOS-CAM-052,AOS-CAM-000,Optimize HDR and local tone mapping,Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M8,2027-12-13,2028-04-02,16,AOS-CAM-041,P2,High,Backlog
+AOS-CAM-053,AOS-CAM-000,Evaluate optional ML imaging components under bounded policy,Spike,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M9,2028-01-24,2028-04-30,14,AOS-CAM-041;AOS-SEC-061,P3,High,Backlog
+AOS-CAM-060,AOS-CAM-000,Prove camera API portability across two pipelines,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M9,2027-11-15,2028-02-20,14,AOS-CAM-020;AOS-CAM-040;AOS-OPEN-032,P0,Critical,Backlog
+AOS-CAM-061,AOS-CAM-000,"Characterize and budget camera power, memory, bandwidth, and thermal cost",Task,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M9,2027-11-29,2028-03-05,14,AOS-CAM-041;AOS-PLAT-041,P1,Critical,Backlog
+AOS-CAM-070,AOS-CAM-000,Issue controlled proprietary camera-module/ISP RFI,Contact,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M9,2027-11-29,2028-04-02,18,AOS-CAM-010;AOS-CAM-001;AOS-LEGAL-011,P1,Critical,Backlog
+AOS-CAM-071,AOS-CAM-000,Evaluate vendor camera path against native reference,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M9,2028-04-17,2028-08-20,18,AOS-CAM-070;AOS-CAM-041;AOS-CAM-061;AOS-LEGAL-011,P1,Critical,Backlog
+AOS-CAM-080,AOS-CAM-000,Select camera route for quality-device track,Decision,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M9,2028-09-04,2028-09-24,3,AOS-CAM-060;AOS-CAM-061;AOS-CAM-071;AOS-P9-020,P0,Critical,Backlog
+AOS-CAM-090,AOS-CAM-000,Build a lawful Pixel-class camera quality oracle corpus,Task,Camera Quality Program,AOS-CAM,Phase 1,Volume 03,M1,2026-09-07,2026-11-01,8,,P0,High,Planned
+AOS-CAM-091,AOS-CAM-000,Bring up a documented i.MX 8M Plus RAW and metadata bench,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-06-28,2027-10-17,16,,P0,High,Planned
+AOS-CAM-092,AOS-CAM-000,"Specify portable 3A, calibration, and capture-result contracts",Task,Camera Quality Program,AOS-CAM,Phase 2,Volume 02,M2,2026-10-05,2026-12-13,10,,P0,High,Planned
+AOS-CAM-093,AOS-CAM-000,Establish a calibrated camera quality measurement laboratory,Purchase,Camera Quality Program,AOS-CAM,Phase 7,Volume 07,M5,2027-05-17,2027-07-25,10,,P1,Medium,Planned
+AOS-CAM-094,AOS-CAM-000,Evaluate industrial and UVC camera modules as compromise reducers,Experiment,Camera Quality Program,AOS-CAM,Phase 7,Volume 03,M5,2027-07-12,2027-09-19,10,,P1,Medium,Planned
+AOS-CELL-000,,Cellular and Telephony Program epic,Epic,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,Continuous,2026-10-05,2030-01-20,172,,P1,High,Backlog
+AOS-CELL-001,AOS-CELL-000,Define cellular capability decomposition and product claims,Task,Cellular and Telephony Program,AOS-CELL,Phase 1,Volume 03,M3,2026-10-05,2026-11-29,8,AOS-DOCS-005;AOS-PLAT-001,P0,Critical,Backlog
+AOS-CELL-002,AOS-CELL-000,Shortlist documented cellular modules and evaluation kits,Purchase,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M3,2026-10-19,2026-12-27,10,AOS-OPEN-003,P0,High,Backlog
+AOS-CELL-003,AOS-CELL-000,Commission lawful cellular test environment,Purchase,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M4,2026-12-28,2027-04-04,14,AOS-CELL-002;AOS-OPEN-002,P1,Critical,Backlog
+AOS-CELL-010,AOS-CELL-000,Implement native USB/serial/AT modem transport,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M5,2027-02-22,2027-05-16,12,AOS-CELL-002,P0,Critical,Backlog
+AOS-CELL-020,AOS-CELL-000,Implement native MBIM/QMI transport and control proof,Experiment,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M5,2027-04-19,2027-08-22,18,AOS-LEGAL-005,P0,Critical,Backlog
+AOS-CELL-021,AOS-CELL-000,Implement modem registration and lifecycle state machine,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M6,2027-05-31,2027-09-05,14,,P0,Critical,Backlog
+AOS-CELL-022,AOS-CELL-000,Implement physical SIM access and secret boundary,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M5,2027-04-19,2027-07-11,12,,P0,Critical,Backlog
+AOS-CELL-030,AOS-CELL-000,Deliver native cellular data and SMS prototype,Experiment,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M6,2027-07-26,2027-11-14,16,AOS-PROD-012;AOS-CELL-003,P0,Critical,Backlog
+AOS-CELL-031,AOS-CELL-000,"Harden cellular recovery, suspend, roaming, and power behavior",Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M8,2027-09-20,2027-12-26,14,AOS-CELL-021;AOS-PLAT-041,P1,Critical,Backlog
+AOS-CELL-040,AOS-CELL-000,Model and evaluate eSIM lifecycle and partner requirements,Experiment,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M9,2027-08-23,2027-12-12,16,AOS-CELL-001;AOS-CELL-022;AOS-LEGAL-010;AOS-LEGAL-011,P1,Critical,Backlog
+AOS-CELL-041,AOS-CELL-000,Integrate modem-assisted GNSS where supportable,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M8,2027-10-04,2027-12-26,12,AOS-CELL-020;AOS-PLAT-013,P3,High,Backlog
+AOS-CELL-042,AOS-CELL-000,Define emergency-calling safety boundary before voice work,Review,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M9,2027-08-23,2027-11-14,12,AOS-CELL-001;AOS-LEGAL-010;AOS-CELL-003,P0,Critical,Backlog
+AOS-CELL-050,AOS-CELL-000,Establish native voice and IMS feasibility,Experiment,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M9,2027-11-29,2028-06-11,28,AOS-CELL-042;AOS-LEGAL-010;AOS-LEGAL-011;AOS-CELL-060,P0,Critical,Backlog
+AOS-CELL-051,AOS-CELL-000,Implement telephony audio-routing contract and test path,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M9,2028-03-20,2028-07-23,18,AOS-PLAT-036,P1,Critical,Backlog
+AOS-CELL-052,AOS-CELL-000,Build cellular certification and carrier engagement plan,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M9,2028-04-03,2028-08-06,18,AOS-CELL-002;AOS-LEGAL-010,P1,Critical,Backlog
+AOS-CELL-060,AOS-CELL-000,Secure cellular module vendor and FAE relationships,Contact,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M5,2026-12-14,2027-05-30,24,AOS-LEGAL-011,P1,High,Backlog
+AOS-CELL-070,AOS-CELL-000,Integrate cellular data/SMS into open-phone product experience,Task,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M6,2027-10-04,2028-01-09,14,AOS-PROD-012;AOS-PROD-050,P0,Critical,Backlog
+AOS-CELL-080,AOS-CELL-000,Decide connected-device versus full-phone product route,Decision,Cellular and Telephony Program,AOS-CELL,Phase 7,Volume 03,M9,2028-09-04,2028-09-24,3,AOS-CELL-031;AOS-CELL-040;AOS-CELL-050;AOS-CELL-052;AOS-LEGAL-013,P0,Critical,Backlog
+AOS-P9-000,,Pixel 9 Quality-Hardware Research epic,Epic,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 1,Volume 03,Continuous,2026-07-27,2028-02-06,80,,P1,High,Backlog
+AOS-P9-001,AOS-P9-000,Complete Pixel 9 target and legal dossier,Task,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 1,Volume 03,M1,2026-07-27,2026-09-20,8,,P0,Critical,Backlog
+AOS-P9-010,AOS-P9-000,"Verify Pixel 9 acquisition, unlock, relock, and stock restore",Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M1,2026-08-10,2026-10-04,8,,P0,Critical,Backlog
+AOS-P9-011,AOS-P9-000,Automate Pixel stock recovery and artifact inventory,Task,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M1,2026-08-24,2026-10-18,8,,P0,Critical,Backlog
+AOS-P9-015,AOS-P9-000,Enforce Pixel Android/Linux dependency containment,Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2026-08-24,2028-02-06,76,AOS-DOCS-007,P0,Critical,Backlog
+AOS-P9-020,AOS-P9-000,Build Pixel 9 stock camera/display/power quality oracle,Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M5,2026-09-21,2027-01-10,16,AOS-OPEN-002,P1,High,Backlog
+AOS-P9-021,AOS-P9-000,Implement approved Pixel trace and observation tooling,Task,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M3,2026-10-05,2027-01-24,16,AOS-LEGAL-007,P1,Critical,Backlog
+AOS-P9-022,AOS-P9-000,Define temporary Pixel sidecar/proxy contracts and retirement plan,Task,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 2,Volume 03,M4,2026-11-30,2027-02-21,12,,P2,Critical,Backlog
+AOS-P9-030,AOS-P9-000,Reach lawful reproducible Agent OS early diagnostics on Pixel 9,Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-01-25,2027-06-13,20,AOS-P9-010;AOS-P9-011;AOS-LEGAL-007;AOS-CORE-012,P0,Critical,Backlog
+AOS-P9-031,AOS-P9-000,"Map Pixel boot, memory, interrupt, timer, IOMMU, and storage architecture",Spike,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 5,Volume 03,M7,2027-04-19,2027-09-05,20,AOS-CORE-037;AOS-PLAT-020,P1,Critical,Backlog
+AOS-P9-040,AOS-P9-000,"Evaluate native Pixel storage, USB, display, and touch paths",Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-05-31,2027-11-28,26,AOS-PLAT-031,P0,Critical,Backlog
+AOS-P9-041,AOS-P9-000,Evaluate native Pixel audio and basic device-service paths,Spike,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-06-28,2027-11-28,22,,P2,Critical,Backlog
+AOS-P9-050,AOS-P9-000,"Evaluate Pixel GPU, display acceleration, power, and thermal feasibility",Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-07-26,2028-01-09,24,AOS-PLAT-041;AOS-LEGAL-007,P0,Critical,Backlog
+AOS-P9-051,AOS-P9-000,Evaluate native Pixel camera feasibility and quality gap,Spike,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-08-09,2028-01-23,24,AOS-P9-020;AOS-CAM-010;AOS-LEGAL-007,P1,Critical,Backlog
+AOS-P9-052,AOS-P9-000,"Evaluate Pixel modem, radio, secure element, and verified-boot boundaries",Spike,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 5,Volume 03,M7,2027-08-23,2028-01-23,22,AOS-CELL-001;AOS-SEC-030;AOS-LEGAL-007;AOS-LEGAL-010,P2,Critical,Backlog
+AOS-P9-060,AOS-P9-000,"Audit Pixel track source, license, security, and publication readiness",Review,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-12-13,2028-02-06,8,AOS-P9-021;AOS-P9-030;AOS-P9-040,P0,Critical,Backlog
+AOS-P9-070,AOS-P9-000,"Issue Pixel 9 continue, limit, or stop gate decision",Decision,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2028-01-24,2028-02-13,3,AOS-P9-050;AOS-P9-051;AOS-P9-052;AOS-OPEN-030,P0,Critical,Backlog
+AOS-P9-080,AOS-P9-000,Retire or constrain temporary Pixel adapters after gate,Task,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M9,2028-02-07,2028-06-25,20,AOS-P9-015,P1,High,Backlog
+AOS-P9-090,AOS-P9-000,"Establish Pixel 9 stock baseline, SKU, unlock, and recovery evidence",Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 1,Volume 03,M1,2026-08-03,2026-09-13,6,,P0,Critical,Planned
+AOS-P9-091,AOS-P9-000,Produce Pixel 9 boot-chain and early-diagnostics dossier,Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-02-22,2027-05-16,12,,P0,Critical,Planned
+AOS-P9-092,AOS-P9-000,"Test Pixel 9 USB, storage, display, and touch feasibility",Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-05-17,2027-09-05,16,,P0,Critical,Planned
+AOS-P9-093,AOS-P9-000,"Test Pixel 9 GPU, IOMMU, firmware, and power feasibility",Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-07-12,2027-11-14,18,,P0,Critical,Planned
+AOS-P9-094,AOS-P9-000,Test Pixel 9 camera control and quality replacement feasibility,Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-09-06,2028-01-09,18,,P0,Critical,Planned
+AOS-P9-095,AOS-P9-000,Test Pixel 9 modem isolation and native service boundary feasibility,Experiment,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2027-10-18,2028-02-20,18,,P1,Critical,Planned
+AOS-P9-096,AOS-P9-000,"Issue the Pixel 9 continue, limit, partner, or stop decision",Decision,Pixel 9 Quality-Hardware Research,AOS-P9,Phase 7,Volume 03,M7,2028-01-10,2028-02-06,4,,P0,Critical,Planned
+AOS-SEC-000,,"Security, Update, and Assurance epic",Epic,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,Continuous,2026-07-13,2030-01-20,184,,P1,High,Backlog
+AOS-SEC-001,AOS-SEC-000,Publish system threat model v0,Task,"Security, Update, and Assurance",AOS-SEC,Phase 2,Volume 10,M0,2026-07-13,2026-08-16,5,,P0,Critical,Backlog
+AOS-SEC-002,AOS-SEC-000,Inventory trusted computing base and privilege domains,Task,"Security, Update, and Assurance",AOS-SEC,Phase 2,Volume 10,M1,2026-07-27,2026-09-06,6,,P0,Critical,Backlog
+AOS-SEC-010,AOS-SEC-000,Conduct capability and IPC security design review,Review,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M2,2026-11-30,2027-01-24,8,AOS-SEC-001,P0,Critical,Backlog
+AOS-SEC-011,AOS-SEC-000,Build continuous kernel and service fuzzing program,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,Continuous,2026-12-14,2028-06-25,80,AOS-PLAT-003,P0,Critical,Backlog
+AOS-SEC-012,AOS-SEC-000,Create formal model and assurance roadmap for kernel core,Spike,"Security, Update, and Assurance",AOS-SEC,Phase 2,Volume 10,M5,2026-12-28,2027-06-13,24,AOS-CORE-001;AOS-CORE-032,P1,Critical,Backlog
+AOS-SEC-020,AOS-SEC-000,Select and integrate cryptographic primitives and provider API,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M2,2026-10-05,2026-12-13,10,AOS-SEC-001;AOS-LEGAL-004,P0,Critical,Backlog
+AOS-SEC-021,AOS-SEC-000,Implement entropy collection and DRBG service,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M3,2026-11-30,2027-02-21,12,AOS-CORE-010,P0,Critical,Backlog
+AOS-SEC-022,AOS-SEC-000,Implement key lifecycle and data-key hierarchy,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M4,2027-01-25,2027-05-16,16,AOS-SEC-020;AOS-PROD-001,P0,Critical,Backlog
+AOS-SEC-030,AOS-SEC-000,Implement signed boot manifest and root-of-trust abstraction,Task,"Security, Update, and Assurance",AOS-SEC,Phase 4,Volume 10,M3,2026-12-28,2027-04-18,16,AOS-SEC-020;AOS-CORE-012,P0,Critical,Backlog
+AOS-SEC-031,AOS-SEC-000,Specify measured boot and attestation semantics,Task,"Security, Update, and Assurance",AOS-SEC,Phase 5,Volume 10,M8,2027-04-19,2027-07-11,12,AOS-SEC-030;AOS-LEGAL-008,P2,Critical,Backlog
+AOS-SEC-032,AOS-SEC-000,Implement anti-rollback and security-version policy,Task,"Security, Update, and Assurance",AOS-SEC,Phase 5,Volume 10,M4,2027-04-05,2027-06-27,12,AOS-PLAT-004,P0,Critical,Backlog
+AOS-SEC-040,AOS-SEC-000,Threat-model and red-team update/package pipeline,Review,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M8,2027-07-26,2027-10-17,12,AOS-SEC-032;AOS-LEGAL-012,P0,Critical,Backlog
+AOS-SEC-041,AOS-SEC-000,Threat-model and validate recovery environment,Review,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M8,2027-07-12,2027-09-19,10,AOS-SEC-030;AOS-SEC-022,P0,Critical,Backlog
+AOS-SEC-050,AOS-SEC-000,Implement data classification and privacy policy engine,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M4,2026-11-02,2027-02-07,14,AOS-SEC-001;AOS-PROD-001;AOS-PROD-010,P0,Critical,Backlog
+AOS-SEC-051,AOS-SEC-000,"Implement log, trace, crash, and evidence redaction controls",Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M4,2026-12-14,2027-03-07,12,AOS-LEGAL-004,P0,Critical,Backlog
+AOS-SEC-060,AOS-SEC-000,"Implement package signing, SBOM, provenance, and revocation security",Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M4,2026-12-28,2027-04-04,14,AOS-SEC-020;AOS-LEGAL-012,P0,Critical,Backlog
+AOS-SEC-061,AOS-SEC-000,Establish secure software and model supply-chain process,Task,"Security, Update, and Assurance",AOS-SEC,Phase 2,Volume 10,M8,2027-02-08,2027-06-27,20,AOS-DOCS-001,P1,High,Backlog
+AOS-SEC-070,AOS-SEC-000,"Red-team agent capability, data, budget, and effect containment",Experiment,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M8,2027-06-28,2027-10-31,18,AOS-PROD-010;AOS-SEC-050;AOS-CORE-034,P0,Critical,Backlog
+AOS-SEC-080,AOS-SEC-000,Commission independent kernel/platform security review,Review,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M8,2027-11-01,2028-03-19,20,AOS-CORE-040;AOS-SEC-010;AOS-SEC-040;AOS-SEC-041;AOS-PLAT-080,P0,Critical,Backlog
+AOS-SEC-090,AOS-SEC-000,Operate vulnerability disclosure and incident response,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,Continuous,2026-09-07,2030-07-07,200,,P0,Critical,Backlog
+AOS-SEC-100,AOS-SEC-000,Maintain system assurance case and claim language,Task,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 04,Continuous,2028-01-24,2030-07-07,128,AOS-SEC-012,P1,High,Backlog
+AOS-SEC-110,AOS-SEC-000,Implement source-taint and restricted-evidence policy checks,Task,"Security, Update, and Assurance",AOS-SEC,Phase 4,Volume 10,M2,2026-11-16,2027-01-10,8,,P0,High,Planned
+AOS-SEC-111,AOS-SEC-000,Build the capability and IPC executable assurance models,Task,"Security, Update, and Assurance",AOS-SEC,Phase 3,Volume 02,M2,2026-10-19,2027-01-10,12,,P0,High,Planned
+AOS-SEC-112,AOS-SEC-000,Evaluate agent shadow mode and dangerous false-action rates,Experiment,"Security, Update, and Assurance",AOS-SEC,Phase 6,Volume 10,M8,2027-08-23,2027-11-28,14,,P0,Critical,Planned
+AOS-SEC-113,AOS-SEC-000,Publish a scoped release assurance case and residual-risk register,Review,"Security, Update, and Assurance",AOS-SEC,Phase 8,Volume 10,M8,2027-11-29,2028-02-06,10,,P0,Critical,Planned
+AOS-LEGAL-000,,"Legal, IP, and Compliance epic",Epic,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,Continuous,2026-07-13,2030-01-20,184,,P1,High,Backlog
+AOS-LEGAL-001,AOS-LEGAL-000,"Establish entity, IP ownership, and confidentiality baseline",Review,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-13,2026-08-02,3,,P0,Critical,Backlog
+AOS-LEGAL-002,AOS-LEGAL-000,Conduct trademark and naming clearance,Review,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-13,2026-08-23,6,,P0,High,Backlog
+AOS-LEGAL-003,AOS-LEGAL-000,"Approve project licenses, DCO, and contribution terms",Decision,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-13,2026-08-09,4,,P0,High,Backlog
+AOS-LEGAL-004,AOS-LEGAL-000,Implement source and artifact provenance controls,Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-20,2026-08-16,4,,P0,Critical,Backlog
+AOS-LEGAL-005,AOS-LEGAL-000,Approve clean-room interoperability protocol,Decision,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-20,2026-08-23,5,,P0,Critical,Backlog
+AOS-LEGAL-006,AOS-LEGAL-000,"Review device terms, acquisition, unlock, and firmware use",Review,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 04,M1,2026-07-27,2026-09-20,8,,P0,Critical,Backlog
+AOS-LEGAL-007,AOS-LEGAL-000,Approve Pixel 9 research boundary,Decision,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 04,M1,2026-08-03,2026-09-27,8,,P0,Critical,Backlog
+AOS-LEGAL-008,AOS-LEGAL-000,"Create privacy, telemetry, biometrics, and user-study framework",Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 05,M2,2026-09-07,2026-11-29,12,AOS-LEGAL-001,P1,Critical,Backlog
+AOS-LEGAL-009,AOS-LEGAL-000,"Establish export, sanctions, cryptography, and bounty screening",Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 05,M2,2026-09-07,2026-11-15,10,AOS-LEGAL-001,P1,High,Backlog
+AOS-LEGAL-010,AOS-LEGAL-000,Build regulatory and certification market matrix,Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 3,Volume 05,M3,2026-12-28,2027-04-18,16,AOS-LEGAL-001;AOS-CELL-001,P1,High,Backlog
+AOS-LEGAL-011,AOS-LEGAL-000,"Create vendor, partner, NDA, and documentation agreement playbook",Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 2,Volume 05,M2,2026-08-10,2026-11-01,12,AOS-LEGAL-001,P1,High,Backlog
+AOS-LEGAL-012,AOS-LEGAL-000,Implement OSS/SBOM release compliance pipeline,Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 2,Volume 05,M2,2026-10-05,2026-12-27,12,AOS-LEGAL-003;AOS-LEGAL-004,P1,High,Backlog
+AOS-LEGAL-013,AOS-LEGAL-000,Obtain certification laboratory architecture consultation,Contact,"Legal, IP, and Compliance",AOS-LEGAL,Phase 8,Volume 05,M9,2027-12-27,2028-03-19,12,AOS-LEGAL-010;AOS-CELL-002,P1,High,Backlog
+AOS-LEGAL-014,AOS-LEGAL-000,Prepare ODM/JDM/EMS contract and IP responsibility matrix,Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 8,Volume 05,M11,2029-05-28,2029-11-11,24,AOS-LEGAL-011;AOS-LEGAL-010,P1,Critical,Backlog
+AOS-LEGAL-020,AOS-LEGAL-000,Retain software interoperability and reverse-engineering counsel,Contact,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-20,2026-08-23,5,,P0,Critical,Planned
+AOS-LEGAL-021,AOS-LEGAL-000,Run trademark clearance for Agent OS and naming candidates,Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-20,2026-08-30,6,,P0,High,Planned
+AOS-LEGAL-022,AOS-LEGAL-000,"Implement clean-room roles, repositories, and taint labels",Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 0,Volume 05,M0,2026-07-27,2026-08-30,5,,P0,Critical,Planned
+AOS-LEGAL-023,AOS-LEGAL-000,"Prepare vendor NDA, evaluation, source, firmware, and escrow checklist",Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 05,M1,2026-08-10,2026-09-20,6,,P1,High,Planned
+AOS-LEGAL-024,AOS-LEGAL-000,"Map EU CRA, privacy, update, and vulnerability obligations",Review,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 05,M1,2026-08-17,2026-10-04,7,,P0,High,Planned
+AOS-LEGAL-025,AOS-LEGAL-000,Build firmware and binary redistribution rights matrix,Task,"Legal, IP, and Compliance",AOS-LEGAL,Phase 1,Volume 05,M1,2026-08-17,2026-10-11,8,,P0,Critical,Planned
+AOS-COMM-000,,Community and Ecosystem epic,Epic,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,Continuous,2026-07-13,2030-01-20,184,,P1,High,Backlog
+AOS-COMM-001,AOS-COMM-000,Ratify governance and specification lifecycle,Decision,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M0,2026-07-13,2026-08-09,4,,P0,High,Backlog
+AOS-COMM-002,AOS-COMM-000,Adopt code of conduct and moderation process,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M0,2026-07-13,2026-08-02,3,,P0,High,Backlog
+AOS-COMM-003,AOS-COMM-000,"Publish contributor onboarding, DCO, and clean-room disclosure flow",Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M0,2026-07-20,2026-08-23,5,,P0,Critical,Backlog
+AOS-COMM-004,AOS-COMM-000,Publish evidence-based public roadmap and support labels,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M1,2026-08-03,2026-09-06,5,,P1,High,Backlog
+AOS-COMM-010,AOS-COMM-000,Build documentation site and Wiki publication pipeline,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M2,2026-08-10,2026-10-18,10,AOS-DOCS-011,P1,Medium,Backlog
+AOS-COMM-011,AOS-COMM-000,Create contributor starter tasks and learning paths,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M8,2027-03-22,2027-06-13,12,AOS-COMM-003;AOS-DOCS-006,P2,Medium,Backlog
+AOS-COMM-020,AOS-COMM-000,Run prioritized technical and vendor outreach campaign,Contact,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M5,2026-08-10,2027-04-18,36,AOS-DOCS-010;AOS-OPEN-001,P1,High,Backlog
+AOS-COMM-021,AOS-COMM-000,Commission capability/microkernel architecture review,Contact,Community and Ecosystem,AOS-COMM,Phase 2,Volume 08,M2,2026-11-30,2027-02-21,12,,P1,Critical,Backlog
+AOS-COMM-030,AOS-COMM-000,Create grant and sponsor pipeline,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M3,2026-08-24,2027-01-10,20,AOS-COMM-001;AOS-DOCS-009,P1,High,Backlog
+AOS-COMM-031,AOS-COMM-000,Adopt sponsorship and commercial-conflict policy,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M3,2026-08-24,2026-10-18,8,AOS-COMM-001;AOS-LEGAL-001,P1,High,Backlog
+AOS-COMM-040,AOS-COMM-000,Launch bounded bounty program after review capacity exists,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M8,2027-08-09,2027-11-28,16,AOS-COMM-011;AOS-COMM-031;AOS-LEGAL-009,P2,High,Backlog
+AOS-COMM-050,AOS-COMM-000,Establish hardware maintainer and CI specimen program,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M8,2027-06-14,2027-10-03,16,AOS-OPEN-001;AOS-COMM-001,P1,High,Backlog
+AOS-COMM-060,AOS-COMM-000,Run external community hardware-kit reproduction pilot,Experiment,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M10,2029-01-22,2029-06-10,20,AOS-OPEN-060;AOS-COMM-050;AOS-PLAT-090;AOS-COMM-010,P0,High,Backlog
+AOS-COMM-070,AOS-COMM-000,Establish translation and accessibility contribution workflow,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M8,2027-08-09,2027-12-12,18,AOS-PROD-070;AOS-COMM-003,P2,Medium,Backlog
+AOS-COMM-080,AOS-COMM-000,"Publish security contact, safe-harbor, and researcher workflow",Task,Community and Ecosystem,AOS-COMM,Phase 1,Volume 04,M2,2026-09-07,2026-10-18,6,AOS-LEGAL-001,P0,Critical,Backlog
+AOS-COMM-090,AOS-COMM-000,Prepare evidence-backed public project launch,Decision,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M2,2026-10-05,2026-12-13,10,AOS-LEGAL-002;AOS-COMM-003;AOS-COMM-004;AOS-CORE-010,P1,High,Backlog
+AOS-COMM-100,AOS-COMM-000,Build the prioritized partner and specialist contact graph,Task,Community and Ecosystem,AOS-COMM,Phase 1,Volume 08,M1,2026-08-10,2026-09-20,6,,P1,Medium,Planned
+AOS-COMM-101,AOS-COMM-000,Prepare role-specific outreach packets and evidence briefs,Task,Community and Ecosystem,AOS-COMM,Phase 1,Volume 08,M1,2026-08-24,2026-10-04,6,,P1,Medium,Planned
+AOS-COMM-102,AOS-COMM-000,"Recruit initial kernel, camera, hardware, legal, and documentation advisers",Contact,Community and Ecosystem,AOS-COMM,Phase 1,Volume 08,M2,2026-09-07,2026-11-15,10,,P0,High,Planned
+AOS-COMM-103,AOS-COMM-000,Publish an honest public roadmap and contribution boundary,Task,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M8,2027-10-18,2027-12-12,8,,P1,High,Planned
+AOS-COMM-104,AOS-COMM-000,Create university and research-lab collaboration proposals,Contact,Community and Ecosystem,AOS-COMM,Phase 8,Volume 08,M10,2027-11-15,2028-02-06,12,,P2,Medium,Planned
+AOS-ODM-000,,Custom Device and ODM Readiness epic,Epic,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,Continuous,2027-07-12,2030-07-07,156,,P1,High,Backlog
+AOS-ODM-010,AOS-ODM-000,"Define manufacturing, provisioning, calibration, and test service contracts",Experiment,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2027-07-12,2027-10-17,14,AOS-PLAT-020;AOS-SEC-022;AOS-PLAT-060;AOS-LEGAL-004,P1,Critical,Backlog
+AOS-ODM-011,AOS-ODM-000,Freeze product-hardware architecture envelope,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2027-09-06,2027-12-26,16,AOS-LEGAL-010,P1,High,Backlog
+AOS-ODM-012,AOS-ODM-000,Build preliminary product BOM and cost model,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2027-11-29,2028-03-05,14,AOS-CELL-002,P1,High,Backlog
+AOS-ODM-020,AOS-ODM-000,Select module-versus-custom subsystem strategy,Decision,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2027-12-27,2028-03-05,10,AOS-ODM-011;AOS-CELL-002,P1,Critical,Backlog
+AOS-ODM-021,AOS-ODM-000,Design custom carrier-board reference architecture,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2028-03-06,2028-08-06,22,AOS-ODM-020;AOS-OPEN-030;AOS-PLAT-041;AOS-CAM-060;AOS-CELL-030,P1,Critical,Backlog
+AOS-ODM-022,AOS-ODM-000,"Define display, enclosure, battery, charging, thermal, and repair architecture",Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2028-04-03,2028-08-20,20,AOS-ODM-011;AOS-PLAT-041;AOS-LEGAL-010,P1,Critical,Backlog
+AOS-ODM-023,AOS-ODM-000,Define production camera module and calibration architecture,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2028-10-02,2029-02-04,18,AOS-CAM-080;AOS-ODM-021;AOS-ODM-010,P1,Critical,Backlog
+AOS-ODM-024,AOS-ODM-000,Define production cellular/RF module and antenna architecture,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2028-10-02,2029-02-18,20,AOS-CELL-080;AOS-ODM-021;AOS-LEGAL-013,P1,Critical,Backlog
+AOS-ODM-025,AOS-ODM-000,Design secure provisioning and device identity lifecycle,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2028-05-15,2028-09-17,18,AOS-ODM-010;AOS-SEC-022;AOS-SEC-030;AOS-SEC-031,P0,Critical,Backlog
+AOS-ODM-026,AOS-ODM-000,Design manufacturing and field diagnostic test suite,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2028-05-29,2028-10-15,20,AOS-ODM-010;AOS-PLAT-080;AOS-PLAT-060,P1,High,Backlog
+AOS-ODM-030,AOS-ODM-000,Complete custom carrier-board feasibility study,Experiment,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2028-11-13,2029-03-04,16,AOS-ODM-012;AOS-ODM-021;AOS-ODM-022;AOS-ODM-025;AOS-ODM-026,P0,Critical,Backlog
+AOS-ODM-040,AOS-ODM-000,"Perform DFM, DFT, reliability, and serviceability review",Review,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2029-02-19,2029-06-10,16,AOS-ODM-026,P1,Critical,Backlog
+AOS-ODM-041,AOS-ODM-000,Prepare EVT developer-device build plan,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2029-05-14,2029-08-19,14,AOS-ODM-030;AOS-LEGAL-013,P1,Critical,Backlog
+AOS-ODM-050,AOS-ODM-000,Run product-hardware certification pre-scan,Review,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M10,2029-06-25,2029-09-30,14,AOS-LEGAL-013;AOS-ODM-022;AOS-ODM-024,P1,Critical,Backlog
+AOS-ODM-060,AOS-ODM-000,Prepare and issue ODM/JDM/EMS request for information,Contact,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M11,2029-07-09,2029-11-25,20,AOS-ODM-011;AOS-ODM-012;AOS-ODM-030;AOS-LEGAL-010,P1,Critical,Backlog
+AOS-ODM-061,AOS-ODM-000,Evaluate ODM/JDM/EMS responses and capability,Review,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M11,2029-10-29,2030-03-17,20,,P1,Critical,Backlog
+AOS-ODM-070,AOS-ODM-000,"Negotiate architecture, IP, tooling, security, quality, and lifecycle terms",Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,Continuous,2030-01-21,2030-07-07,24,AOS-LEGAL-014;AOS-SEC-061,P1,Critical,Backlog
+AOS-ODM-080,AOS-ODM-000,"Approve product hardware NRE, MOQ, and lifecycle business case",Decision,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,Continuous,2030-04-15,2030-06-09,8,AOS-ODM-012;AOS-ODM-050;AOS-ODM-061,P0,Critical,Backlog
+AOS-ODM-090,AOS-ODM-000,Issue production-device program gate,Decision,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,Continuous,2030-06-10,2030-06-30,3,AOS-ODM-080;AOS-PROD-110;AOS-CAM-080;AOS-CELL-080,P0,Critical,Backlog
+AOS-ODM-100,AOS-ODM-000,Freeze future custom-device interface and provisioning requirements,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 03,M9,2027-12-27,2028-03-19,12,,P1,High,Planned
+AOS-ODM-101,AOS-ODM-000,Prepare the future ODM/JDM RFI data-room schema,Task,Custom Device and ODM Readiness,AOS-ODM,Phase 7,Volume 05,M11,2028-05-15,2028-08-06,12,,P2,High,Planned

@@ -1,0 +1,1234 @@
+{
+ "generated": "2026-07-13",
+ "total": 151,
+ "categories": {
+  "AOS-BRIEF.md": 1,
+  "AOS-INDEX.md": 1,
+  "AOS-MANIFEST.md": 1,
+  "AOS-README.md": 1,
+  "architecture": 22,
+  "decisions": 7,
+  "glossary": 1,
+  "governance": 6,
+  "hardware": 20,
+  "legal": 13,
+  "meta": 4,
+  "planning": 19,
+  "product": 15,
+  "research": 16,
+  "templates": 5,
+  "validation": 6,
+  "vision": 3,
+  "volumes": 10
+ },
+ "docs": [
+  {
+   "id": "AOS-BRIEF",
+   "title": "Executive Briefing",
+   "status": "Research-backed normative foundation",
+   "summary": "Decision-oriented summary of the product thesis, owned microkernel, portable layers, hardware routes, legal controls, first actions, purchases, budget, and evidence gates.",
+   "category": "AOS-BRIEF.md",
+   "path": "engineering-bible/docs/AOS-BRIEF.md"
+  },
+  {
+   "id": "AOS-INDEX",
+   "title": "Documentation Index",
+   "status": "Research-backed normative foundation",
+   "summary": "Wiki-style map of all canonical documents, ten volumes, source digests, datasets, and recommended reading paths.",
+   "category": "AOS-INDEX.md",
+   "path": "engineering-bible/docs/AOS-INDEX.md"
+  },
+  {
+   "id": "AOS-MANIFEST",
+   "title": "Release Manifest",
+   "status": "Foundation release manifest",
+   "summary": "Inventory, validation state, reproducibility rules, canonical datasets, and release boundaries for the Agent OS Engineering Bible.",
+   "category": "AOS-MANIFEST.md",
+   "path": "engineering-bible/docs/AOS-MANIFEST.md"
+  },
+  {
+   "id": "AOS-README",
+   "title": "Agent OS Engineering Bible",
+   "status": "Foundation release",
+   "summary": "Cross-linked architecture, hardware, research, legal, planning, glossary, evidence, and import package for an owned portable microkernel system.",
+   "category": "AOS-README.md",
+   "path": "engineering-bible/docs/AOS-README.md"
+  },
+  {
+   "id": "AOS-ARCH-001",
+   "title": "Portable System Architecture",
+   "status": "Normative planning baseline",
+   "summary": "The normative layered architecture, portability boundaries, dependency rules, degradation model, and future-device readiness.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-001.md"
+  },
+  {
+   "id": "AOS-ARCH-002",
+   "title": "Microkernel Specification",
+   "status": "Normative planning baseline",
+   "summary": "Scope, object model, syscall discipline, unsafe policy, fault behavior, determinism, and acceptance for the original microkernel.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-002.md"
+  },
+  {
+   "id": "AOS-ARCH-003",
+   "title": "Process, Memory, and Scheduling Model",
+   "status": "Normative foundation",
+   "summary": "Process, Memory, and Scheduling Model: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-003.md"
+  },
+  {
+   "id": "AOS-ARCH-004",
+   "title": "Capabilities and IPC",
+   "status": "Normative foundation",
+   "summary": "Capabilities and IPC: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-004.md"
+  },
+  {
+   "id": "AOS-ARCH-005",
+   "title": "IDL, API, and Versioning",
+   "status": "Normative foundation",
+   "summary": "IDL, API, and Versioning: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-005.md"
+  },
+  {
+   "id": "AOS-ARCH-006",
+   "title": "Drivers, HAL, and Board Packages",
+   "status": "Normative planning baseline",
+   "summary": "Isolated driver domains, board packages, hardware-service contracts, DMA/interrupt security, firmware provenance, and lifecycle behavior.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-006.md"
+  },
+  {
+   "id": "AOS-ARCH-007",
+   "title": "System Services",
+   "status": "Normative foundation",
+   "summary": "System Services: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-007.md"
+  },
+  {
+   "id": "AOS-ARCH-008",
+   "title": "Graphics, Compositor, and UI Runtime",
+   "status": "Normative foundation",
+   "summary": "Graphics, Compositor, and UI Runtime: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-008.md"
+  },
+  {
+   "id": "AOS-ARCH-009",
+   "title": "Storage, Entity Graph, History, and Sync",
+   "status": "Normative foundation",
+   "summary": "Storage, Entity Graph, History, and Sync: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-009.md"
+  },
+  {
+   "id": "AOS-ARCH-010",
+   "title": "Agent Runtime and Action Safety",
+   "status": "Normative foundation",
+   "summary": "Agent Runtime and Action Safety: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-010.md"
+  },
+  {
+   "id": "AOS-ARCH-011",
+   "title": "Compatibility and Pixel 9 Legacy Policy",
+   "status": "Normative planning baseline",
+   "summary": "Strict quarantine of Android/Linux to Pixel 9 research, temporary sidecar rules, trace replay, retirement records, and future compatibility admission.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-011.md"
+  },
+  {
+   "id": "AOS-ARCH-012",
+   "title": "Security Architecture and Threat Model",
+   "status": "Normative foundation",
+   "summary": "Security Architecture and Threat Model: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-012.md"
+  },
+  {
+   "id": "AOS-ARCH-013",
+   "title": "Boot, Update, and Recovery",
+   "status": "Normative foundation",
+   "summary": "Boot, Update, and Recovery: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-013.md"
+  },
+  {
+   "id": "AOS-ARCH-014",
+   "title": "Power, Thermal, and Background Execution",
+   "status": "Normative foundation",
+   "summary": "Power, Thermal, and Background Execution: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-014.md"
+  },
+  {
+   "id": "AOS-ARCH-015",
+   "title": "Build, Test, Evidence, and Observability",
+   "status": "Normative foundation",
+   "summary": "Build, Test, Evidence, and Observability: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-015.md"
+  },
+  {
+   "id": "AOS-ARCH-016",
+   "title": "Layered Portability and Backend Conformance",
+   "status": "Normative foundation",
+   "summary": "Layered Portability and Backend Conformance: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-016.md"
+  },
+  {
+   "id": "AOS-ARCH-017",
+   "title": "Kernel Boot and Bring-up Sequence",
+   "status": "Normative foundation",
+   "summary": "Kernel Boot and Bring-up Sequence: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-017.md"
+  },
+  {
+   "id": "AOS-ARCH-018",
+   "title": "Legacy Containment and Replacement",
+   "status": "Normative foundation",
+   "summary": "Legacy Containment and Replacement: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-018.md"
+  },
+  {
+   "id": "AOS-ARCH-019",
+   "title": "Formal Models and Assurance Roadmap",
+   "status": "Normative foundation",
+   "summary": "Formal Models and Assurance Roadmap: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-019.md"
+  },
+  {
+   "id": "AOS-ARCH-020",
+   "title": "Portable Device-Service Contracts",
+   "status": "Normative foundation",
+   "summary": "Portable Device-Service Contracts: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/AOS-ARCH-020.md"
+  },
+  {
+   "id": "AOS-ARCH-021",
+   "title": "Layered Boot and Instant Modes",
+   "status": "Normative planning baseline",
+   "summary": "Founder-directed architecture: the OS boots in layers, and the device can (re)boot near-instantly into primitive single-purpose modes — typewriter, reader, calculator, remote — as both a battery strategy and a focus feature.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/ARCH-021-layered-boot-and-instant-modes.md"
+  },
+  {
+   "id": "AOS-ARCH-022",
+   "title": "Layer Manifest Format and Capability Model",
+   "status": "Normative planning baseline",
+   "summary": "The concrete format that makes ARCH-021 layered boot and instant modes buildable: a declarative layer/mode manifest and the capability model that enforces radio-less modes and scoped agent authority by construction.",
+   "category": "architecture",
+   "path": "engineering-bible/docs/architecture/ARCH-022-layer-manifest-and-capabilities.md"
+  },
+  {
+   "id": "AOS-ADR-0007",
+   "title": "ADR-0007: Archive the Pixel 9 Native Route",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0007: Archive the Pixel 9 Native Route: the Pixel 9 native-feasibility track is moved to archived status with documentation retained, quarantine rules unchanged, and explicit reactivation conditions.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/ADR-0007-archive-pixel-9-route.md"
+  },
+  {
+   "id": "AOS-ADR-0001",
+   "title": "ADR-0001: Build and Own the Microkernel",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0001: Build and Own the Microkernel: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/AOS-ADR-0001.md"
+  },
+  {
+   "id": "AOS-ADR-0002",
+   "title": "ADR-0002: Portable Layer Contracts",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0002: Portable Layer Contracts: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/AOS-ADR-0002.md"
+  },
+  {
+   "id": "AOS-ADR-0003",
+   "title": "ADR-0003: Parallel Hardware Tracks",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0003: Parallel Hardware Tracks: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/AOS-ADR-0003.md"
+  },
+  {
+   "id": "AOS-ADR-0004",
+   "title": "ADR-0004: Minimal Android/Linux Use on Pixel 9",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0004: Minimal Android/Linux Use on Pixel 9: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/AOS-ADR-0004.md"
+  },
+  {
+   "id": "AOS-ADR-0005",
+   "title": "ADR-0005: Data and Backup Classes",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0005: Data and Backup Classes: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/AOS-ADR-0005.md"
+  },
+  {
+   "id": "AOS-ADR-0006",
+   "title": "ADR-0006: Working Name and Trademark Clearance",
+   "status": "Accepted foundation decision",
+   "summary": "ADR-0006: Working Name and Trademark Clearance: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "decisions",
+   "path": "engineering-bible/docs/decisions/AOS-ADR-0006.md"
+  },
+  {
+   "id": "AOS-GLOSSARY",
+   "title": "Glossary and Alphabetical Index",
+   "status": "Normative planning baseline",
+   "summary": "Detailed definitions, significance, examples, and exact specification references for 229 specialized Agent OS terms.",
+   "category": "glossary",
+   "path": "engineering-bible/docs/glossary/AOS-GLOSSARY.md"
+  },
+  {
+   "id": "AOS-GOV-001",
+   "title": "Specification Lifecycle and Change Control",
+   "status": "Normative foundation",
+   "summary": "Specification Lifecycle and Change Control: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "governance",
+   "path": "engineering-bible/docs/governance/AOS-GOV-001.md"
+  },
+  {
+   "id": "AOS-GOV-002",
+   "title": "Contribution and Community Model",
+   "status": "Normative foundation",
+   "summary": "Contribution and Community Model: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "governance",
+   "path": "engineering-bible/docs/governance/AOS-GOV-002.md"
+  },
+  {
+   "id": "AOS-GOV-003",
+   "title": "Funding, Grants, and Bounties",
+   "status": "Normative foundation",
+   "summary": "Funding, Grants, and Bounties: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "governance",
+   "path": "engineering-bible/docs/governance/AOS-GOV-003.md"
+  },
+  {
+   "id": "AOS-GOV-004",
+   "title": "Security Disclosure and Response",
+   "status": "Normative foundation",
+   "summary": "Security Disclosure and Response: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "governance",
+   "path": "engineering-bible/docs/governance/AOS-GOV-004.md"
+  },
+  {
+   "id": "AOS-GOV-005",
+   "title": "Community Launch and Maintainer Formation",
+   "status": "Normative foundation",
+   "summary": "Community Launch and Maintainer Formation: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "governance",
+   "path": "engineering-bible/docs/governance/AOS-GOV-005.md"
+  },
+  {
+   "id": "AOS-GOV-006",
+   "title": "Contact Acquisition and Partnership Playbook",
+   "status": "Normative foundation",
+   "summary": "Contact Acquisition and Partnership Playbook: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "governance",
+   "path": "engineering-bible/docs/governance/AOS-GOV-006.md"
+  },
+  {
+   "id": "AOS-HW-001",
+   "title": "Hardware Target Portfolio",
+   "status": "Normative planning baseline",
+   "summary": "Parallel hardware target strategy, admission criteria, scoring dimensions, minimum lab portfolio, and retirement rules.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-001.md"
+  },
+  {
+   "id": "AOS-HW-002",
+   "title": "Pixel 9 Quality-Hardware Track",
+   "status": "Normative foundation",
+   "summary": "Pixel 9 Quality-Hardware Track: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-002.md"
+  },
+  {
+   "id": "AOS-HW-003",
+   "title": "Open Phone-Form-Factor Track",
+   "status": "Normative foundation",
+   "summary": "Open Phone-Form-Factor Track: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-003.md"
+  },
+  {
+   "id": "AOS-HW-004",
+   "title": "Documented Development-Board Track",
+   "status": "Normative foundation",
+   "summary": "Documented Development-Board Track: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-004.md"
+  },
+  {
+   "id": "AOS-HW-005",
+   "title": "Semi-Open Quality Hardware Track",
+   "status": "Normative foundation",
+   "summary": "Semi-Open Quality Hardware Track: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-005.md"
+  },
+  {
+   "id": "AOS-HW-006",
+   "title": "Camera Quality Program",
+   "status": "Normative planning baseline",
+   "summary": "Multi-path program for achieving good camera quality without coupling product architecture to a proprietary smartphone ISP.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-006.md"
+  },
+  {
+   "id": "AOS-HW-007",
+   "title": "Cellular and Telephony Program",
+   "status": "Normative foundation",
+   "summary": "Cellular and Telephony Program: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-007.md"
+  },
+  {
+   "id": "AOS-HW-008",
+   "title": "Custom Device and ODM Readiness",
+   "status": "Normative planning baseline",
+   "summary": "Architecture, evidence, commercial package, contracts, and prototype stages required before a future ODM or contract-manufactured device.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-008.md"
+  },
+  {
+   "id": "AOS-HW-009",
+   "title": "Lab, Procurement, and Initial Budget",
+   "status": "Normative planning baseline",
+   "summary": "Initial laboratory, hardware, legal, and specialist procurement waves with budget ranges, safety controls, and inventory requirements.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-009.md"
+  },
+  {
+   "id": "AOS-HW-010",
+   "title": "Hardware Candidate Scorecard",
+   "status": "Normative foundation",
+   "summary": "Hardware Candidate Scorecard: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-010.md"
+  },
+  {
+   "id": "AOS-HW-011",
+   "title": "Open, Documented, and Reversible Hardware Catalog",
+   "status": "Normative foundation",
+   "summary": "Open, Documented, and Reversible Hardware Catalog: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-011.md"
+  },
+  {
+   "id": "AOS-HW-012",
+   "title": "Camera Hardware Options and Quality Path",
+   "status": "Normative foundation",
+   "summary": "Camera Hardware Options and Quality Path: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-012.md"
+  },
+  {
+   "id": "AOS-HW-013",
+   "title": "Hardware Compromise Elimination Strategy",
+   "status": "Normative foundation",
+   "summary": "Hardware Compromise Elimination Strategy: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-013.md"
+  },
+  {
+   "id": "AOS-HW-014",
+   "title": "Pixel 9 Evidence and Reverse-Engineering Dossier",
+   "status": "Normative foundation",
+   "summary": "Pixel 9 Evidence and Reverse-Engineering Dossier: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-014.md"
+  },
+  {
+   "id": "AOS-HW-015",
+   "title": "Debug, Power, Camera, and Reliability Laboratory",
+   "status": "Normative foundation",
+   "summary": "Debug, Power, Camera, and Reliability Laboratory: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-015.md"
+  },
+  {
+   "id": "AOS-HW-016",
+   "title": "Vendor Documentation and Support Acquisition",
+   "status": "Normative foundation",
+   "summary": "Vendor Documentation and Support Acquisition: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/AOS-HW-016.md"
+  },
+  {
+   "id": "AOS-HW-017",
+   "title": "Interim Demo Device: Module Brick",
+   "status": "Normative planning baseline",
+   "summary": "A pocketable demonstration handheld assembled from documented, pre-certified modules: reference architecture, baseline BOM, cellular and camera strategy, demo-claim limits, and intake tasks.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/HW-017-interim-demo-device.md"
+  },
+  {
+   "id": "AOS-HW-018",
+   "title": "Demo Brick V1 Configuration Baseline",
+   "status": "Normative planning baseline",
+   "summary": "Frozen V1 configuration for the interim demo brick: CM5 compute with native (non-Linux) OS independence notes, portless industrial design, soldered consumer eUICC (true eSIM), NVMe storage expansion, SurfaceVolume gesture control, Taptic-cl",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/HW-018-demo-brick-v1-configuration.md"
+  },
+  {
+   "id": "AOS-HW-018-BOM",
+   "title": "Demo Brick V1 — Bill of Materials (Appendix A to AOS-HW-018)",
+   "status": "Working purchase list (pre-freeze)",
+   "summary": "Store-grouped shopping list for one Demo Brick V1 unit: five stores cover everything. Observed prices and direct links (2026-07); frozen SKUs recorded by AOS-DEMO-001.",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/HW-018A-demo-brick-bom.md"
+  },
+  {
+   "id": "AOS-HW-019",
+   "title": "Power Architecture and Ultra-Low-Power Standby",
+   "status": "Normative planning baseline",
+   "summary": "Heterogeneous power architecture for the demo brick: an always-on microcontroller domain (always-on island) that hard-gates the application processor and radios, enabling days-long standby and a competitive energy story rather than the hour",
+   "category": "hardware",
+   "path": "engineering-bible/docs/hardware/HW-019-power-architecture-standby.md"
+  },
+  {
+   "id": "AOS-LEGAL-001",
+   "title": "Legal and Compliance Framework",
+   "status": "Counsel-review engineering framework",
+   "summary": "Legal and Compliance Framework: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-001.md"
+  },
+  {
+   "id": "AOS-LEGAL-002",
+   "title": "Clean-Room Reverse Engineering Protocol",
+   "status": "Counsel-review engineering framework",
+   "summary": "Clean-Room Reverse Engineering Protocol: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-002.md"
+  },
+  {
+   "id": "AOS-LEGAL-003",
+   "title": "Open Source, IP, and Provenance Policy",
+   "status": "Counsel-review engineering framework",
+   "summary": "Open Source, IP, and Provenance Policy: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-003.md"
+  },
+  {
+   "id": "AOS-LEGAL-004",
+   "title": "Regulatory and Certification Roadmap",
+   "status": "Counsel-review engineering framework",
+   "summary": "Regulatory and Certification Roadmap: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-004.md"
+  },
+  {
+   "id": "AOS-LEGAL-005",
+   "title": "Contact and Partnership Map",
+   "status": "Normative planning baseline",
+   "summary": "Prioritized counsel, silicon, phone, camera, modem, lab, assurance, funding, and ODM contact plan with precise asks.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-005.md"
+  },
+  {
+   "id": "AOS-LEGAL-006",
+   "title": "Trademark, Brand, and Public Communications",
+   "status": "Counsel-review engineering framework",
+   "summary": "Trademark, Brand, and Public Communications: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-006.md"
+  },
+  {
+   "id": "AOS-LEGAL-007",
+   "title": "Vendor NDAs, Evaluation Agreements, and Device Contracts",
+   "status": "Counsel-review engineering framework",
+   "summary": "Vendor NDAs, Evaluation Agreements, and Device Contracts: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-007.md"
+  },
+  {
+   "id": "AOS-LEGAL-008",
+   "title": "Reverse-Engineering Jurisdiction Matrix",
+   "status": "Counsel-review engineering framework",
+   "summary": "Reverse-Engineering Jurisdiction Matrix: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-008.md"
+  },
+  {
+   "id": "AOS-LEGAL-009",
+   "title": "Community Contributions, Licensing, and IP Governance",
+   "status": "Counsel-review engineering framework",
+   "summary": "Community Contributions, Licensing, and IP Governance: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-009.md"
+  },
+  {
+   "id": "AOS-LEGAL-010",
+   "title": "Data Protection, Agent Processing, and Privacy Engineering",
+   "status": "Counsel-review engineering framework",
+   "summary": "Data Protection, Agent Processing, and Privacy Engineering: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-010.md"
+  },
+  {
+   "id": "AOS-LEGAL-011",
+   "title": "Certification, Carrier, Security, and Compliance Contact Plan",
+   "status": "Counsel-review engineering framework",
+   "summary": "Certification, Carrier, Security, and Compliance Contact Plan: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/AOS-LEGAL-011.md"
+  },
+  {
+   "id": "AOS-LEGAL-012",
+   "title": "Prototype Travel and Border Considerations",
+   "status": "Normative planning baseline",
+   "summary": "Practical and regulatory considerations for carrying the demo brick across borders: security screening, radio and encryption regimes, IMEI registration, data-at-border hygiene, and the travel kit protocol. Not legal advice.",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/LEGAL-012-prototype-travel-and-borders.md"
+  },
+  {
+   "id": "AOS-LEGAL-013",
+   "title": "Consolidated Threat Model and Security Posture",
+   "status": "Normative planning baseline",
+   "summary": "One place that states what the demo brick and AgentOS defend against, what they explicitly do not, the honest limits of the CM5 platform (closed boot ROM, no verified boot), and the security properties that hold anyway — so 'privacy-first' ",
+   "category": "legal",
+   "path": "engineering-bible/docs/legal/LEGAL-013-threat-model-and-security.md"
+  },
+  {
+   "id": "AOS-META-001",
+   "title": "Linking and Publishing Convention",
+   "status": "Normative foundation",
+   "summary": "Linking and Publishing Convention: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "meta",
+   "path": "engineering-bible/docs/meta/AOS-META-001.md"
+  },
+  {
+   "id": "AOS-META-002",
+   "title": "Document Schema and Metadata",
+   "status": "Normative foundation",
+   "summary": "Document Schema and Metadata: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "meta",
+   "path": "engineering-bible/docs/meta/AOS-META-002.md"
+  },
+  {
+   "id": "AOS-META-003",
+   "title": "Source and Claim Citation Convention",
+   "status": "Normative foundation",
+   "summary": "Source and Claim Citation Convention: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "meta",
+   "path": "engineering-bible/docs/meta/AOS-META-003.md"
+  },
+  {
+   "id": "AOS-META-004",
+   "title": "Repository Layout",
+   "status": "Normative foundation",
+   "summary": "Repository Layout: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "meta",
+   "path": "engineering-bible/docs/meta/AOS-META-004.md"
+  },
+  {
+   "id": "AOS-PLAN-001",
+   "title": "Program Model and Parallel Tracks",
+   "status": "Normative foundation",
+   "summary": "Program Model and Parallel Tracks: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-001.md"
+  },
+  {
+   "id": "AOS-PLAN-002",
+   "title": "Roadmap and Gantt Baseline",
+   "status": "Normative planning baseline",
+   "summary": "A multi-year, parallel, evidence-gated roadmap with Mermaid Gantt and milestone exit evidence.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-002.md"
+  },
+  {
+   "id": "AOS-PLAN-003",
+   "title": "Work Breakdown Structure",
+   "status": "Normative foundation",
+   "summary": "Work Breakdown Structure: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-003.md"
+  },
+  {
+   "id": "AOS-PLAN-004",
+   "title": "Budget and Resourcing Model",
+   "status": "Normative foundation",
+   "summary": "Budget and Resourcing Model: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-004.md"
+  },
+  {
+   "id": "AOS-PLAN-005",
+   "title": "Risk Register",
+   "status": "Normative foundation",
+   "summary": "Risk Register: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-005.md"
+  },
+  {
+   "id": "AOS-PLAN-006",
+   "title": "Decision Gates and Stop Criteria",
+   "status": "Normative foundation",
+   "summary": "Decision Gates and Stop Criteria: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-006.md"
+  },
+  {
+   "id": "AOS-PLAN-007",
+   "title": "First 90 Days",
+   "status": "Normative planning baseline",
+   "summary": "Concrete first-week, first-month, 30–60 day, and 60–90 day execution sequence and exit evidence.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-007.md"
+  },
+  {
+   "id": "AOS-PLAN-008",
+   "title": "GitHub Operating Model",
+   "status": "Normative planning baseline",
+   "summary": "GitHub as the single public source of truth (Issues + Project v2) with a reproducible import/reconciliation process. Linear is not used.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-008.md"
+  },
+  {
+   "id": "AOS-PLAN-009",
+   "title": "Task CSV Data Dictionary and Agent Instructions",
+   "status": "Normative planning baseline",
+   "summary": "Canonical task CSV schema, writing standard, import views, cross-reference format, agent sequence, and validation rules.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-009.md"
+  },
+  {
+   "id": "AOS-PLAN-010",
+   "title": "Nine-Phase Execution Model",
+   "status": "Normative foundation",
+   "summary": "Nine-Phase Execution Model: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-010.md"
+  },
+  {
+   "id": "AOS-PLAN-011",
+   "title": "Ten-Volume Documentation Programme",
+   "status": "Normative foundation",
+   "summary": "Ten-Volume Documentation Programme: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-011.md"
+  },
+  {
+   "id": "AOS-PLAN-012",
+   "title": "Cross-Track Dependency and Convergence Map",
+   "status": "Normative foundation",
+   "summary": "Cross-Track Dependency and Convergence Map: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-012.md"
+  },
+  {
+   "id": "AOS-PLAN-013",
+   "title": "First Purchases, Spend Gates, and 90-Day Budget",
+   "status": "Normative foundation",
+   "summary": "First Purchases, Spend Gates, and 90-Day Budget: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-013.md"
+  },
+  {
+   "id": "AOS-PLAN-014",
+   "title": "Linear and GitHub Import and Reconciliation Runbook",
+   "status": "Normative foundation",
+   "summary": "Linear and GitHub Import and Reconciliation Runbook: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-014.md"
+  },
+  {
+   "id": "AOS-PLAN-015",
+   "title": "Review, Briefing, and Decision Cadence",
+   "status": "Normative foundation",
+   "summary": "Review, Briefing, and Decision Cadence: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-015.md"
+  },
+  {
+   "id": "AOS-PLAN-016",
+   "title": "Agent Execution Brief for Documentation and Tracker Automation",
+   "status": "Normative foundation",
+   "summary": "Agent Execution Brief for Documentation and Tracker Automation: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-PLAN-016.md"
+  },
+  {
+   "id": "AOS-TASKS",
+   "title": "Canonical Task Catalog",
+   "status": "Generated planning view",
+   "summary": "Human-readable projection of the canonical task CSV, including descriptions, acceptance criteria, dependencies, evidence, and traceability.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/AOS-TASKS.md"
+  },
+  {
+   "id": "AOS-PLAN-017",
+   "title": "Demo Brick Task Intake (AOS-DEMO family)",
+   "status": "Task intake record",
+   "summary": "Formal intake of the AOS-DEMO task family into the catalog: IDs, priorities, dependencies, and verification for the interim demo brick programme (HW-017/018/019, ARCH-021).",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/PLAN-017-demo-brick-task-intake.md"
+  },
+  {
+   "id": "AOS-PLAN-018",
+   "title": "Demo Brick Kickoff Sequence (first 30 days)",
+   "status": "Planning record",
+   "summary": "Four parallel lanes for the first month: procurement (longest lead times first), no-hardware software, evidence bench, and documentation reconciliation.",
+   "category": "planning",
+   "path": "engineering-bible/docs/planning/PLAN-018-kickoff-sequence.md"
+  },
+  {
+   "id": "AOS-PROD-001",
+   "title": "Entity-First Shell and Surfaces",
+   "status": "Normative foundation",
+   "summary": "Entity-First Shell and Surfaces: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-001.md"
+  },
+  {
+   "id": "AOS-PROD-002",
+   "title": "Global History and Semantic Journaling",
+   "status": "Normative foundation",
+   "summary": "Global History and Semantic Journaling: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-002.md"
+  },
+  {
+   "id": "AOS-PROD-003",
+   "title": "Actions, Integrations, and Widgets",
+   "status": "Normative foundation",
+   "summary": "Actions, Integrations, and Widgets: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-003.md"
+  },
+  {
+   "id": "AOS-PROD-004",
+   "title": "Backup, Migration, and User Recovery",
+   "status": "Normative foundation",
+   "summary": "Backup, Migration, and User Recovery: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-004.md"
+  },
+  {
+   "id": "AOS-PROD-005",
+   "title": "Accessibility, Localization, and Input",
+   "status": "Normative foundation",
+   "summary": "Accessibility, Localization, and Input: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-005.md"
+  },
+  {
+   "id": "AOS-PROD-006",
+   "title": "Stock Experiences and Product Surface Roadmap",
+   "status": "Normative foundation",
+   "summary": "Stock Experiences and Product Surface Roadmap: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-006.md"
+  },
+  {
+   "id": "AOS-PROD-007",
+   "title": "IntentBox and FlexLight",
+   "status": "Normative foundation",
+   "summary": "IntentBox and FlexLight: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-007.md"
+  },
+  {
+   "id": "AOS-PROD-008",
+   "title": "Malleable and Itemized Software Model",
+   "status": "Normative foundation",
+   "summary": "Malleable and Itemized Software Model: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-008.md"
+  },
+  {
+   "id": "AOS-PROD-009",
+   "title": "Personal Data Authority and Agent Access",
+   "status": "Normative foundation",
+   "summary": "Personal Data Authority and Agent Access: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-009.md"
+  },
+  {
+   "id": "AOS-PROD-010",
+   "title": "Transclusion, SideMemo, and Contextual Linking",
+   "status": "Normative foundation",
+   "summary": "Transclusion, SideMemo, and Contextual Linking: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-010.md"
+  },
+  {
+   "id": "AOS-PROD-011",
+   "title": "Action and Provider Interoperability",
+   "status": "Normative foundation",
+   "summary": "Action and Provider Interoperability: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-011.md"
+  },
+  {
+   "id": "AOS-PROD-012",
+   "title": "Product Surface Tiers and Dependency Rules",
+   "status": "Normative foundation",
+   "summary": "Product Surface Tiers and Dependency Rules: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "product",
+   "path": "engineering-bible/docs/product/AOS-PROD-012.md"
+  },
+  {
+   "id": "AOS-PROD-013",
+   "title": "Compute Subscription and Elastic Offload",
+   "status": "Normative planning baseline",
+   "summary": "Founder-directed monetization and system feature: subscription tiers sell not only cloud storage but server compute; the OS opportunistically offloads heavy work to subscribed server resources over stable links, saving battery, thermals, an",
+   "category": "product",
+   "path": "engineering-bible/docs/product/PROD-013-compute-subscription-and-offload.md"
+  },
+  {
+   "id": "AOS-PROD-014",
+   "title": "Native App Clients and Service Integration",
+   "status": "Normative planning baseline",
+   "summary": "How popular apps and banking services reach Agent OS: a compatibility layer as the floor and first-class native ports as the goal, with a strict legality ladder — official/public APIs and licensed programs first, clean-room reverse engineer",
+   "category": "product",
+   "path": "engineering-bible/docs/product/PROD-014-native-app-clients.md"
+  },
+  {
+   "id": "AOS-PROD-015",
+   "title": "Voice Agent and Conversational Interface",
+   "status": "Normative planning baseline",
+   "summary": "The voice agent is the primary differentiator that justifies the far-field audio hardware: an inspectable, capability-scoped, local-first conversational interface to the entity/action/history system, with a tiered on-device/server split and",
+   "category": "product",
+   "path": "engineering-bible/docs/product/PROD-015-voice-agent.md"
+  },
+  {
+   "id": "AOS-RES-001",
+   "title": "Prior Art and Literature Atlas",
+   "status": "Normative planning baseline",
+   "summary": "Annotated atlas of operating systems, capability security, Rust OS work, mobile hardware, camera, cellular, and supply-chain prior art.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-001.md"
+  },
+  {
+   "id": "AOS-RES-002",
+   "title": "Hardware Evidence and Source Register",
+   "status": "Generated evidence view",
+   "summary": "Primary and project sources used to support architecture, hardware, legal, product, and programme decisions.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-002.md"
+  },
+  {
+   "id": "AOS-RES-003",
+   "title": "Claim Verification Register",
+   "status": "Generated evidence view",
+   "summary": "Claims are classified as decisions, supported findings, hypotheses, bounded inferences, contradictions, or unresolved questions.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-003.md"
+  },
+  {
+   "id": "AOS-RES-004",
+   "title": "Experiment and Evidence Catalog",
+   "status": "Generated evidence view",
+   "summary": "Experiments turn material uncertainty into bounded, reproducible evidence and explicit decision gates.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-004.md"
+  },
+  {
+   "id": "AOS-RES-005",
+   "title": "Source Corpus, Authority, and Conflict Map",
+   "status": "Research-backed evidence map",
+   "summary": "Source Corpus, Authority, and Conflict Map: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-005.md"
+  },
+  {
+   "id": "AOS-RES-006",
+   "title": "Agentic Platforms, Local-First Systems, and Malleable Software",
+   "status": "Research-backed evidence map",
+   "summary": "Agentic Platforms, Local-First Systems, and Malleable Software: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-006.md"
+  },
+  {
+   "id": "AOS-RES-007",
+   "title": "Microkernel and Portability Prior-Art Synthesis",
+   "status": "Research-backed evidence map",
+   "summary": "Microkernel and Portability Prior-Art Synthesis: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-007.md"
+  },
+  {
+   "id": "AOS-RES-008",
+   "title": "GPU, Camera, Cellular, Power, and Boot Prior Art",
+   "status": "Research-backed evidence map",
+   "summary": "GPU, Camera, Cellular, Power, and Boot Prior Art: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-008.md"
+  },
+  {
+   "id": "AOS-RES-009",
+   "title": "Literature and Prior-Art Reading Programme",
+   "status": "Research-backed evidence map",
+   "summary": "Literature and Prior-Art Reading Programme: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-009.md"
+  },
+  {
+   "id": "AOS-RES-010",
+   "title": "Claim-to-Experiment Matrix",
+   "status": "Research-backed evidence map",
+   "summary": "Claim-to-Experiment Matrix: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "research",
+   "path": "engineering-bible/docs/research/AOS-RES-010.md"
+  },
+  {
+   "id": "AOS-RES-011",
+   "title": "Interim Hardware Market Survey and Demo BOM Sourcing",
+   "status": "Research-backed evidence map",
+   "summary": "Survey of DIY/open phone prior art (ZeroPhone, WiPhone, CM4/CM5 handhelds, OnePlus donors, postmarketOS, FLX1), the recommended demo-brick configuration, and a sourced bill of materials with Moscow and Serbia/EU purchase channels and observ",
+   "category": "research",
+   "path": "engineering-bible/docs/research/RES-011-interim-hardware-market-survey.md"
+  },
+  {
+   "id": "AOS-RES-012",
+   "title": "Lessons from the Fuchsia/Pixel-9 Custom-OS Specification (Prior Art)",
+   "status": "Prior-art digest, actualized",
+   "summary": "The earlier 60-page Fuchsia/Zircon-on-Pixel-9 specification is superseded as an implementation plan (AgentOS now owns its microkernel and targets the demo brick), but several of its frameworks are platform-independent and are carried forwar",
+   "category": "research",
+   "path": "engineering-bible/docs/research/RES-012-fuchsia-spec-lessons.md"
+  },
+  {
+   "id": "agent-os-wider-lens.md",
+   "title": "agent-os-wider-lens.md",
+   "status": "",
+   "summary": "",
+   "category": "research",
+   "path": "engineering-bible/docs/research/agent-os-wider-lens.md"
+  },
+  {
+   "id": "agentos-spec-digest-product-architecture.md",
+   "title": "agentos-spec-digest-product-architecture.md",
+   "status": "",
+   "summary": "",
+   "category": "research",
+   "path": "engineering-bible/docs/research/agentos-spec-digest-product-architecture.md"
+  },
+  {
+   "id": "ios-vs-android-vs-agent-os.md",
+   "title": "ios-vs-android-vs-agent-os.md",
+   "status": "",
+   "summary": "",
+   "category": "research",
+   "path": "engineering-bible/docs/research/ios-vs-android-vs-agent-os.md"
+  },
+  {
+   "id": "prior-art-atlas.md",
+   "title": "prior-art-atlas.md",
+   "status": "",
+   "summary": "",
+   "category": "research",
+   "path": "engineering-bible/docs/research/prior-art-atlas.md"
+  },
+  {
+   "id": "AOS-TPL-ADR",
+   "title": "Architecture Decision Record Template",
+   "status": "Canonical template",
+   "summary": "Architecture Decision Record Template: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "templates",
+   "path": "engineering-bible/docs/templates/AOS-TPL-ADR.md"
+  },
+  {
+   "id": "AOS-TPL-CONTACT",
+   "title": "Contact Outreach Template",
+   "status": "Canonical template",
+   "summary": "Contact Outreach Template: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "templates",
+   "path": "engineering-bible/docs/templates/AOS-TPL-CONTACT.md"
+  },
+  {
+   "id": "AOS-TPL-EVIDENCE",
+   "title": "Hardware Evidence Record Template",
+   "status": "Canonical template",
+   "summary": "Hardware Evidence Record Template: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "templates",
+   "path": "engineering-bible/docs/templates/AOS-TPL-EVIDENCE.md"
+  },
+  {
+   "id": "AOS-TPL-EXPERIMENT",
+   "title": "Experiment Record Template",
+   "status": "Canonical template",
+   "summary": "Experiment Record Template: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "templates",
+   "path": "engineering-bible/docs/templates/AOS-TPL-EXPERIMENT.md"
+  },
+  {
+   "id": "AOS-TPL-SPEC",
+   "title": "Specification Template",
+   "status": "Canonical template",
+   "summary": "Specification Template: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "templates",
+   "path": "engineering-bible/docs/templates/AOS-TPL-SPEC.md"
+  },
+  {
+   "id": "AOS-VAL-001",
+   "title": "System and Backend Conformance Strategy",
+   "status": "Normative foundation",
+   "summary": "System and Backend Conformance Strategy: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "validation",
+   "path": "engineering-bible/docs/validation/AOS-VAL-001.md"
+  },
+  {
+   "id": "AOS-VAL-002",
+   "title": "Evidence Bundle and Experiment Schema",
+   "status": "Normative foundation",
+   "summary": "Evidence Bundle and Experiment Schema: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "validation",
+   "path": "engineering-bible/docs/validation/AOS-VAL-002.md"
+  },
+  {
+   "id": "AOS-VAL-003",
+   "title": "Documentation, Link, Source, and Task Validation",
+   "status": "Normative foundation",
+   "summary": "Documentation, Link, Source, and Task Validation: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "validation",
+   "path": "engineering-bible/docs/validation/AOS-VAL-003.md"
+  },
+  {
+   "id": "AOS-VAL-004",
+   "title": "Hardware Test and Quality Matrix",
+   "status": "Normative foundation",
+   "summary": "Hardware Test and Quality Matrix: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "validation",
+   "path": "engineering-bible/docs/validation/AOS-VAL-004.md"
+  },
+  {
+   "id": "AOS-VAL-005",
+   "title": "Security, Privacy, and Agent Assurance Plan",
+   "status": "Normative foundation",
+   "summary": "Security, Privacy, and Agent Assurance Plan: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "validation",
+   "path": "engineering-bible/docs/validation/AOS-VAL-005.md"
+  },
+  {
+   "id": "AOS-VALIDATION",
+   "title": "Release Validation Report",
+   "status": "Generated release evidence",
+   "summary": "Validation scope, counts, integrity results, and known limitations for the packaged foundation release.",
+   "category": "validation",
+   "path": "engineering-bible/docs/validation/AOS-VALIDATION.md"
+  },
+  {
+   "id": "AOS-VSN-001",
+   "title": "Product Vision",
+   "status": "Normative foundation",
+   "summary": "Product Vision: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "vision",
+   "path": "engineering-bible/docs/vision/AOS-VSN-001.md"
+  },
+  {
+   "id": "AOS-VSN-002",
+   "title": "Principles and Non-Goals",
+   "status": "Normative foundation",
+   "summary": "Principles and Non-Goals: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "vision",
+   "path": "engineering-bible/docs/vision/AOS-VSN-002.md"
+  },
+  {
+   "id": "AOS-VSN-003",
+   "title": "Success Metrics and Product Evidence",
+   "status": "Normative foundation",
+   "summary": "Success Metrics and Product Evidence: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "vision",
+   "path": "engineering-bible/docs/vision/AOS-VSN-003.md"
+  },
+  {
+   "id": "AOS-VOL-01",
+   "title": "Volume 01: Foundation",
+   "status": "Normative foundation",
+   "summary": "Volume 01: Foundation: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-01.md"
+  },
+  {
+   "id": "AOS-VOL-02",
+   "title": "Volume 02: Kernel and Core System",
+   "status": "Normative foundation",
+   "summary": "Volume 02: Kernel and Core System: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-02.md"
+  },
+  {
+   "id": "AOS-VOL-03",
+   "title": "Volume 03: Hardware and Device Program",
+   "status": "Normative foundation",
+   "summary": "Volume 03: Hardware and Device Program: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-03.md"
+  },
+  {
+   "id": "AOS-VOL-04",
+   "title": "Volume 04: Research and Prior Art",
+   "status": "Normative foundation",
+   "summary": "Volume 04: Research and Prior Art: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-04.md"
+  },
+  {
+   "id": "AOS-VOL-05",
+   "title": "Volume 05: Legal and Compliance",
+   "status": "Normative foundation",
+   "summary": "Volume 05: Legal and Compliance: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-05.md"
+  },
+  {
+   "id": "AOS-VOL-06",
+   "title": "Volume 06: Programme and Project Management",
+   "status": "Normative foundation",
+   "summary": "Volume 06: Programme and Project Management: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-06.md"
+  },
+  {
+   "id": "AOS-VOL-07",
+   "title": "Volume 07: Procurement and Laboratory",
+   "status": "Normative foundation",
+   "summary": "Volume 07: Procurement and Laboratory: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-07.md"
+  },
+  {
+   "id": "AOS-VOL-08",
+   "title": "Volume 08: Contacts, Partnerships, and Community",
+   "status": "Normative foundation",
+   "summary": "Volume 08: Contacts, Partnerships, and Community: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-08.md"
+  },
+  {
+   "id": "AOS-VOL-09",
+   "title": "Volume 09: Knowledge Base and Product Vocabulary",
+   "status": "Normative foundation",
+   "summary": "Volume 09: Knowledge Base and Product Vocabulary: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-09.md"
+  },
+  {
+   "id": "AOS-VOL-10",
+   "title": "Volume 10: Validation, Assurance, and Publication",
+   "status": "Normative foundation",
+   "summary": "Volume 10: Validation, Assurance, and Publication: scope, decisions, requirements, evidence, risks, and traceability for the Agent OS programme.",
+   "category": "volumes",
+   "path": "engineering-bible/docs/volumes/AOS-VOL-10.md"
+  }
+ ]
+}

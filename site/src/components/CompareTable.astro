@@ -13,6 +13,7 @@ function parts(text: string) {
   const first = text.indexOf('[');
   if (first === -1) return { body: text, refs: '' };
   const last = text.lastIndexOf(']');
+  if (last <= first) return { body: text, refs: '' }; // unbalanced "[" — treat as plain
   const refs = text.slice(first, last + 1).trim();
   const body = (text.slice(0, first) + ' ' + text.slice(last + 1)).trim();
   return { body, refs };

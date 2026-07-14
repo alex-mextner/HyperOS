@@ -86,9 +86,12 @@ export function loadDocs(): DocEntry[] {
     const idMatch = base.match(ID_PREFIX);
     const id = fm.id || (idMatch ? idMatch[1].toUpperCase() : base.replace(/\.md$/, '').toUpperCase());
     const category = relFromDocs.includes('/') ? relFromDocs.split('/')[0] : 'general';
+    // For a filename that is only an id (e.g. AOS-BRIEF.md), titleFromFile() strips to
+    // empty — fall back to the id so the index never shows a blank title.
+    const derivedTitle = titleFromFile(base);
     docs.push({
       id,
-      title: fm.title || titleFromFile(base),
+      title: fm.title || derivedTitle || id,
       category,
       status: fm.status || 'published',
       path: `engineering-bible/docs/${relFromDocs}`,

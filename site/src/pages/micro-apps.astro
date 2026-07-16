@@ -110,7 +110,7 @@ const examples = [
       <SectionHeader
         eyebrow="Case library"
         title="Useful interfaces that should not require twelve installed apps."
-        lede="These are conformance examples for the builder and runtime, not merely design inspiration. Each must declare providers, authority, stale/offline behaviour and test fixtures."
+        lede="Each example declares providers, authority, stale and offline behaviour, accessibility semantics and reproducible test fixtures."
       />
       <div class="mt-10 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
         {examples.map(([title, body]) => (
@@ -145,7 +145,7 @@ const examples = [
 
   <section class="section">
     <div class="mx-auto max-w-6xl px-6">
-      <SectionHeader eyebrow="Canonical documents" title="Builder, runtime, providers and execution plan." />
+      <SectionHeader eyebrow="Specifications" title="Builder, runtime, providers and execution plan." />
       <div class="mt-10 grid gap-3 sm:grid-cols-2">
         {[
           ['AOS-PROD-018', 'Text-to-Micro-App and Widget Builder'],
@@ -153,7 +153,7 @@ const examples = [
           ['AOS-PROD-003', 'Actions, integrations and widget foundations'],
           ['AOS-PROD-011', 'Provider interoperability and action routing'],
           ['AOS-ARCH-010', 'Agent planning and action safety'],
-          ['AOS-PLAN-017', 'AOS-MICROAPP-* execution work items'],
+          ['AOS-PLAN-019', 'AOS-MICROAPP-* execution work items'],
         ].map(([id, label]) => (
           <a href={`/bible/id/${id}`} class="flex items-center justify-between gap-4 rounded-xl border border-border bg-card px-5 py-4 transition-colors hover:bg-accent/30">
             <span><span class="font-mono text-xs text-signal">{id}</span><strong class="mt-1 block text-sm">{label}</strong></span><span aria-hidden="true">→</span>

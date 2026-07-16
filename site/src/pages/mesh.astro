@@ -106,15 +106,15 @@ const status = [
 
   <section class="section">
     <div class="mx-auto max-w-6xl px-6">
-      <SectionHeader eyebrow="Canonical documents" title="Architecture, product, hardware, research and compliance." />
+      <SectionHeader eyebrow="Specifications" title="Architecture, product, hardware, research and compliance." />
       <div class="mt-10 grid gap-3 sm:grid-cols-2">
         {[
           ['AOS-ARCH-024', 'Transport-neutral Agent Mesh architecture'],
           ['AOS-PROD-017', 'Off-grid peer-to-peer experience'],
-          ['AOS-HW-018', 'LoRa and low-power mesh hardware track'],
+          ['AOS-HW-021', 'LoRa and low-power mesh hardware track'],
           ['AOS-RES-017', 'Meshtastic, Reticulum, DTN and mesh prior art'],
           ['AOS-LEGAL-015', 'Regional radio and mesh compliance'],
-          ['AOS-PLAN-017', 'Execution plan and AOS-MESH-* work items'],
+          ['AOS-PLAN-019', 'Execution plan and AOS-MESH-* work items'],
         ].map(([id, label]) => (
           <a href={`/bible/id/${id}`} class="flex items-center justify-between gap-4 rounded-xl border border-border bg-card px-5 py-4 transition-colors hover:bg-accent/30">
             <span><span class="font-mono text-xs text-signal">{id}</span><strong class="mt-1 block text-sm">{label}</strong></span>

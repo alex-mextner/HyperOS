@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import { ArrowRight, Check, Loader2 } from 'lucide-react';
 
 // Email capture. POSTs to the on-demand `/api/waitlist` endpoint, which forwards the
@@ -10,7 +10,7 @@ export default function WaitlistForm() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'done'>('idle');
   const [error, setError] = useState('');
 
-  async function onSubmit(e: { preventDefault: () => void }) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     if (!valid) {
@@ -67,7 +67,7 @@ export default function WaitlistForm() {
           disabled={submitting}
           aria-invalid={!!error}
           aria-describedby={error ? 'waitlist-error' : undefined}
-          className="h-11 flex-1 rounded-md border border-input bg-background px-3.5 text-sm text-foreground placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-60"
+          className="h-11 w-full sm:flex-1 rounded-md border border-input bg-background px-3.5 text-sm text-foreground placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-60"
         />
         <button
           type="submit"

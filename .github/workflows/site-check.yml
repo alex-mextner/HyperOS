@@ -26,12 +26,12 @@ jobs:
         id:
           - AOS-ARCH-024
           - AOS-PROD-017
-          - AOS-HW-018
+          - AOS-HW-021
           - AOS-LEGAL-015
           - AOS-RES-017
           - AOS-PROD-018
           - AOS-ARCH-026
-          - AOS-PLAN-017
+          - AOS-PLAN-019
     steps:
       - uses: actions/checkout@v4
       - name: Require exactly one canonical document
@@ -63,9 +63,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          forbidden='baked at build time|fetched at build time|during this build|degrade gracefully|runtime API|marketing site|inside the portal|without being redirected|chips below replace|issue feed|Live issues were unavailable|API is unavailable|GitHub is unavailable'
-          if grep -RInE "$forbidden" src/pages src/components --include='*.astro' --include='*.tsx'; then
-            echo 'Public pages must describe Agent OS content, not site implementation or deployment state.' >&2
+          forbidden='baked at build time|fetched at build time|during this build|degrade gracefully|runtime API|marketing site|inside the portal|without being redirected|chips below replace|issue feed|Live issues were unavailable|API is unavailable|GitHub is unavailable|Portal obligations'
+          if grep -RInE "$forbidden" src/pages src/components src/generated/bible --include='*.astro' --include='*.tsx' --include='*.md'; then
+            echo 'Public content must describe Agent OS itself, not site implementation, deployment state, or portal work.' >&2
             exit 1
           fi
       - name: Assert flagship routes exist
@@ -79,6 +79,7 @@ jobs:
       - name: Assert canonical documents are indexed
         run: |
           grep -q 'AOS-ARCH-024' src/data/bible-index.json
+          grep -q 'AOS-HW-021' src/data/bible-index.json
           grep -q 'AOS-PROD-018' src/data/bible-index.json
           grep -q 'AOS-ARCH-026' src/data/bible-index.json
-          grep -q 'AOS-PLAN-017' src/data/bible-index.json
+          grep -q 'AOS-PLAN-019' src/data/bible-index.json

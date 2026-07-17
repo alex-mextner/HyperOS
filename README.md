@@ -31,9 +31,9 @@ Portable Agent OS product semantics do not expose Android, Linux, POSIX, Binder,
 Canonical documentation lives in **`engineering-bible/`**. The public site and machine-readable data are projections of it:
 
 - `engineering-bible/` — authoritative cross-linked `AOS-*` corpus: vision, architecture, product, hardware, research, legal, planning, glossary, registers, sources and validation;
-- `site/` — Astro portal rendered from the Engineering Bible, including the in-portal document viewer, product pages and comparison atlas;
+- `site/` — Astro publication with the Engineering Bible reader, product pages and comparison atlas;
 - `crates/`, `sim/` — Rust crates and simulation harnesses;
-- `data/` — validated public task and portal projections;
+- `data/` — validated public task and documentation projections;
 - `.github/workflows/` — validation, task bootstrap, site builds and derived-data automation;
 - `scripts/` — build and documentation validation tooling.
 
@@ -46,7 +46,7 @@ A micro-app is a small declarative composition of data queries, typed actions, s
 - [Product specification](engineering-bible/docs/product/PROD-018-text-to-micro-app-builder.md)
 - [Runtime specification](engineering-bible/docs/architecture/ARCH-026-micro-app-runtime.md)
 - [GitHub epic #64](https://github.com/alex-mextner/AgentOS/issues/64)
-- [Portal page](https://agentos-bible.vercel.app/micro-apps)
+- [Product overview](https://agentos-bible.vercel.app/micro-apps)
 
 ### Agent Mesh
 
@@ -55,7 +55,7 @@ Agent Mesh provides transport-neutral direct, peer-to-peer and delay-tolerant de
 - [Architecture specification](engineering-bible/docs/architecture/ARCH-024-agent-mesh-connectivity.md)
 - [LoRa hardware track](engineering-bible/docs/hardware/HW-021-lora-mesh-hardware.md)
 - [GitHub epic #63](https://github.com/alex-mextner/AgentOS/issues/63)
-- [Portal page](https://agentos-bible.vercel.app/mesh)
+- [Product overview](https://agentos-bible.vercel.app/mesh)
 
 ## Hardware strategy
 
@@ -69,7 +69,7 @@ Portable contracts do not imply generic runtime translation or payload copying. 
 
 ## Current status
 
-The The Engineering Bible, task model and flagship programme specifications are published. APP-LAST, the micro-app platform and Agent Mesh are designed target capabilities with owned epics and acceptance gates; they are not claimed as completed implementations.
+The Engineering Bible, task model and flagship programme specifications are published. APP-LAST, the micro-app platform and Agent Mesh are designed target capabilities with owned epics and acceptance gates; they are not claimed as completed implementations.
 
 ## Documentation validation
 
